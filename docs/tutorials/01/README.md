@@ -71,7 +71,7 @@ Why not adding a little bit of color to our cube? For that we will need another 
 
 2\. Select the **On Start** program in the block in the selector window and press Return (or double click).
 
-3. Add a **Loop** action to the **On Start** program. The Loop action will execute the contained actions :
+3\. Add a **Loop** action to the **On Start** program. The Loop action will execute the contained actions :
 
 ![](4-2.png)
 
