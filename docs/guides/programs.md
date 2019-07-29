@@ -1,23 +1,23 @@
 # Programs
 
-### Related Programs <a id="related-programs"></a>
 
-[On Program Finish]()
+### Related Programs
 
-### Related Actions <a id="related-actions"></a>
+[On Program Finish](../reference.md#on-program-finish)
 
-[Disable Program](https://evasiongames.com/gameflow/docs/reference/DisableProgram)  
-[Enable Program](https://evasiongames.com/gameflow/docs/reference/EnableProgram)  
-[Execute Program](https://evasiongames.com/gameflow/docs/reference/ExecuteProgram)  
-[Find Program](https://evasiongames.com/gameflow/docs/reference/FindProgram)  
-[Finish Program](https://evasiongames.com/gameflow/docs/reference/FinishProgram)  
-[Get Program Property](https://evasiongames.com/gameflow/docs/reference/GetProgramProperty)  
-[Restart Program](https://evasiongames.com/gameflow/docs/reference/RestartProgram)  
-[Set Program Property](https://evasiongames.com/gameflow/docs/reference/SetProgramProperty)  
-[Start Program](https://evasiongames.com/gameflow/docs/reference/StartProgram)  
-[Wait For Program](https://evasiongames.com/gameflow/docs/reference/WaitForProgram)
+### Related Actions
 
-### Related Conditions <a id="related-conditions"></a>
+[Disable Program](../reference.md#disable-program)  
+[Enable Program](../reference.md#enable-program)  
+[Execute Program](../reference.md#execute-program)  
+[Find Program](../reference.md#find-program)  
+[Finish Program](../reference.md#finish-program)  
+[Get Program Property](../reference.md#get-program-property)  
+[Restart Program](../reference.md#restart-program)  
+[Set Program Property](../reference.md#set-program-property)  
+[Start Program](../reference.md#start-program)  
+[Wait For Program](../reference.md#wait-for-program)  
 
-[Program Condition](https://evasiongames.com/gameflow/docs/reference/ProgramCondition)
+### Related Conditions
 
+[Program Condition](../reference.md#program-condition)
