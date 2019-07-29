@@ -9,7 +9,7 @@
   * [Variables](guides/variables.md)
   * [Actions](guides/actions.md)
   * [Conditions](guides/conditions.md)
-  * [Flow Control]()(guides/flow.md)
+  * [Flow Control](guides/flow.md)
   * [Parameters](guides/parameters.md)
   * [Commands](guides/commands.md)
   * [Gamefabs](guides/gamefabs.md)
