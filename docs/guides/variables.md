@@ -1,11 +1,10 @@
 # Variables
 
-
-### Related Programs
+## Related Programs
 
 [On Variable Change](../reference.md#on-variable-change)
 
-### Related Actions
+## Related Actions
 
 [Decrement Variable Value](../reference.md#decrement-variable-value)  
 [Divide Variable Value](../reference.md#divide-variable-value)  
@@ -18,8 +17,9 @@
 [Set Variable Indirection](../reference.md#set-variable-indirection)  
 [Set Variable Value](../reference.md#set-variable-value)  
 [Swap Values](../reference.md#swap-values)  
-[Toggle Variable Value](../reference.md#toggle-variable-value)  
+[Toggle Variable Value](../reference.md#toggle-variable-value)
 
-### Related Conditions
+## Related Conditions
 
-[Variable Value Condition](../reference.md#variable-value-condition)  
+[Variable Value Condition](../reference.md#variable-value-condition)
+

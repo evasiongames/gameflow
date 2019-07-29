@@ -21,7 +21,7 @@
   * [Transforms](guides/transforms.md)
   * [Game Management](guides/game.md)
   * [Animation](guides/animation.md)
-  * [Scene Management](guides/scenes.md)
+  * [Scene Management](guides/scene-management.md)
   * [Audio](guides/audio.md)
   * [Physics](guides/physics.md)
   * [Input Control](guides/input.md)

@@ -1,11 +1,10 @@
 # Timers
 
+## Related Programs
 
-### Related Programs
+[On Timer Expire](../reference.md#on-timer-expire)
 
-[On Timer Expire](../reference.md#on-timer-expire)  
-
-### Related Actions
+## Related Actions
 
 [Disable Timer](../reference.md#disable-timer)  
 [Enable Timer](../reference.md#enable-timer)  
@@ -15,8 +14,9 @@
 [Resume Timer](../reference.md#resume-timer)  
 [Set Timer Property](../reference.md#set-timer-property)  
 [Stop Timer](../reference.md#stop-timer)  
-[Wait For Timer](../reference.md#wait-for-timer)  
+[Wait For Timer](../reference.md#wait-for-timer)
 
-### Related Conditions
+## Related Conditions
 
-[Timer Condition](../reference.md#timer-condition)  
+[Timer Condition](../reference.md#timer-condition)
+

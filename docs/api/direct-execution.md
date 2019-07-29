@@ -1,4 +1,4 @@
-# Direct execution of actions
+# Direct Execution
 
 Another possibility offered by the GameFlow API is to be able to execute the internal code of the actions directly from your own scripts, thus taking advantage of GameFlow not only as an extension for the Editor but also as a function library.
 
@@ -6,7 +6,7 @@ To make this possible, the GameFlow action classes offer one or more static exec
 
 If, for example, we wanted to color in Red the GameObject referred to by `target`, we could do it taking advantage of the action [Set Color](../reference.md#set-color) in this way:
 
-```c#
+```text
 SetColor.Execute(target, Color.red);
 ```
 

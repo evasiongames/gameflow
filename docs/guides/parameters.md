@@ -1,11 +1,10 @@
 # Parameters
 
+## Related Programs
 
-### Related Programs
+[On Parameter Change](../reference.md#on-parameter-change)
 
-[On Parameter Change](../reference.md#on-parameter-change)  
-
-### Related Actions
+## Related Actions
 
 [Decrement Parameter Value](../reference.md#decrement-parameter-value)  
 [Divide Parameter Value](../reference.md#divide-parameter-value)  
@@ -16,8 +15,9 @@
 [Set Parameter Indirection](../reference.md#set-parameter-indirection)  
 [Set Parameter Value](../reference.md#set-parameter-value)  
 [Show Parameter](../reference.md#show-parameter)  
-[Toggle Parameter Value](../reference.md#toggle-parameter-value)  
+[Toggle Parameter Value](../reference.md#toggle-parameter-value)
 
-### Related Conditions
+## Related Conditions
 
-[Parameter Value Condition](../reference.md#parameter-value-condition)  
+[Parameter Value Condition](../reference.md#parameter-value-condition)
+

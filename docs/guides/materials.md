@@ -1,7 +1,6 @@
 # Materials
 
-
-### Related Actions
+## Related Actions
 
 [Clone Material](../reference.md#clone-material)  
 [Copy Material](../reference.md#copy-material)  
@@ -14,6 +13,5 @@
 [Scroll Material Texture](../reference.md#scroll-material-texture)  
 [Set Material](../reference.md#set-material)  
 [Set Material Property](../reference.md#set-material-property)  
-[Set Texture Property](../reference.md#set-texture-property)  
-
+[Set Texture Property](../reference.md#set-texture-property)
 

@@ -1,9 +1,8 @@
 # Vectors
 
+## Related Programs
 
-### Related Programs
-
-### Related Actions
+## Related Actions
 
 [Get Angle](../reference.md#get-angle)  
 [Get Closest Point](../reference.md#get-closest-point)  
@@ -30,10 +29,11 @@
 [Set World Up](../reference.md#set-world-up)  
 [Set X](../reference.md#set-x)  
 [Set Y](../reference.md#set-y)  
-[Set Z](../reference.md#set-z)  
+[Set Z](../reference.md#set-z)
 
-### Related Conditions
+## Related Conditions
 
 [Angle Condition](../reference.md#angle-condition)  
 [Distance Condition](../reference.md#distance-condition)  
-[Magnitude Condition](../reference.md#magnitude-condition)  
+[Magnitude Condition](../reference.md#magnitude-condition)
+

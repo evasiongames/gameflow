@@ -1,11 +1,10 @@
 # Programs
 
-
-### Related Programs
+## Related Programs
 
 [On Program Finish](../reference.md#on-program-finish)
 
-### Related Actions
+## Related Actions
 
 [Disable Program](../reference.md#disable-program)  
 [Enable Program](../reference.md#enable-program)  
@@ -16,8 +15,9 @@
 [Restart Program](../reference.md#restart-program)  
 [Set Program Property](../reference.md#set-program-property)  
 [Start Program](../reference.md#start-program)  
-[Wait For Program](../reference.md#wait-for-program)  
+[Wait For Program](../reference.md#wait-for-program)
 
-### Related Conditions
+## Related Conditions
 
 [Program Condition](../reference.md#program-condition)
+

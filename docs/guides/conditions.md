@@ -1,7 +1,6 @@
 # Conditions
 
-
-### Related Actions
+## Related Actions
 
 [Evaluate Conditions](../reference.md#evaluate-conditions)  
 [If](../reference.md#if)  

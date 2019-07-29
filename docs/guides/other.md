@@ -1,7 +1,6 @@
 # Other
 
-
-### Related Actions
+## Related Actions
 
 [Get Character Controller Property](../reference.md#get-character-controller-property)  
 [Get GUIText Property](../reference.md#get-guitext-property)  
@@ -44,4 +43,5 @@
 [Set Time Property](../reference.md#set-time-property)  
 [Set Time Scale](../reference.md#set-time-scale)  
 [Set Trail Renderer Property](../reference.md#set-trail-renderer-property)  
-[Set Wind Zone Property](../reference.md#set-wind-zone-property)  
+[Set Wind Zone Property](../reference.md#set-wind-zone-property)
+

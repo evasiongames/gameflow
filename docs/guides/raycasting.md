@@ -1,7 +1,6 @@
 # Raycasting
 
-
-### Related Actions
+## Related Actions
 
 [Get First Raycast Hit](../reference.md#get-first-raycast-hit)  
 [Get First Raycast Hit 2D](../reference.md#get-first-raycast-hit-2d)  
@@ -12,8 +11,9 @@
 [Get Raycast Hits Count](../reference.md#get-raycast-hits-count)  
 [Get Ray Point](../reference.md#get-ray-point)  
 [Get Ray Property](../reference.md#get-ray-property)  
-[Set Ray Property](../reference.md#set-ray-property)  
+[Set Ray Property](../reference.md#set-ray-property)
 
-### Related Conditions
+## Related Conditions
 
-[Ray Condition](../reference.md#ray-condition)  
+[Ray Condition](../reference.md#ray-condition)
+

@@ -1,10 +1,10 @@
-# Web-g-l
+# WebGL
 
+## Related Programs
 
-### Related Programs
+[On External Message](../reference.md#on-external-message)
 
-[On External Message](../reference.md#on-external-message)  
+## Related Actions
 
-### Related Actions
+[Evaluate External](../reference.md#evaluate-external)
 
-[Evaluate External](../reference.md#evaluate-external)  

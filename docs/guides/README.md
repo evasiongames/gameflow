@@ -16,7 +16,7 @@
 [Transforms](transforms.md)  
 [Game Management](game.md)  
 [Animation](animation.md)  
-[Scene Management](scenes.md)  
+[Scene Management](https://github.com/evasiongames/gameflow/tree/0dcd5acfe25188a9321619943934df2a41dc9456/docs/guides/scenes.md)  
 [Audio](audio.md)  
 [Physics](physics.md)  
 [Input Control](input.md)  
@@ -51,4 +51,5 @@
 [Networking](networking.md)  
 [Utilities](utilities.md)  
 [WebGL](webgl.md)  
-[Sharing](sharing.md)  
+[Sharing](sharing.md)
+

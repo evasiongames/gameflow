@@ -1,7 +1,6 @@
 # Text
 
-
-### Related Actions
+## Related Actions
 
 [Add To String](../reference.md#add-to-string)  
 [Change String Case](../reference.md#change-string-case)  
@@ -11,4 +10,5 @@
 [Insert In String](../reference.md#insert-in-string)  
 [Invert String](../reference.md#invert-string)  
 [Replace In String](../reference.md#replace-in-string)  
-[Set Substring](../reference.md#set-substring)  
+[Set Substring](../reference.md#set-substring)
+

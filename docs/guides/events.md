@@ -1,11 +1,10 @@
 # Events
 
+## Related Programs
 
-### Related Programs
+[On Custom Event](../reference.md#on-custom-event)
 
-[On Custom Event](../reference.md#on-custom-event)  
+## Related Actions
 
-### Related Actions
-
-[Trigger Custom Event](../reference.md#trigger-custom-event)  
+[Trigger Custom Event](../reference.md#trigger-custom-event)
 

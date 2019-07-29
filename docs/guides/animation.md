@@ -1,7 +1,6 @@
 # Animation
 
-
-### Related Actions
+## Related Actions
 
 [Flip](../reference.md#flip)  
 [Follow](../reference.md#follow)  
@@ -22,8 +21,9 @@
 [Set Animator Parameter](../reference.md#set-animator-parameter)  
 [Set Animator Property](../reference.md#set-animator-property)  
 [Set Animator State](../reference.md#set-animator-state)  
-[Stop Animation](../reference.md#stop-animation)  
+[Stop Animation](../reference.md#stop-animation)
 
-### Related Conditions
+## Related Conditions
 
-[Animator State Condition](../reference.md#animator-state-condition)  
+[Animator State Condition](../reference.md#animator-state-condition)
+

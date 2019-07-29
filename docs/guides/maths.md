@@ -1,7 +1,6 @@
 # Maths
 
-
-### Related Actions
+## Related Actions
 
 [Evaluate](../reference.md#evaluate)  
 [Evaluate Math Function](../reference.md#evaluate-math-function)  
@@ -9,6 +8,5 @@
 [Get Integer Part](../reference.md#get-integer-part)  
 [Get Random Number](../reference.md#get-random-number)  
 [Round Variable Value](../reference.md#round-variable-value)  
-[Set Random Seed](../reference.md#set-random-seed)  
-
+[Set Random Seed](../reference.md#set-random-seed)
 

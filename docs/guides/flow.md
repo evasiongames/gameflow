@@ -1,11 +1,10 @@
 # Flow Control
 
+## Related Programs
 
-### Related Programs
+[On Demand](../reference.md#on-demand)
 
-[On Demand](../reference.md#on-demand)  
-
-### Related Actions
+## Related Actions
 
 [Break](../reference.md#break)  
 [During](../reference.md#during)  
@@ -27,4 +26,5 @@
 [Wait](../reference.md#wait)  
 [Wait For Program](../reference.md#wait-for-program)  
 [Wait For Timer](../reference.md#wait-for-timer)  
-[While](../reference.md#while)  
+[While](../reference.md#while)
+

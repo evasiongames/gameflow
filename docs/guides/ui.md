@@ -1,7 +1,6 @@
 # User Interface
 
-
-### Related Programs
+## Related Programs
 
 [On Click](../reference.md#on-click)  
 [On Deselect](../reference.md#on-deselect)  
@@ -11,9 +10,9 @@
 [On Pointer Exit](../reference.md#on-pointer-exit)  
 [On Pointer Up](../reference.md#on-pointer-up)  
 [On Select](../reference.md#on-select)  
-[On Value Change](../reference.md#on-value-change)  
+[On Value Change](../reference.md#on-value-change)
 
-### Related Actions
+## Related Actions
 
 [Get Button Property](../reference.md#get-button-property)  
 [Get Canvas Group Property](../reference.md#get-canvas-group-property)  
@@ -50,4 +49,5 @@
 [Set Slider Property](../reference.md#set-slider-property)  
 [Set Text Property](../reference.md#set-text-property)  
 [Set Toggle Property](../reference.md#set-toggle-property)  
-[Show Mouse Cursor](../reference.md#show-mouse-cursor)  
+[Show Mouse Cursor](../reference.md#show-mouse-cursor)
+

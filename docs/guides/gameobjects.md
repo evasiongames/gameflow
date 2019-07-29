@@ -1,7 +1,6 @@
 # GameObjects
 
-
-### Related Programs
+## Related Programs
 
 [On Activate](../reference.md#on-activate)  
 [On Deactivate](../reference.md#on-deactivate)  
@@ -10,9 +9,9 @@
 [On Fixed Update](../reference.md#on-fixed-update)  
 [On Late Update](../reference.md#on-late-update)  
 [On Start](../reference.md#on-start)  
-[On Update](../reference.md#on-update)  
+[On Update](../reference.md#on-update)
 
-### Related Actions
+## Related Actions
 
 [Activate GameObject](../reference.md#activate-gameobject)  
 [Activate GameObjects In List](../reference.md#activate-gameobjects-in-list)  
@@ -51,11 +50,10 @@
 [Send Message](../reference.md#send-message)  
 [Set GameObject Property](../reference.md#set-gameobject-property)  
 [Toggle Component Enablement](../reference.md#toggle-component-enablement)  
-[Toggle GameObject Activation](../reference.md#toggle-gameobject-activation)  
+[Toggle GameObject Activation](../reference.md#toggle-gameobject-activation)
 
-### Related Conditions
+## Related Conditions
 
-[GameObject Condition](../reference.md#game-object-condition)
-[Layer Condition](../reference.md#layer-condition)  
-[Tag Condition](../reference.md#tag-condition)  
+[GameObject Condition](../reference.md#game-object-condition) [Layer Condition](../reference.md#layer-condition)  
+[Tag Condition](../reference.md#tag-condition)
 

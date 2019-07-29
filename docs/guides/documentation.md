@@ -1,6 +1,6 @@
 # Documentation
 
+## Related Actions
 
-### Related Actions
+[Comment](../reference.md#comment)
 
-[Comment](../reference.md#comment)  

@@ -1,7 +1,6 @@
 # Transforms
 
-
-### Related Actions
+## Related Actions
 
 [Add Hierarchy To List](../reference.md#add-hierarchy-to-list)  
 [Clamp Local Position](../reference.md#clamp-local-position)  
@@ -13,7 +12,7 @@
 [Flip](../reference.md#flip)  
 [Freeze](../reference.md#freeze)  
 [Get Angle](../reference.md#get-angle)  
-[Get Bounds Property](./reference/Get-bounds-property)  
+[Get Bounds Property](https://github.com/evasiongames/gameflow/tree/7b7dc0bda559c6ce39586b3ed215ee70cba344f9/docs/guides/reference/Get-bounds-property/README.md)  
 [Get Child](../reference.md#get-child)  
 [Get Closest Point](../reference.md#get-closest-point)  
 [Get First Child](../reference.md#get-first-child)  
@@ -58,12 +57,11 @@
 [Set Scale](../reference.md#set-scale)  
 [Set Scale Component](../reference.md#set-scale-component)  
 [Set Transform Property](../reference.md#set-transform-property)  
-[Set World Up](../reference.md#set-world-up)  
+[Set World Up](../reference.md#set-world-up)
 
-### Related Conditions
+## Related Conditions
 
 [Angle Condition](../reference.md#angle-condition)  
 [Bounds Condition](../reference.md#bounds-condition)  
-[Distance Condition](../reference.md#distance-condition)  
-
+[Distance Condition](../reference.md#distance-condition)
 

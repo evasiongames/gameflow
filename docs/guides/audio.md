@@ -1,7 +1,6 @@
 # Audio
 
-
-### Related Actions
+## Related Actions
 
 [Get Audio Chorus Filter Property](../reference.md#get-audio-chorus-filter-property)  
 [Get Audio Distortion Filter Property](../reference.md#get-audio-distortion-filter-property)  
@@ -26,8 +25,9 @@
 [Set Audio Source Property](../reference.md#set-audio-source-property)  
 [Stop Music](../reference.md#stop-music)  
 [Stop Sound At Source](../reference.md#stop-sound-at-source)  
-[Toggle Audio Mute](../reference.md#toggle-audio-mute)  
+[Toggle Audio Mute](../reference.md#toggle-audio-mute)
 
-### Related Conditions
+## Related Conditions
 
-[Audio Condition](../reference.md#audio-condition)  
+[Audio Condition](../reference.md#audio-condition)
+

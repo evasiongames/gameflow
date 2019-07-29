@@ -1,7 +1,6 @@
 # Hierarchy
 
-
-### Related Actions
+## Related Actions
 
 [Add Hierarchy To List](../reference.md#add-hierarchy-to-list)  
 [Add Selection To List](../reference.md#add-selection-to-list)  
@@ -23,4 +22,5 @@
 [Get Selected GameObject](../reference.md#get-selected-gameobject)  
 [Get Selection](../reference.md#get-selection)  
 [Instantiate](../reference.md#instantiate)  
-[Set Parent](../reference.md#set-parent)  
+[Set Parent](../reference.md#set-parent)
+
