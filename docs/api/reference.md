@@ -20,7 +20,7 @@ Event fired when a GameObject is activated.
 
 #### Remarks
 
-Events of this type are managed by the [On Activate](..\reference.md#OnActivate) program.
+Events of this type are managed by the [On Activate](../reference#on-activate) program.
 
 ## ApplicationFocusEvent (Class)
 
@@ -34,7 +34,7 @@ Event fired when the Application gets or losts the input focus.
 
 #### Remarks
 
-Events of this type are managed by the [On Application Focus](OnApplicationFocus) program.
+Events of this type are managed by the [On Application Focus](../reference#on-application-focus) program.
 
 ## ApplicationInitEvent (Class)
 
@@ -42,13 +42,13 @@ Event fired when the Application starts.
 
 #### Remarks
 
-Events of this type are managed by the [On Application Init](OnApplicationInit) program.
+Events of this type are managed by the [On Application Init](../reference#on-application-init) program.
 
 ## ApplicationPauseEvent (Class)
 
 Event fired when the Application enters or exits pause.
 
-The term "Pause" here refers to OS level pause, not to be confused with [GamePauseEvent](GamePauseEvent).
+The term "Pause" here refers to OS level pause, not to be confused with [GamePauseEvent](#game-pause-event).
 
 #### Properties
 
@@ -58,7 +58,7 @@ The term "Pause" here refers to OS level pause, not to be confused with [GamePau
 
 #### Remarks
 
-Events of this type are managed by the [On Application Pause](OnApplicationPause) program.
+Events of this type are managed by the [On Application Pause](../reference#on-application-pause) program.
 
 ## ApplicationQuitEvent (Class)
 
@@ -66,7 +66,7 @@ Event fired when the Application is about to close.
 
 #### Remarks
 
-Events of this type are managed by the [On Application Quit](OnApplicationQuit) program.
+Events of this type are managed by the [On Application Quit](../reference#on-application-quit) program.
 
 ## BuiltinVariable (Class)
 
@@ -85,7 +85,7 @@ Event fired when a click is detected in the area of an UI element.
 
 #### Remarks
 
-Events of this type are managed by the [On Click](OnClick) program.
+Events of this type are managed by the [On Click](../reference#on-click) program.
 
 ## CollisionEnterEvent (Class)
 
@@ -102,7 +102,7 @@ Event fired when a collider/rigidbody has begun touching another rigidbody/colli
 
 #### Remarks
 
-Events of this type are managed by the [On Collision Enter](OnCollisionEnter) program.
+Events of this type are managed by the [On Collision Enter](../reference#on-collision-enter) program.
 
 ## CollisionExitEvent (Class)
 
@@ -119,7 +119,7 @@ Event fired when a collider/rigidbody has stopped touching another rigidbody/col
 
 #### Remarks
 
-Events of this type are managed by the [On Collision Exit](OnCollisionExit) program.
+Events of this type are managed by the [On Collision Exit](../reference#on-collision-exit) program.
 
 ## CollisionStayEvent (Class)
 
@@ -136,7 +136,7 @@ Event fired while (that is, every frame) a collider/rigidbody is touching anothe
 
 #### Remarks
 
-Events of this type are managed by the [On Collision Stay](OnCollisionStay) program.
+Events of this type are managed by the [On Collision Stay](../reference#on-collision-stay) program.
 
 ## Command (Class)
 
@@ -152,7 +152,7 @@ Base class for implementing the user interface of a custom [Condition](#conditio
 
 ## CustomEvent (Class)
 
-Event typically fired by the [Fire Custom Event](FireCustomEvent) action.
+Event typically fired by the [Fire Custom Event](../reference#fire-custom-event) action.
 
 #### Properties
 
@@ -174,7 +174,7 @@ Removes the specified listener from the subscription list for events of this typ
 
 ### Remarks
 
-Events of this type are managed by the [On Custom Event](OnCustomEvent) program.
+Events of this type are managed by the [On Custom Event](../reference#on-custom-event) program.
 
 ## DeactivationEvent (Class)
 
@@ -188,11 +188,11 @@ Event fired when a GameObject is deactivated.
 
 #### Remarks
 
-Events of this type are managed by the [On Deactivate](OnDeactivate) program.
+Events of this type are managed by the [On Deactivate](../reference#on-deactivate) program.
 
 ## Description (Class)
 
-Class implementing the [Description](Description) block.
+Class implementing the [Description](../reference#description) block.
 
 ## DeselectEvent (Class)
 
@@ -206,11 +206,11 @@ Event fired when a selectable UI element is deselected.
 
 #### Remarks
 
-Events of this type are managed by the [On Deselect](OnDeselect) program.
+Events of this type are managed by the [On Deselect](../reference#on-deselect) program.
 
 ## DrawGizmosAction (Class)
 
-Base class for implementing special custom Action blocks that only work within [On Draw Gizmos](OnDrawGizmos) Programs.
+Base class for implementing special custom Action blocks that only work within [On Draw Gizmos](../reference#on-draw-gizmos) Programs.
 
 ## DrawGizmosActionEditor (Class)
 
@@ -218,7 +218,7 @@ Base class for implementing the user interface of a custom block extending the [
 
 ## During (Class)
 
-Class implementing the [During](During) Action block.
+Class implementing the [During](../reference#during) Action block.
 
 ## EndEditEvent (Class)
 
@@ -233,11 +233,11 @@ Event fired when the editing of an InputField has ended.
 
 ### Remarks
 
-Events of this type are managed by the [On End Edit](OnEndEdit) program.
+Events of this type are managed by the [On End Edit](../reference#on-end-edit) program.
 
 ## EvaluateConditions (Class)
 
-Class implementing the [Evaluate Conditions](EvaluateConditions) Action block.
+Class implementing the [Evaluate Conditions](../reference#evaluate-conditions) Action block.
 
 ## ExternalMessageEvent (Class)
 
@@ -254,15 +254,15 @@ Event fired when a message from the host browser is received.
 
 #### Remarks
 
-Events of this type are managed by the [On External Message](OnExternalMessage) program.
+Events of this type are managed by the [On External Message](../reference#on-external-message) program.
 
 ## For (Class)
 
-Class implementing the [For](For) Action block.
+Class implementing the [For](../reference#for) Action block.
 
 ## ForEach (Class)
 
-Class implementing the [For Each](ForEach) Action block.
+Class implementing the [For Each](../reference#for-each) Action block.
 
 ## Force (Class)
 
@@ -278,11 +278,11 @@ Base class for implementing the user interface of custom [Function](#function-cl
 
 ## GameOverEvent (Class)
 
-Event fired by the [Game Over](GameOver) action.
+Event fired by the [Game Over](../reference#game-over) action.
 
 #### Remarks
 
-Events of this type are managed by the [On Game Over](OnGameOver) program.
+Events of this type are managed by the [On Game Over](../reference#on-game-over) program.
 
 ## GamePauseEvent (Class)
 
@@ -290,31 +290,31 @@ Event fired by the [Pause Game](Pause Game) action.
 
 #### Remarks
 
-Events of this type are managed by the [On Game Pause](OnGamePause) program.
+Events of this type are managed by the [On Game Pause](../reference#on-game-pause) program.
 
 ## GameResumeEvent (Class)
 
-Event fired by the [Resume Game](ResumeGame) action.
+Event fired by the [Resume Game](../reference#resume-game) action.
 
 #### Remarks
 
-Events of this type are managed by the [On Game Resume](OnGameResume) program.
+Events of this type are managed by the [On Game Resume](../reference#on-game-resume) program.
 
 ## GameStartEvent (Class)
 
-Event fired by the [Start Game](StartGame) action.
+Event fired by the [Start Game](../reference#start-game) action.
 
 #### Remarks
 
-Events of this type are managed by the [On Game Start](OnGameStart) program.
+Events of this type are managed by the [On Game Start](../reference#on-game-start) program.
 
 ## Group (Class)
 
-Class implementing the [Group](Group) Action block.
+Class implementing the [Group](../reference#group) Action block.
 
 ## If (Class)
 
-Class implementing the [If](If) Action block.
+Class implementing the [If](../reference#if) Action block.
 
 ## Key (Class)
 
@@ -322,7 +322,7 @@ Class implementing the Key block.
 
 ## KeyDownEvent (Class)
 
-Event fired when a [Key](Key) is pressed.
+Event fired when a [Key](../reference#key) is pressed.
 
 #### Properties
 
@@ -332,7 +332,7 @@ Event fired when a [Key](Key) is pressed.
 
 ## KeyUpEvent (Class)
 
-Event fired when a [Key](Key) that was pressed is released.
+Event fired when a [Key](../reference#key) that was pressed is released.
 
 #### Properties
 
@@ -352,7 +352,7 @@ Event fired when the current language is changed.
 
 #### Remarks
 
-Events of this type are managed by the [On Language Set](OnLanguageSet) program.
+Events of this type are managed by the [On Language Set](../reference#on-language-set) program.
 
 ## LimitValueAction (Class)
 
@@ -436,7 +436,7 @@ Class implementing the Localization block.
 
 ## Loop (Class)
 
-Class implementing the [Loop](Loop) Action block.
+Class implementing the [Loop](../reference#loop) Action block.
 
 ## Macro (Class)
 
@@ -455,7 +455,7 @@ Event fired when any mouse button is pressed in the area of an UI element or Col
 
 #### Remarks
 
-Events of this type are managed by the [On Mouse Down](OnMouseDown) program.
+Events of this type are managed by the [On Mouse Down](../reference#on-mouse-down) program.
 
 ## MouseDragEvent (Class)
 
@@ -471,7 +471,7 @@ Event fired when the mouse is dragged in the area of an UI element or Collider.
 
 #### Remarks
 
-Events of this type are managed by the [On Mouse Drag](OnMouseDrag) program.
+Events of this type are managed by the [On Mouse Drag](../reference#on-mouse-drag) program.
 
 ## MouseEnterEvent (Class)
 
@@ -486,7 +486,7 @@ Event fired after the mouse pointer enters the area of an UI element or Collider
 
 #### Remarks
 
-Events of this type are managed by the [On Mouse Enter](OnMouseEnter) program.
+Events of this type are managed by the [On Mouse Enter](../reference#on-mouse-enter) program.
 
 ## MouseExitEvent (Class)
 
@@ -501,7 +501,7 @@ Event fired after the mouse pointer exits the area of an UI element or Collider.
 
 #### Remarks
 
-Events of this type are managed by the [On Mouse Exit](OnMouseExit) program.
+Events of this type are managed by the [On Mouse Exit](../reference#on-mouse-exit) program.
 
 ## MouseOverEvent (Class)
 
@@ -516,7 +516,7 @@ Event fired while (that is, every frame) the mouse pointer is inside the area of
 
 #### Remarks
 
-Events of this type are managed by the [On Mouse Over](OnMouseOver) program.
+Events of this type are managed by the [On Mouse Over](../reference#on-mouse-over) program.
 
 ## MouseUpEvent (Class)
 
@@ -531,11 +531,11 @@ Event fired when any mouse button is released in the area of an UI element or Co
 
 #### Remarks
 
-Events of this type are managed by the [On Mouse Up](OnMouseUp) program.
+Events of this type are managed by the [On Mouse Up](../reference#on-mouse-up) program.
 
 ## Note (Class)
 
-Class implementing the [Note](Note) block.
+Class implementing the [Note](../reference#note) block.
 
 ## NumericParameterAction (Class)
 
@@ -551,219 +551,219 @@ Base class for implementing the user interface of a custom Action blocks.
 
 ## OnActivate (Class)
 
-Class implementing the [On Activate](OnActivate) Program block.
+Class implementing the [On Activate](../reference#on-activate) Program block.
 
 ## OnApplicationFocus (Class)
 
-Class implementing the [On Application Focus](OnApplicationFocus) Program block.
+Class implementing the [On Application Focus](../reference#on-application-focus) Program block.
 
 ## OnApplicationInit (Class)
 
-Class implementing the [On Application Init](OnApplicationInit) Program block.
+Class implementing the [On Application Init](../reference#on-application-init) Program block.
 
 ## OnApplicationPause (Class)
 
-Class implementing the [On Application Pause](OnApplicationPause) Program block.
+Class implementing the [On Application Pause](../reference#on-application-pause) Program block.
 
 ## OnApplicationQuit (Class)
 
-Class implementing the [On Application Quit](OnApplicationQuit) Program block.
+Class implementing the [On Application Quit](../reference#on-application-quit) Program block.
 
 ## OnAwake (Class)
 
-Class implementing the [On Awake](OnAwake) Program block.
+Class implementing the [On Awake](../reference#on-awake) Program block.
 
 ## OnClick (Class)
 
-Class implementing the [On Click](OnClick) Program block.
+Class implementing the [On Click](../reference#on-lick) Program block.
 
 ## OnCollisionEnter (Class)
 
-Class implementing the [On Collision Enter](OnCollisionEnter) Program block.
+Class implementing the [On Collision Enter](../reference#on-collision-enter) Program block.
 
 ## OnCollisionEnter2D (Class)
 
-Class implementing the [On Collision Enter 2D](OnCollisionEnter2D) Program block.
+Class implementing the [On Collision Enter 2D](../reference#on-collision-enter-2d) Program block.
 
 ## OnCollisionExit (Class)
 
-Class implementing the [On Collision Exit](OnCollisionExit) Program block.
+Class implementing the [On Collision Exit](../reference#on-collision-exit) Program block.
 
 ## OnCollisionExit2D (Class)
 
-Class implementing the [On Collision Exit 2D](OnCollisionExit2D) Program block.
+Class implementing the [On Collision Exit 2D](../reference#on-collision-exit-2d) Program block.
 
 ## OnCollisionStay (Class)
 
-Class implementing the [On Collision Stay](OnCollisionStay) Program block.
+Class implementing the [On Collision Stay](../reference#on-collision-stay) Program block.
 
 ## OnCollisionStay2D (Class)
 
-Class implementing the [On Collision Stay 2D](OnCollisionStay2D) Program block.
+Class implementing the [On Collision Stay 2D](../reference#on-collision-stay-2d) Program block.
 
 ## OnCustomEvent (Class)
 
-Class implementing the [On Custom Event](OnCustomEvent) Program block.
+Class implementing the [On Custom Event](../reference#on-custom-event) Program block.
 
 ## OnDeactivate (Class)
 
-Class implementing the [On Deactivate](OnDeactivate) Program block.
+Class implementing the [On Deactivate](../reference#on-deactivate) Program block.
 
 ## OnDeselect (Class)
 
-Class implementing the [On Deselect](OnDeselect) Program block.
+Class implementing the [On Deselect](../reference#on-deselect) Program block.
 
 ## OnDestroy (Class)
 
-Class implementing the [On Destroy](OnDestroy) Program block.
+Class implementing the [On Destroy](../reference#on-destroy) Program block.
 
 ## OnDrawGizmos (Class)
 
-Class implementing the [On Draw Gizmos](OnDrawGizmos) Program block.
+Class implementing the [On Draw Gizmos](../reference#on-draw-gizmos) Program block.
 
 ## OnEndEdit (Class)
 
-Class implementing the [On End Edit](OnEndEdit) Program block.
+Class implementing the [On End Edit](../reference#on-end-edit) Program block.
 
 ## OnExternalMessage (Class)
 
-Class implementing the [On External Message](OnExternalMessage) Program block.
+Class implementing the [On External Message](../reference#on-external-message) Program block.
 
 ## OnFixedUpdate (Class)
 
-Class implementing the [On Fixed Update](OnFixedUpdate) Program block.
+Class implementing the [On Fixed Update](../reference#on-fixed-update) Program block.
 
 ## OnGameOver (Class)
 
-Class implementing the [On Game Over](OnGameOver) Program block.
+Class implementing the [On Game Over](../reference#on-game-over) Program block.
 
 ## OnGamePause (Class)
 
-Class implementing the [[On Game Pause](OnGamePause) Program block.
+Class implementing the [[On Game Pause](../reference#on-game-pause) Program block.
 
 ## OnGameResume (Class)
 
-Class implementing the [On Game Resume](OnGameResume) Program block.
+Class implementing the [On Game Resume](../reference#on-game-resume) Program block.
 
 ## OnGameStart (Class)
 
-Class implementing the [On Game Start](OnGameStart) Program block.
+Class implementing the [On Game Start](../reference#on-game-start) Program block.
 
 ## OnLanguageSet (Class)
 
-Class implementing the [On Language Set](OnLanguageSet) Program block.
+Class implementing the [On Language Set](../reference#on-language-set) Program block.
 
 ## OnLateUpdate (Class)
 
-Class implementing the [On Late Update](OnLateUpdate) Program block.
+Class implementing the [On Late Update](../reference#on-late-update) Program block.
 
 ## OnMouseDown (Class)
 
-Class implementing the [On Mouse Down](OnMouseDown) Program block.
+Class implementing the [On Mouse Down](../reference#on-mouse-down) Program block.
 
 ## OnMouseDrag (Class)
 
-Class implementing the [On Mouse Drag](OnMouseDrag) Program block.
+Class implementing the [On Mouse Drag](../reference#on-mouse-drag) Program block.
 
 
 ## OnMouseEnter (Class)
 
-Class implementing the [[On Mouse Enter](OnMouseEnter) Program block.
+Class implementing the [[On Mouse Enter](../reference#on-mouse-enter) Program block.
 
 ## OnMouseExit (Class)
 
-Class implementing the [On Mouse Exit](OnMouseExit) Program block.
+Class implementing the [On Mouse Exit](../reference#on-mouse-exit) Program block.
 
 ## OnMouseOver (Class)
 
-Class implementing the [On Mouse Over](OnMouseOver) Program block.
+Class implementing the [On Mouse Over](../reference#on-mouse-over) Program block.
 
 ## OnMouseUp (Class)
 
-Class implementing the [On Mouse Up](OnMouseUp) Program block.
+Class implementing the [On Mouse Up](../reference#on-mouse-up) Program block.
 
 ## OnParameterChange (Class)
 
-Class implementing the On Parameter Change](OnParameterChange) Program block.
+Class implementing the On Parameter Change](../reference#on-parameter-change) Program block.
 
 ## OnPointerDown (Class)
 
-Class implementing the [On Pointer Down](OnPointerDown) Program block.
+Class implementing the [On Pointer Down](../reference#on-pointer-down) Program block.
 
 ## OnPointerEnter (Class)
 
-Class implementing the [On Pointer Enter](OnPointerEnter) Program block.
+Class implementing the [On Pointer Enter](../reference#on-pointer-enter) Program block.
 
 ## OnPointerExit (Class)
 
-Class implementing the [On Pointer Exit](OnPointerExit) Program block.
+Class implementing the [On Pointer Exit](../reference#on-pointer-exit) Program block.
 
 ## OnPointerUp (Class)
 
-Class implementing the [On Pointer Up](OnPointerUp) Program block.
+Class implementing the [On Pointer Up](../reference#on-pointer-up) Program block.
 
 ## OnProgramFinish (Class)
 
-Class implementing the [On Program Finish](OnProgramFinish) Program block.
+Class implementing the [On Program Finish](../reference#on-program-finish) Program block.
 
 ## OnSceneLoad (Class)
 
-Class implementing the [On Scene Load](OnSceneLoad) Program block.
+Class implementing the [On Scene Load](../reference#on-scene-load) Program block.
 
 `1.2`
 
 ## OnSelect (Class)
 
-Class implementing the [On Select](OnSelect) Program block.
+Class implementing the [On Select](../reference#on-select) Program block.
 
 ## OnStart (Class)
 
-Class implementing the [On Start](OnStart) Program block.
+Class implementing the [On Start](../reference#on-start) Program block.
 
 ## OnState (Class)
 
-Class implementing the [On State](OnState) Action block.
+Class implementing the [On State](../reference#on-state) Action block.
 
 ## OnTimerExpire (Class)
 
-Class implementing the [On Timer Expire](OnTimerExpire) Program block.
+Class implementing the [On Timer Expire](../reference#on-timer-expire) Program block.
 
 ## OnTriggerEnter (Class)
 
-Class implementing the [On Trigger Enter](OnTriggerEnter) Program block.
+Class implementing the [On Trigger Enter](../reference#on-trigger-enter) Program block.
 
 
 ## OnTriggerEnter2D (Class)
 
-Class implementing the [On Trigger Enter 2D](OnTriggerEnter2D) Program block.
+Class implementing the [On Trigger Enter 2D](../reference#on-trigger-enter-2d) Program block.
 
 ## OnTriggerExit (Class)
 
-Class implementing the [On Trigger Exit](OnTriggerExit) Program block.
+Class implementing the [On Trigger Exit](../reference#on-trigger-exit) Program block.
 
 ## OnTriggerExit2D (Class)
 
-Class implementing the [On Trigger Exit 2D](OnTriggerExit2D) Program block.
+Class implementing the [On Trigger Exit 2D](../reference#on-trigger-exit-2d) Program block.
 
 ## OnTriggerStay (Class)
 
-Class implementing the [On Trigger Stay](OnTriggerStay) Program block.
+Class implementing the [On Trigger Stay](../reference#on-trigger-stay) Program block.
 
 ## OnTriggerStay2D (Class)
 
-Class implementing the [On Trigger Stay 2D](OnTriggerStay2D) Program block.
+Class implementing the [On Trigger Stay 2D](../reference#on-trigger-stay-2d) Program block.
 
 ## OnUpdate (Class)
 
-Class implementing the [On Update](OnUpdate) Program block.
+Class implementing the [On Update](../reference#on-update) Program block.
 
 ## OnValueChange (Class)
 
-Class implementing the [On Value Change](OnValueChange) Program block.
+Class implementing the [On Value Change](../reference#on-value-change) Program block.
 
 ## OnVariableChange (Class)
 
-Class implementing the [On Variable Change](OnVariableChange) Program block.
+Class implementing the [On Variable Change](../reference#on-variable-change) Program block.
 
 ## Parameter (Class)
 
@@ -777,7 +777,7 @@ Base class for implementing the user interface of a custom Action blocks.
 
 ## ParameterChangeEvent (Class)
 
-Event fired when the value of a [Parameter](Parameter) is changed.
+Event fired when the value of a [Parameter](../reference#parameter) is changed.
 
 #### Properties
 
@@ -787,7 +787,7 @@ Event fired when the value of a [Parameter](Parameter) is changed.
 
 #### Remarks
 
-Events of this type are managed by the [On Parameter Change](OnParameterChange) program.
+Events of this type are managed by the [On Parameter Change](../reference#on-parameter-change) program.
 
 ## Path (Class)
 
@@ -806,7 +806,7 @@ Event fired when the pointer is down in the area of an UI element.
 
 #### Remarks
 
-Events of this type are managed by the [On Pointer Down](OnPointerDown) program.
+Events of this type are managed by the [On Pointer Down](../reference#on-pointer-down) program.
 
 ## PointerEnterEvent (Class)
 
@@ -821,7 +821,7 @@ Event fired when the pointer enters the area of an UI element.
 
 #### Remarks
 
-Events of this type are managed by the [On Pointer Enter](OnPointerEnter) program.
+Events of this type are managed by the [On Pointer Enter](../reference#on-pointer-enter) program.
 
 ## PointerExitEvent (Class)
 
@@ -836,7 +836,7 @@ Event fired when the pointer exits the area of an UI element.
 
 #### Remarks
 
-Events of this type are managed by the [On Pointer Exit](OnPointerExit) program.
+Events of this type are managed by the [On Pointer Exit](../reference#on-pointer-exit) program.
 
 ## PointerUpEvent (Class)
 
@@ -851,7 +851,7 @@ Event fired when the pointer stops being down in the area of an UI element.
 
 #### Remarks
 
-Events of this type are managed by the [On Pointer Up](OnPointerUp) program.
+Events of this type are managed by the [On Pointer Up](../reference#on-pointer-up) program.
 
 ## Pool (Class)
 
@@ -859,7 +859,7 @@ Class implementing the Pool block.
 
 ## ProgramFinishEvent (Class)
 
-Event fired after a [Program](Program) finished.
+Event fired after a [Program](../reference#program) finished.
 
 #### Properties
 
@@ -869,7 +869,7 @@ Event fired after a [Program](Program) finished.
 
 #### Remarks
 
-Events of this type are managed by the [On Program Finish](OnProgramFinish) program.
+Events of this type are managed by the [On Program Finish](../reference#on-program-finish) program.
 
 ## Ray (Class)
 
@@ -877,11 +877,11 @@ Class implementing the Ray block.
 
 ## Repeat (Clase)
 
-Class implementing the [Repeat](Repeat) Action block.
+Class implementing the [Repeat](../reference#repeat) Action block.
 
 ## RepeatUntil (Clase)
 
-Class implementing the [Repeat Until](RepeatUntil) Action block.
+Class implementing the [Repeat Until](../reference#repeat-until) Action block.
 
 ## SceneLoadEvent (Class)
 
@@ -898,7 +898,7 @@ Event fired after a Scene is completely loaded.
 
 #### Remarks
 
-Events of this type are managed by the [On Scene Load](OnSceneLoad) program.
+Events of this type are managed by the [On Scene Load](../reference#on-scene-load) program.
 
 ## SelectEvent (Class)
 
@@ -912,19 +912,19 @@ Event fired when a selectable UI element is selected.
 
 #### Remarks
 
-Events of this type are managed by the [On Select](OnSelect) program.
+Events of this type are managed by the [On Select](../reference#on-select) program.
 
 ## Separator (Class)
 
-Class implementing the [Separator](Separator) block.
+Class implementing the [Separator](../reference#separator) block.
 
 ## State (Class)
 
-Class implementing the [State](State) block.
+Class implementing the [State](../reference#state) block.
 
 ## StateMachine (Class)
 
-Class implementing the [State Machine](StateMachine) block.
+Class implementing the [State Machine](../reference#state-machine) block.
 
 ## TimeAction (Class)
 
@@ -944,7 +944,7 @@ Base class for implementing the user interface of custom [Function](#function-cl
 
 ## TimerExpireEvent (Class)
 
-Event fired after a [Timer](Timer) expires.
+Event fired after a [Timer](../reference#timer) expires.
 
 #### Properties
 
@@ -954,7 +954,7 @@ Event fired after a [Timer](Timer) expires.
 
 #### Remarks
 
-Events of this type are managed by the [On Timer Expire](OnTimerExpire) program.
+Events of this type are managed by the [On Timer Expire](../reference#on-timer-expire) program.
 
 ## TransformAction (Class)
 
@@ -985,7 +985,7 @@ Event fired when the area of a trigger type Collider is entered by another Colli
 
 #### Remarks
 
-Events of this type are managed by the [On Trigger Enter](OnTriggerEnter) program.
+Events of this type are managed by the [On Trigger Enter](../reference#on-trigger-enter) program.
 
 ## TriggerExitEvent (Class)
 
@@ -1000,7 +1000,7 @@ Event fired when the area of a trigger type Collider is no longer intersected by
 
 #### Remarks
 
-Events of this type are managed by the [On Trigger Exit](OnTriggerExit) program.
+Events of this type are managed by the [On Trigger Exit](../reference#on-trigger-exit) program.
 
 ## TriggeStayEvent (Class)
 
@@ -1015,7 +1015,7 @@ Event fired while (that is, every frame) the area of a trigger type Collider is 
 
 #### Remarks
 
-Events of this type are managed by the [On Trigger Stay](OnTriggerStay) program.
+Events of this type are managed by the [On Trigger Stay](../reference#on-trigger-stay) program.
 
 ## ValueAction (Class)
 
@@ -1031,15 +1031,15 @@ Event fired when when the value of a UI Component (of type InputField, Toggle, S
 
 | Property      | Description                                         | Type     |
 | ------------- | --------------------------------------------------- | -------- |
-| source   | The GameObject where the event was originated | GameObject |
-| stringValue | The new value as string (InputField). | string   |
-| toggleValue | The new value as boolean (Toggle) | bool |
-| floatValue | The new value as 32-bit floating-point value (Slider and Scrollbar) | float    |
-| dataType      | The data type of the changed value           | DataType |
+| source        | The GameObject where the event was originated       | GameObject |
+| stringValue   | The new value as string (InputField).               | string   |
+| toggleValue   | The new value as boolean (Toggle)                   | bool |
+| floatValue    | The new value as 32-bit floating-point value (Slider and Scrollbar) | float    |
+| dataType      | The data type of the changed value                  | DataType |
 
 #### Remarks
 
-Events of this type are managed by the [On Value Change](OnValueChange) program.
+Events of this type are managed by the [On Value Change](../reference#on-value-change) program.
 
 ## ValueCondition (Class)
 
@@ -1055,7 +1055,7 @@ Base class for implementing the user interface of a custom Action blocks.
 
 ## VariableChangeEvent (Class)
 
-Event fired when the value of a [Variable](Variable) is changed.
+Event fired when the value of a [Variable](../reference#variable) is changed.
 
 #### Properties
 
@@ -1065,8 +1065,8 @@ Event fired when the value of a [Variable](Variable) is changed.
 
 #### Remarks
 
-Events of this type are managed by the [On Variable Change](OnVariableChange) program.
+Events of this type are managed by the [On Variable Change](../reference#on-variable-change) program.
 
 ## While (Clase)
 
-Class implementing the [While](While) Action block.
+Class implementing the [While](../reference#while) Action block.
