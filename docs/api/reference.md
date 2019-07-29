@@ -1,42 +1,42 @@
 # Reference
 
-## Action (Class)
+## Action \(Class\)
 
 Base class for implementing custom Action blocks.
 
-## ActionEditor (Class)
+## ActionEditor \(Class\)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-## ActivationEvent (Class)
+## ActivationEvent \(Class\)
 
 Event fired when a GameObject is activated.
 
 #### Properties
 
-| Property | Description                       | Type       |
-| -------- | --------------------------------- | ---------- |
-| source   | The GameObject that was activated | GameObject |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject that was activated | GameObject |
 
 #### Remarks
 
 Events of this type are managed by the [On Activate](../reference.md#on-activate) program.
 
-## ApplicationFocusEvent (Class)
+## ApplicationFocusEvent \(Class\)
 
 Event fired when the Application gets or losts the input focus.
 
 #### Properties
 
-| Property  | Description                                          | Type |
-| --------- | ---------------------------------------------------- | ---- |
+| Property | Description | Type |
+| :--- | :--- | :--- |
 | isFocused | Whether the application is currently focused or not. | bool |
 
 #### Remarks
 
 Events of this type are managed by the [On Application Focus](../reference.md#on-application-focus) program.
 
-## ApplicationInitEvent (Class)
+## ApplicationInitEvent \(Class\)
 
 Event fired when the Application starts.
 
@@ -44,23 +44,23 @@ Event fired when the Application starts.
 
 Events of this type are managed by the [On Application Init](../reference.md#on-application-init) program.
 
-## ApplicationPauseEvent (Class)
+## ApplicationPauseEvent \(Class\)
 
 Event fired when the Application enters or exits pause.
 
-The term "Pause" here refers to OS level pause, not to be confused with [GamePauseEvent](#game-pause-event).
+The term "Pause" here refers to OS level pause, not to be confused with [GamePauseEvent](reference.md#game-pause-event).
 
 #### Properties
 
-| Property | Description                                         | Type |
-| -------- | --------------------------------------------------- | ---- |
+| Property | Description | Type |
+| :--- | :--- | :--- |
 | isPaused | Whether the application is currently paused or not. | bool |
 
 #### Remarks
 
 Events of this type are managed by the [On Application Pause](../reference.md#on-application-pause) program.
 
-## ApplicationQuitEvent (Class)
+## ApplicationQuitEvent \(Class\)
 
 Event fired when the Application is about to close.
 
@@ -68,101 +68,101 @@ Event fired when the Application is about to close.
 
 Events of this type are managed by the [On Application Quit](../reference.md#on-application-quit) program.
 
-## BuiltinVariable (Class)
+## BuiltinVariable \(Class\)
 
 Base class for implementing built-in Variables.
 
-## ClickEvent (Class)
+## ClickEvent \(Class\)
 
 Event fired when a click is detected in the area of an UI element.
 
 #### Properties
 
-| Property | Description                                   | Type       |
-| -------- | --------------------------------------------- | ---------- |
-| source   | The GameObject where the event was originated | GameObject |
-| position | The current screen coordinates of the pointer | Vector2    |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject where the event was originated | GameObject |
+| position | The current screen coordinates of the pointer | Vector2 |
 
 #### Remarks
 
 Events of this type are managed by the [On Click](../reference.md#on-click) program.
 
-## CollisionEnterEvent (Class)
+## CollisionEnterEvent \(Class\)
 
 Event fired when a collider/rigidbody has begun touching another rigidbody/collider.
 
 #### Properties
 
-| Property         | Description                                               | Type       |
-| ---------------- | --------------------------------------------------------- | ---------- |
-| source           | The GameObject that was collided                          | GameObject |
-| other            | The GameObject that collided with 'source'                | GameObject |
-| contactPoint     | The 3d world coordinates of the collision contact point   | Vector3    |
-| relativeVelocity | The relative linear velocity of the two colliding objects | Vector3    |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject that was collided | GameObject |
+| other | The GameObject that collided with 'source' | GameObject |
+| contactPoint | The 3d world coordinates of the collision contact point | Vector3 |
+| relativeVelocity | The relative linear velocity of the two colliding objects | Vector3 |
 
 #### Remarks
 
 Events of this type are managed by the [On Collision Enter](../reference.md#on-collision-enter) program.
 
-## CollisionExitEvent (Class)
+## CollisionExitEvent \(Class\)
 
 Event fired when a collider/rigidbody has stopped touching another rigidbody/collider.
 
 #### Properties
 
-| Property         | Description                                               | Type       |
-| ---------------- | --------------------------------------------------------- | ---------- |
-| source           | The GameObject that was collided                          | GameObject |
-| other            | The GameObject that collided with 'source'                | GameObject |
-| contactPoint     | The 3d world coordinates of the collision contact point   | Vector3    |
-| relativeVelocity | The relative linear velocity of the two colliding objects | Vector3    |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject that was collided | GameObject |
+| other | The GameObject that collided with 'source' | GameObject |
+| contactPoint | The 3d world coordinates of the collision contact point | Vector3 |
+| relativeVelocity | The relative linear velocity of the two colliding objects | Vector3 |
 
 #### Remarks
 
 Events of this type are managed by the [On Collision Exit](../reference.md#on-collision-exit) program.
 
-## CollisionStayEvent (Class)
+## CollisionStayEvent \(Class\)
 
-Event fired while (that is, every frame) a collider/rigidbody is touching another rigidbody/collider.
+Event fired while \(that is, every frame\) a collider/rigidbody is touching another rigidbody/collider.
 
 #### Properties
 
-| Property         | Description                                               | Type       |
-| ---------------- | --------------------------------------------------------- | ---------- |
-| source           | The GameObject that was collided                          | GameObject |
-| other            | The GameObject that collided with 'source'                | GameObject |
-| contactPoint     | The 3d world coordinates of the collision contact point   | Vector3    |
-| relativeVelocity | The relative linear velocity of the two colliding objects | Vector3    |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject that was collided | GameObject |
+| other | The GameObject that collided with 'source' | GameObject |
+| contactPoint | The 3d world coordinates of the collision contact point | Vector3 |
+| relativeVelocity | The relative linear velocity of the two colliding objects | Vector3 |
 
 #### Remarks
 
 Events of this type are managed by the [On Collision Stay](../reference.md#on-collision-stay) program.
 
-## Command (Class)
+## Command \(Class\)
 
 Class implementing the Command block.
 
-## Condition (Class)
+## Condition \(Class\)
 
 Base class for implementing custom Condition blocks.
 
-## ConditionEditor (Class)
+## ConditionEditor \(Class\)
 
-Base class for implementing the user interface of a custom [Condition](#condition-class) blocks.
+Base class for implementing the user interface of a custom [Condition](reference.md#condition-class) blocks.
 
-## CustomEvent (Class)
+## CustomEvent \(Class\)
 
 Event typically fired by the [Fire Custom Event](../reference.md#fire-custom-event) action.
 
 #### Properties
 
-| Property | Description                                            | Type       |
-| -------- | ------------------------------------------------------ | ---------- |
-| source   | The origin of the event                                | GameObject |
-| kind     | A literal descriptor / identifier useful for filtering | string     |
-| data     | Data attached to the event                             | Variable   |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The origin of the event | GameObject |
+| kind | A literal descriptor / identifier useful for filtering | string |
+| data | Data attached to the event | Variable |
 
-## Methods
+#### Methods
 
 `public void AddListener(IEventListener listener)`
 
@@ -172,111 +172,111 @@ Subscribes the specified listener to next events of this type.
 
 Removes the specified listener from the subscription list for events of this type.
 
-### Remarks
+#### Remarks
 
 Events of this type are managed by the [On Custom Event](../reference.md#on-custom-event) program.
 
-## DeactivationEvent (Class)
+## DeactivationEvent \(Class\)
 
 Event fired when a GameObject is deactivated.
 
 #### Properties
 
-| Property | Description                         | Type       |
-| -------- | ----------------------------------- | ---------- |
-| source   | The GameObject that was deactivated | GameObject |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject that was deactivated | GameObject |
 
 #### Remarks
 
 Events of this type are managed by the [On Deactivate](../reference.md#on-deactivate) program.
 
-## Description (Class)
+## Description \(Class\)
 
 Class implementing the [Description](../reference.md#description) block.
 
-## DeselectEvent (Class)
+## DeselectEvent \(Class\)
 
 Event fired when a selectable UI element is deselected.
 
 #### Properties
 
-| Property | Description                                   | Type       |
-| -------- | --------------------------------------------- | ---------- |
-| source   | The GameObject where the event was originated | GameObject |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject where the event was originated | GameObject |
 
 #### Remarks
 
 Events of this type are managed by the [On Deselect](../reference.md#on-deselect) program.
 
-## DrawGizmosAction (Class)
+## DrawGizmosAction \(Class\)
 
 Base class for implementing special custom Action blocks that only work within [On Draw Gizmos](../reference.md#on-draw-gizmos) Programs.
 
-## DrawGizmosActionEditor (Class)
+## DrawGizmosActionEditor \(Class\)
 
-Base class for implementing the user interface of a custom block extending the [DrawGizmosAction](#drawgizmosaction-class) class.
+Base class for implementing the user interface of a custom block extending the [DrawGizmosAction](reference.md#drawgizmosaction-class) class.
 
-## During (Class)
+## During \(Class\)
 
 Class implementing the [During](../reference.md#during) Action block.
 
-## EndEditEvent (Class)
+## EndEditEvent \(Class\)
 
 Event fired when the editing of an InputField has ended.
 
 #### Properties
 
-| Property | Description                              | Type       |
-| -------- | ---------------------------------------- | ---------- |
-| source   | The GameObject that originated the event | GameObject |
-| value    | The text in the InputField               | String     |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject that originated the event | GameObject |
+| value | The text in the InputField | String |
 
-### Remarks
+#### Remarks
 
 Events of this type are managed by the [On End Edit](../reference.md#on-end-edit) program.
 
-## EvaluateConditions (Class)
+## EvaluateConditions \(Class\)
 
 Class implementing the [Evaluate Conditions](../reference.md#evaluate-conditions) Action block.
 
-## ExternalMessageEvent (Class)
+## ExternalMessageEvent \(Class\)
 
 Event fired when a message from the host browser is received.
 
 #### Properties
 
-| Property      | Description                                         | Type     |
-| ------------- | --------------------------------------------------- | -------- |
-| stringMessage | The received message as string                      | string   |
-| intMessage    | The received message as signed 32-bit integer value | int      |
-| floatMessage  | The received message as 32-bit floating-point value | float    |
-| dataType      | The data type of the received message               | DataType |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| stringMessage | The received message as string | string |
+| intMessage | The received message as signed 32-bit integer value | int |
+| floatMessage | The received message as 32-bit floating-point value | float |
+| dataType | The data type of the received message | DataType |
 
 #### Remarks
 
 Events of this type are managed by the [On External Message](../reference.md#on-external-message) program.
 
-## For (Class)
+## For \(Class\)
 
 Class implementing the [For](../reference.md#for) Action block.
 
-## ForEach (Class)
+## ForEach \(Class\)
 
 Class implementing the [For Each](../reference.md#for-each) Action block.
 
-## Force (Class)
+## Force \(Class\)
 
 Class implementing the Force block.
 
-## Function (Class)
+## Function \(Class\)
 
 Base class for implementing custom Action blocks that return a result value.
 
-## FunctionEditor (Class)
+## FunctionEditor \(Class\)
 
-Base class for implementing the user interface of custom [Function](#function-class) blocks.
+Base class for implementing the user interface of custom [Function](reference.md#function-class) blocks.
 
-## GameOverEvent (Class)
+## GameOverEvent \(Class\)
 
 Event fired by the [Game Over](../reference.md#game-over) action.
 
@@ -284,15 +284,15 @@ Event fired by the [Game Over](../reference.md#game-over) action.
 
 Events of this type are managed by the [On Game Over](../reference.md#on-game-over) program.
 
-## GamePauseEvent (Class)
+## GamePauseEvent \(Class\)
 
-Event fired by the [Pause Game](Pause Game) action.
+Event fired by the [Pause Game](https://github.com/evasiongames/gameflow/tree/2c369078d50acd076c0f29d8d37d86ee7da4ba92/docs/api/Pause%20Game/README.md) action.
 
 #### Remarks
 
 Events of this type are managed by the [On Game Pause](../reference.md#on-game-pause) program.
 
-## GameResumeEvent (Class)
+## GameResumeEvent \(Class\)
 
 Event fired by the [Resume Game](../reference.md#resume-game) action.
 
@@ -300,7 +300,7 @@ Event fired by the [Resume Game](../reference.md#resume-game) action.
 
 Events of this type are managed by the [On Game Resume](../reference.md#on-game-resume) program.
 
-## GameStartEvent (Class)
+## GameStartEvent \(Class\)
 
 Event fired by the [Start Game](../reference.md#start-game) action.
 
@@ -308,582 +308,580 @@ Event fired by the [Start Game](../reference.md#start-game) action.
 
 Events of this type are managed by the [On Game Start](../reference.md#on-game-start) program.
 
-## Group (Class)
+## Group \(Class\)
 
 Class implementing the [Group](../reference.md#group) Action block.
 
-## If (Class)
+## If \(Class\)
 
 Class implementing the [If](../reference.md#if) Action block.
 
-## Key (Class)
+## Key \(Class\)
 
 Class implementing the Key block.
 
-## KeyDownEvent (Class)
+## KeyDownEvent \(Class\)
 
 Event fired when a [Key](../reference.md#key) is pressed.
 
 #### Properties
 
-| Property | Description              | Type |
-| -------- | ------------------------ | ---- |
-| key      | The key that was pressed | Key  |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| key | The key that was pressed | Key |
 
-## KeyUpEvent (Class)
+## KeyUpEvent \(Class\)
 
 Event fired when a [Key](../reference.md#key) that was pressed is released.
 
 #### Properties
 
-| Property | Description               | Type |
-| -------- | ------------------------- | ---- |
-| key      | The key that was released | Key  |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| key | The key that was released | Key |
 
-## LanguageEvent (Class)
+## LanguageEvent \(Class\)
 
 Event fired when the current language is changed.
 
 #### Properties
 
-| Property | Description              | Type     |
-| -------- | ------------------------ | -------- |
+| Property | Description | Type |
+| :--- | :--- | :--- |
 | language | The new current language | Language |
 
 #### Remarks
 
 Events of this type are managed by the [On Language Set](../reference.md#on-language-set) program.
 
-## LimitValueAction (Class)
+## LimitValueAction \(Class\)
 
 Base class for implementing custom Action blocks.
 
-## LimitValueActionEditor (Class)
+## LimitValueActionEditor \(Class\)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-## List (Class)
+## List \(Class\)
 
 Class implementing the List block.
 
-## ListAction (Class)
+## ListAction \(Class\)
 
 Base class for implementing custom Action blocks that work with a List.
 
-## ListActionEditor (Class)
+## ListActionEditor \(Class\)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-## ListFunction (Class)
+## ListFunction \(Class\)
 
 Base class for implementing custom Action blocks that work with a List and return a result value.
 
-## ListFunctionEditor (Class)
+## ListFunctionEditor \(Class\)
 
-Base class for implementing the user interface of custom [Function](#function-class) blocks.
+Base class for implementing the user interface of custom [Function](reference.md#function-class) blocks.
 
-## ListIndexAction (Class)
+## ListIndexAction \(Class\)
 
 Base class for implementing custom Action blocks that work with a List and an Index property.
 
-## ListIndexActionEditor (Class)
+## ListIndexActionEditor \(Class\)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-## ListIndexFunction (Class)
+## ListIndexFunction \(Class\)
 
 Base class for implementing custom Action blocks that work with a List and an Index property and return a result value.
 
-## ListIndexFunctionEditor (Class)
+## ListIndexFunctionEditor \(Class\)
 
-Base class for implementing the user interface of custom [Function](#function-class) blocks.
+Base class for implementing the user interface of custom [Function](reference.md#function-class) blocks.
 
-## ListItemAction (Class)
+## ListItemAction \(Class\)
 
 Base class for implementing custom Action blocks that work with a List and an Item property.
 
-## ListItemActionEditor (Class)
+## ListItemActionEditor \(Class\)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-## ListItemFunction (Class)
+## ListItemFunction \(Class\)
 
 Base class for implementing custom Action blocks that work with a List and an Item property and return a result value.
 
-## ListItemFunctionEditor (Class)
+## ListItemFunctionEditor \(Class\)
 
-Base class for implementing the user interface of custom [Function](#function-class) blocks.
+Base class for implementing the user interface of custom [Function](reference.md#function-class) blocks.
 
-## ListItemIndexAction (Class)
+## ListItemIndexAction \(Class\)
 
 Base class for implementing custom Action blocks that work with a List, an Index and an Item property.
 
-## ListItemIndexActionEditor (Class)
+## ListItemIndexActionEditor \(Class\)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-## ListItemIndexFunction (Class)
+## ListItemIndexFunction \(Class\)
 
 Base class for implementing custom Action blocks that work with a List, an Index and an Item property and return a result value.
 
-## ListItemIndexFunctionEditor (Class)
+## ListItemIndexFunctionEditor \(Class\)
 
-Base class for implementing the user interface of custom [Function](#function-class) blocks.
+Base class for implementing the user interface of custom [Function](reference.md#function-class) blocks.
 
-## Localization (Class)
+## Localization \(Class\)
 
 Class implementing the Localization block.
 
-## Loop (Class)
+## Loop \(Class\)
 
 Class implementing the [Loop](../reference.md#loop) Action block.
 
-## Macro (Class)
+## Macro \(Class\)
 
 Class implementing the Macro Program block.
 
-## MouseDownEvent (Class)
+## MouseDownEvent \(Class\)
 
 Event fired when any mouse button is pressed in the area of an UI element or Collider.
 
 #### Properties
 
-| Property | Description                                         | Type       |
-| -------- | --------------------------------------------------- | ---------- |
-| source   | The GameObject where the event was originated       | GameObject |
-| position | The current screen coordinates of the mouse pointer | Vector2    |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject where the event was originated | GameObject |
+| position | The current screen coordinates of the mouse pointer | Vector2 |
 
 #### Remarks
 
 Events of this type are managed by the [On Mouse Down](../reference.md#on-mouse-down) program.
 
-## MouseDragEvent (Class)
+## MouseDragEvent \(Class\)
 
 Event fired when the mouse is dragged in the area of an UI element or Collider.
 
 #### Properties
 
-| Property | Description                                                  | Type       |
-| -------- | ------------------------------------------------------------ | ---------- |
-| source   | The GameObject where the event was originated                | GameObject |
-| position | The current screen coordinates of the mouse pointer          | Vector2    |
-| delta    | The mouse movement since last frame expressed as relative screen coordinates | Vector2    |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject where the event was originated | GameObject |
+| position | The current screen coordinates of the mouse pointer | Vector2 |
+| delta | The mouse movement since last frame expressed as relative screen coordinates | Vector2 |
 
 #### Remarks
 
 Events of this type are managed by the [On Mouse Drag](../reference.md#on-mouse-drag) program.
 
-## MouseEnterEvent (Class)
+## MouseEnterEvent \(Class\)
 
 Event fired after the mouse pointer enters the area of an UI element or Collider.
 
 #### Properties
 
-| Property | Description                                         | Type       |
-| -------- | --------------------------------------------------- | ---------- |
-| source   | The GameObject where the event was originated       | GameObject |
-| position | The current screen coordinates of the mouse pointer | Vector2    |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject where the event was originated | GameObject |
+| position | The current screen coordinates of the mouse pointer | Vector2 |
 
 #### Remarks
 
 Events of this type are managed by the [On Mouse Enter](../reference.md#on-mouse-enter) program.
 
-## MouseExitEvent (Class)
+## MouseExitEvent \(Class\)
 
 Event fired after the mouse pointer exits the area of an UI element or Collider.
 
 #### Properties
 
-| Property | Description                                         | Type       |
-| -------- | --------------------------------------------------- | ---------- |
-| source   | The GameObject where the event was originated       | GameObject |
-| position | The current screen coordinates of the mouse pointer | Vector2    |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject where the event was originated | GameObject |
+| position | The current screen coordinates of the mouse pointer | Vector2 |
 
 #### Remarks
 
 Events of this type are managed by the [On Mouse Exit](../reference.md#on-mouse-exit) program.
 
-## MouseOverEvent (Class)
+## MouseOverEvent \(Class\)
 
-Event fired while (that is, every frame) the mouse pointer is inside the area of an UI element or Collider.
+Event fired while \(that is, every frame\) the mouse pointer is inside the area of an UI element or Collider.
 
 #### Properties
 
-| Property | Description                                         | Type       |
-| -------- | --------------------------------------------------- | ---------- |
-| source   | The GameObject where the event was originated       | GameObject |
-| position | The current screen coordinates of the mouse pointer | Vector2    |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject where the event was originated | GameObject |
+| position | The current screen coordinates of the mouse pointer | Vector2 |
 
 #### Remarks
 
 Events of this type are managed by the [On Mouse Over](../reference.md#on-mouse-over) program.
 
-## MouseUpEvent (Class)
+## MouseUpEvent \(Class\)
 
 Event fired when any mouse button is released in the area of an UI element or Collider.
 
 #### Properties
 
-| Property | Description                                         | Type       |
-| -------- | --------------------------------------------------- | ---------- |
-| source   | The GameObject where the event was originated       | GameObject |
-| position | The current screen coordinates of the mouse pointer | Vector2    |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject where the event was originated | GameObject |
+| position | The current screen coordinates of the mouse pointer | Vector2 |
 
 #### Remarks
 
 Events of this type are managed by the [On Mouse Up](../reference.md#on-mouse-up) program.
 
-## Note (Class)
+## Note \(Class\)
 
 Class implementing the [Note](../reference.md#note) block.
 
-## NumericParameterAction (Class)
+## NumericParameterAction \(Class\)
 
-## NumericParameterActionEditor (Class)
-
-Base class for implementing the user interface of a custom Action blocks.
-
-## NumericVariableAction (Class)
-
-## NumericVariableActionEditor (Class)
+## NumericParameterActionEditor \(Class\)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-## OnActivate (Class)
+## NumericVariableAction \(Class\)
+
+## NumericVariableActionEditor \(Class\)
+
+Base class for implementing the user interface of a custom Action blocks.
+
+## OnActivate \(Class\)
 
 Class implementing the [On Activate](../reference.md#on-activate) Program block.
 
-## OnApplicationFocus (Class)
+## OnApplicationFocus \(Class\)
 
 Class implementing the [On Application Focus](../reference.md#on-application-focus) Program block.
 
-## OnApplicationInit (Class)
+## OnApplicationInit \(Class\)
 
 Class implementing the [On Application Init](../reference.md#on-application-init) Program block.
 
-## OnApplicationPause (Class)
+## OnApplicationPause \(Class\)
 
 Class implementing the [On Application Pause](../reference.md#on-application-pause) Program block.
 
-## OnApplicationQuit (Class)
+## OnApplicationQuit \(Class\)
 
 Class implementing the [On Application Quit](../reference.md#on-application-quit) Program block.
 
-## OnAwake (Class)
+## OnAwake \(Class\)
 
 Class implementing the [On Awake](../reference.md#on-awake) Program block.
 
-## OnClick (Class)
+## OnClick \(Class\)
 
 Class implementing the [On Click](../reference.md#on-lick) Program block.
 
-## OnCollisionEnter (Class)
+## OnCollisionEnter \(Class\)
 
 Class implementing the [On Collision Enter](../reference.md#on-collision-enter) Program block.
 
-## OnCollisionEnter2D (Class)
+## OnCollisionEnter2D \(Class\)
 
 Class implementing the [On Collision Enter 2D](../reference.md#on-collision-enter-2d) Program block.
 
-## OnCollisionExit (Class)
+## OnCollisionExit \(Class\)
 
 Class implementing the [On Collision Exit](../reference.md#on-collision-exit) Program block.
 
-## OnCollisionExit2D (Class)
+## OnCollisionExit2D \(Class\)
 
 Class implementing the [On Collision Exit 2D](../reference.md#on-collision-exit-2d) Program block.
 
-## OnCollisionStay (Class)
+## OnCollisionStay \(Class\)
 
 Class implementing the [On Collision Stay](../reference.md#on-collision-stay) Program block.
 
-## OnCollisionStay2D (Class)
+## OnCollisionStay2D \(Class\)
 
 Class implementing the [On Collision Stay 2D](../reference.md#on-collision-stay-2d) Program block.
 
-## OnCustomEvent (Class)
+## OnCustomEvent \(Class\)
 
 Class implementing the [On Custom Event](../reference.md#on-custom-event) Program block.
 
-## OnDeactivate (Class)
+## OnDeactivate \(Class\)
 
 Class implementing the [On Deactivate](../reference.md#on-deactivate) Program block.
 
-## OnDeselect (Class)
+## OnDeselect \(Class\)
 
 Class implementing the [On Deselect](../reference.md#on-deselect) Program block.
 
-## OnDestroy (Class)
+## OnDestroy \(Class\)
 
 Class implementing the [On Destroy](../reference.md#on-destroy) Program block.
 
-## OnDrawGizmos (Class)
+## OnDrawGizmos \(Class\)
 
 Class implementing the [On Draw Gizmos](../reference.md#on-draw-gizmos) Program block.
 
-## OnEndEdit (Class)
+## OnEndEdit \(Class\)
 
 Class implementing the [On End Edit](../reference.md#on-end-edit) Program block.
 
-## OnExternalMessage (Class)
+## OnExternalMessage \(Class\)
 
 Class implementing the [On External Message](../reference.md#on-external-message) Program block.
 
-## OnFixedUpdate (Class)
+## OnFixedUpdate \(Class\)
 
 Class implementing the [On Fixed Update](../reference.md#on-fixed-update) Program block.
 
-## OnGameOver (Class)
+## OnGameOver \(Class\)
 
 Class implementing the [On Game Over](../reference.md#on-game-over) Program block.
 
-## OnGamePause (Class)
+## OnGamePause \(Class\)
 
-Class implementing the [[On Game Pause](../reference.md#on-game-pause) Program block.
+Class implementing the \[[On Game Pause](../reference.md#on-game-pause) Program block.
 
-## OnGameResume (Class)
+## OnGameResume \(Class\)
 
 Class implementing the [On Game Resume](../reference.md#on-game-resume) Program block.
 
-## OnGameStart (Class)
+## OnGameStart \(Class\)
 
 Class implementing the [On Game Start](../reference.md#on-game-start) Program block.
 
-## OnLanguageSet (Class)
+## OnLanguageSet \(Class\)
 
 Class implementing the [On Language Set](../reference.md#on-language-set) Program block.
 
-## OnLateUpdate (Class)
+## OnLateUpdate \(Class\)
 
 Class implementing the [On Late Update](../reference.md#on-late-update) Program block.
 
-## OnMouseDown (Class)
+## OnMouseDown \(Class\)
 
 Class implementing the [On Mouse Down](../reference.md#on-mouse-down) Program block.
 
-## OnMouseDrag (Class)
+## OnMouseDrag \(Class\)
 
 Class implementing the [On Mouse Drag](../reference.md#on-mouse-drag) Program block.
 
+## OnMouseEnter \(Class\)
 
-## OnMouseEnter (Class)
+Class implementing the \[[On Mouse Enter](../reference.md#on-mouse-enter) Program block.
 
-Class implementing the [[On Mouse Enter](../reference.md#on-mouse-enter) Program block.
-
-## OnMouseExit (Class)
+## OnMouseExit \(Class\)
 
 Class implementing the [On Mouse Exit](../reference.md#on-mouse-exit) Program block.
 
-## OnMouseOver (Class)
+## OnMouseOver \(Class\)
 
 Class implementing the [On Mouse Over](../reference.md#on-mouse-over) Program block.
 
-## OnMouseUp (Class)
+## OnMouseUp \(Class\)
 
 Class implementing the [On Mouse Up](../reference.md#on-mouse-up) Program block.
 
-## OnParameterChange (Class)
+## OnParameterChange \(Class\)
 
-Class implementing the On Parameter Change](../reference.md#on-parameter-change) Program block.
+Class implementing the On Parameter Change\]\(../reference.md\#on-parameter-change\) Program block.
 
-## OnPointerDown (Class)
+## OnPointerDown \(Class\)
 
 Class implementing the [On Pointer Down](../reference.md#on-pointer-down) Program block.
 
-## OnPointerEnter (Class)
+## OnPointerEnter \(Class\)
 
 Class implementing the [On Pointer Enter](../reference.md#on-pointer-enter) Program block.
 
-## OnPointerExit (Class)
+## OnPointerExit \(Class\)
 
 Class implementing the [On Pointer Exit](../reference.md#on-pointer-exit) Program block.
 
-## OnPointerUp (Class)
+## OnPointerUp \(Class\)
 
 Class implementing the [On Pointer Up](../reference.md#on-pointer-up) Program block.
 
-## OnProgramFinish (Class)
+## OnProgramFinish \(Class\)
 
 Class implementing the [On Program Finish](../reference.md#on-program-finish) Program block.
 
-## OnSceneLoad (Class)
+## OnSceneLoad \(Class\)
 
 Class implementing the [On Scene Load](../reference.md#on-scene-load) Program block.
 
 `1.2`
 
-## OnSelect (Class)
+## OnSelect \(Class\)
 
 Class implementing the [On Select](../reference.md#on-select) Program block.
 
-## OnStart (Class)
+## OnStart \(Class\)
 
 Class implementing the [On Start](../reference.md#on-start) Program block.
 
-## OnState (Class)
+## OnState \(Class\)
 
 Class implementing the [On State](../reference.md#on-state) Action block.
 
-## OnTimerExpire (Class)
+## OnTimerExpire \(Class\)
 
 Class implementing the [On Timer Expire](../reference.md#on-timer-expire) Program block.
 
-## OnTriggerEnter (Class)
+## OnTriggerEnter \(Class\)
 
 Class implementing the [On Trigger Enter](../reference.md#on-trigger-enter) Program block.
 
-
-## OnTriggerEnter2D (Class)
+## OnTriggerEnter2D \(Class\)
 
 Class implementing the [On Trigger Enter 2D](../reference.md#on-trigger-enter-2d) Program block.
 
-## OnTriggerExit (Class)
+## OnTriggerExit \(Class\)
 
 Class implementing the [On Trigger Exit](../reference.md#on-trigger-exit) Program block.
 
-## OnTriggerExit2D (Class)
+## OnTriggerExit2D \(Class\)
 
 Class implementing the [On Trigger Exit 2D](../reference.md#on-trigger-exit-2d) Program block.
 
-## OnTriggerStay (Class)
+## OnTriggerStay \(Class\)
 
 Class implementing the [On Trigger Stay](../reference.md#on-trigger-stay) Program block.
 
-## OnTriggerStay2D (Class)
+## OnTriggerStay2D \(Class\)
 
 Class implementing the [On Trigger Stay 2D](../reference.md#on-trigger-stay-2d) Program block.
 
-## OnUpdate (Class)
+## OnUpdate \(Class\)
 
 Class implementing the [On Update](../reference.md#on-update) Program block.
 
-## OnValueChange (Class)
+## OnValueChange \(Class\)
 
 Class implementing the [On Value Change](../reference.md#on-value-change) Program block.
 
-## OnVariableChange (Class)
+## OnVariableChange \(Class\)
 
 Class implementing the [On Variable Change](../reference.md#on-variable-change) Program block.
 
-## Parameter (Class)
+## Parameter \(Class\)
 
 Class implementing the Parameter block.
 
-## ParameterAction (Class)
+## ParameterAction \(Class\)
 
-## ParameterActionEditor (Class)
+## ParameterActionEditor \(Class\)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-## ParameterChangeEvent (Class)
+## ParameterChangeEvent \(Class\)
 
 Event fired when the value of a [Parameter](../reference.md#parameter) is changed.
 
 #### Properties
 
-| Property  | Description             | Type       |
-| --------- | ----------------------- | ---------- |
-| parameter | The Parameter changed   | Parameter  |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| parameter | The Parameter changed | Parameter |
 
 #### Remarks
 
 Events of this type are managed by the [On Parameter Change](../reference.md#on-parameter-change) program.
 
-## Path (Class)
+## Path \(Class\)
 
 Class implementing the Path block.
 
-## PointerDownEvent (Class)
+## PointerDownEvent \(Class\)
 
 Event fired when the pointer is down in the area of an UI element.
 
 #### Properties
 
-| Property | Description                                   | Type       |
-| -------- | --------------------------------------------- | ---------- |
-| source   | The GameObject where the event was originated | GameObject |
-| position | The current screen coordinates of the pointer | Vector2    |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject where the event was originated | GameObject |
+| position | The current screen coordinates of the pointer | Vector2 |
 
 #### Remarks
 
 Events of this type are managed by the [On Pointer Down](../reference.md#on-pointer-down) program.
 
-## PointerEnterEvent (Class)
+## PointerEnterEvent \(Class\)
 
 Event fired when the pointer enters the area of an UI element.
 
 #### Properties
 
-| Property | Description                                   | Type       |
-| -------- | --------------------------------------------- | ---------- |
-| source   | The GameObject where the event was originated | GameObject |
-| position | The current screen coordinates of the pointer | Vector2    |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject where the event was originated | GameObject |
+| position | The current screen coordinates of the pointer | Vector2 |
 
 #### Remarks
 
 Events of this type are managed by the [On Pointer Enter](../reference.md#on-pointer-enter) program.
 
-## PointerExitEvent (Class)
+## PointerExitEvent \(Class\)
 
 Event fired when the pointer exits the area of an UI element.
 
 #### Properties
 
-| Property | Description                                   | Type       |
-| -------- | --------------------------------------------- | ---------- |
-| source   | The GameObject where the event was originated | GameObject |
-| position | The current screen coordinates of the pointer | Vector2    |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject where the event was originated | GameObject |
+| position | The current screen coordinates of the pointer | Vector2 |
 
 #### Remarks
 
 Events of this type are managed by the [On Pointer Exit](../reference.md#on-pointer-exit) program.
 
-## PointerUpEvent (Class)
+## PointerUpEvent \(Class\)
 
 Event fired when the pointer stops being down in the area of an UI element.
 
 #### Properties
 
-| Property | Description                                   | Type       |
-| -------- | --------------------------------------------- | ---------- |
-| source   | The GameObject where the event was originated | GameObject |
-| position | The current screen coordinates of the pointer | Vector2    |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject where the event was originated | GameObject |
+| position | The current screen coordinates of the pointer | Vector2 |
 
 #### Remarks
 
 Events of this type are managed by the [On Pointer Up](../reference.md#on-pointer-up) program.
 
-## Pool (Class)
+## Pool \(Class\)
 
 Class implementing the Pool block.
 
-## ProgramFinishEvent (Class)
+## ProgramFinishEvent \(Class\)
 
 Event fired after a [Program](../reference.md#program) finished.
 
 #### Properties
 
-| Property | Description               | Type    |
-| -------- | ------------------------- | ------- |
-| program  | The Program that finished | Program |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| program | The Program that finished | Program |
 
 #### Remarks
 
 Events of this type are managed by the [On Program Finish](../reference.md#on-program-finish) program.
 
-## Ray (Class)
+## Ray \(Class\)
 
 Class implementing the Ray block.
 
-## Repeat (Clase)
+## Repeat \(Clase\)
 
 Class implementing the [Repeat](../reference.md#repeat) Action block.
 
-## RepeatUntil (Clase)
+## RepeatUntil \(Clase\)
 
 Class implementing the [Repeat Until](../reference.md#repeat-until) Action block.
 
-## SceneLoadEvent (Class)
+## SceneLoadEvent \(Class\)
 
 Event fired after a Scene is completely loaded.
 
@@ -891,182 +889,183 @@ Event fired after a Scene is completely loaded.
 
 #### Properties
 
-| Property | Description                         | Type |
-| -------- | ----------------------------------- | -- |
-| scene    | The loaded scene                    | Scene |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| scene | The loaded scene | Scene |
 | loadMode | The mode used for loading the scene | LoadSceneMode |
 
 #### Remarks
 
 Events of this type are managed by the [On Scene Load](../reference.md#on-scene-load) program.
 
-## SelectEvent (Class)
+## SelectEvent \(Class\)
 
 Event fired when a selectable UI element is selected.
 
 #### Properties
 
-| Property | Description                                   | Type       |
-| -------- | --------------------------------------------- | ---------- |
-| source   | The GameObject where the event was originated | GameObject |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject where the event was originated | GameObject |
 
 #### Remarks
 
 Events of this type are managed by the [On Select](../reference.md#on-select) program.
 
-## Separator (Class)
+## Separator \(Class\)
 
 Class implementing the [Separator](../reference.md#separator) block.
 
-## State (Class)
+## State \(Class\)
 
 Class implementing the [State](../reference.md#state) block.
 
-## StateMachine (Class)
+## StateMachine \(Class\)
 
 Class implementing the [State Machine](../reference.md#state-machine) block.
 
-## TimeAction (Class)
+## TimeAction \(Class\)
 
-## TimeActionEditor (Class)
+## TimeActionEditor \(Class\)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-## TimeFunction (Class)
+## TimeFunction \(Class\)
 
 Base class for implementing custom Action blocks that return a result value.
 
-## TimeFunctionEditor (Class)
+## TimeFunctionEditor \(Class\)
 
-Base class for implementing the user interface of custom [Function](#function-class) blocks.
+Base class for implementing the user interface of custom [Function](reference.md#function-class) blocks.
 
-## Timer (Class)
+## Timer \(Class\)
 
-## TimerExpireEvent (Class)
+## TimerExpireEvent \(Class\)
 
 Event fired after a [Timer](../reference.md#timer) expires.
 
 #### Properties
 
-| Property | Description            | Type  |
-| -------- | ---------------------- | ----- |
-| timer    | The Timer that expired | Timer |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| timer | The Timer that expired | Timer |
 
 #### Remarks
 
 Events of this type are managed by the [On Timer Expire](../reference.md#on-timer-expire) program.
 
-## TransformAction (Class)
+## TransformAction \(Class\)
 
 Base class for implementing custom Action blocks.
 
-## TransformAction2D (Class)
+## TransformAction2D \(Class\)
 
 Base class for implementing custom Action blocks.
 
-## TransformAction2DEditor (Class)
+## TransformAction2DEditor \(Class\)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-## TransformActionEditor (Class)
+## TransformActionEditor \(Class\)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-## TriggerEnterEvent (Class)
+## TriggerEnterEvent \(Class\)
 
 Event fired when the area of a trigger type Collider is entered by another Collider or Rigidbody.
 
 #### Properties
 
-| Property | Description                                                  | Type       |
-| -------- | ------------------------------------------------------------ | ---------- |
-| source   | The GameObject containing the entered trigger Collider       | GameObject |
-| other    | The GameObject containing the Collider that entered 'source' | GameObject |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject containing the entered trigger Collider | GameObject |
+| other | The GameObject containing the Collider that entered 'source' | GameObject |
 
 #### Remarks
 
 Events of this type are managed by the [On Trigger Enter](../reference.md#on-trigger-enter) program.
 
-## TriggerExitEvent (Class)
+## TriggerExitEvent \(Class\)
 
 Event fired when the area of a trigger type Collider is no longer intersected by another Collider or Rigidbody.
 
 #### Properties
 
-| Property | Description                                                  | Type       |
-| -------- | ------------------------------------------------------------ | ---------- |
-| source   | The GameObject containing the intersected trigger Collider   | GameObject |
-| other    | The GameObject containing the object that intersected 'source' | GameObject |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject containing the intersected trigger Collider | GameObject |
+| other | The GameObject containing the object that intersected 'source' | GameObject |
 
 #### Remarks
 
 Events of this type are managed by the [On Trigger Exit](../reference.md#on-trigger-exit) program.
 
-## TriggeStayEvent (Class)
+## TriggeStayEvent \(Class\)
 
-Event fired while (that is, every frame) the area of a trigger type Collider is intersected by another Collider or Rigidbody.
+Event fired while \(that is, every frame\) the area of a trigger type Collider is intersected by another Collider or Rigidbody.
 
 #### Properties
 
-| Property | Description                                                  | Type       |
-| -------- | ------------------------------------------------------------ | ---------- |
-| source   | The GameObject containing the trigger Collider being intersected | GameObject |
-| other    | The GameObject containing the object that is intersecting the 'source' Collider | GameObject |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject containing the trigger Collider being intersected | GameObject |
+| other | The GameObject containing the object that is intersecting the 'source' Collider | GameObject |
 
 #### Remarks
 
 Events of this type are managed by the [On Trigger Stay](../reference.md#on-trigger-stay) program.
 
-## ValueAction (Class)
+## ValueAction \(Class\)
 
-## ValueActionEditor (Class)
+## ValueActionEditor \(Class\)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-## ValueChangeEvent (Class)
+## ValueChangeEvent \(Class\)
 
-Event fired when when the value of a UI Component (of type InputField, Toggle, Slider or Scrollbar) is changed.
+Event fired when when the value of a UI Component \(of type InputField, Toggle, Slider or Scrollbar\) is changed.
 
 #### Properties
 
-| Property      | Description                                         | Type     |
-| ------------- | --------------------------------------------------- | -------- |
-| source        | The GameObject where the event was originated       | GameObject |
-| stringValue   | The new value as string (InputField).               | string   |
-| toggleValue   | The new value as boolean (Toggle)                   | bool |
-| floatValue    | The new value as 32-bit floating-point value (Slider and Scrollbar) | float    |
-| dataType      | The data type of the changed value                  | DataType |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| source | The GameObject where the event was originated | GameObject |
+| stringValue | The new value as string \(InputField\). | string |
+| toggleValue | The new value as boolean \(Toggle\) | bool |
+| floatValue | The new value as 32-bit floating-point value \(Slider and Scrollbar\) | float |
+| dataType | The data type of the changed value | DataType |
 
 #### Remarks
 
 Events of this type are managed by the [On Value Change](../reference.md#on-value-change) program.
 
-## ValueCondition (Class)
+## ValueCondition \(Class\)
 
 Base class for implementing custom Condition blocks.
 
-## Variable (Class)
+## Variable \(Class\)
 
-## VariableAction (Class)
+## VariableAction \(Class\)
 
-## VariableActionEditor (Class)
+## VariableActionEditor \(Class\)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-## VariableChangeEvent (Class)
+## VariableChangeEvent \(Class\)
 
 Event fired when the value of a [Variable](../reference.md#variable) is changed.
 
 #### Properties
 
-| Property  | Description           | Type      |
-| --------- | --------------------- | --------- |
-| variable  | The Variable changed  | Variable  |
+| Property | Description | Type |
+| :--- | :--- | :--- |
+| variable | The Variable changed | Variable |
 
 #### Remarks
 
 Events of this type are managed by the [On Variable Change](../reference.md#on-variable-change) program.
 
-## While (Clase)
+## While \(Clase\)
 
 Class implementing the [While](../reference.md#while) Action block.
+
