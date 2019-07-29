@@ -84,5 +84,5 @@ public class MyGF : GFBehaviour {
 
 The result of adding our MyGF script to a GameObject would be this:
 
-![Image](https://github.com/evasiongames/gameflow/tree/bfe1c0c7a5fa169c1f9b14c81156b1e371a2890f/docs/api/.gitbook/assets/api-MyGF.png)
+![](../.gitbook/assets/api-mygf.png)
 

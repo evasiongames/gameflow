@@ -30,7 +30,7 @@ public class MyVar1 : MonoBehaviour {
 
 In the Inspector, after the instance of the script MyVar1 we will add a GameFlow component to which we will add a Variable to give it a value \(in the example 'Hello!'\) And finally drag it \(by clicking on the title and moving the mouse\) to the Field 'Variable' of the MyVar1 script, remaining as shown in the image:
 
-![MyVar1](../.gitbook/assets/api-myvar1.png)
+![](../.gitbook/assets/api-myvar1.png)
 
 If everything is correctly configured, when entering Play mode we should see a message in the console with the value of our variable confirming that our script can access the value of the variable.
 
@@ -71,7 +71,7 @@ public class FindVar : MonoBehaviour {
 
 For the example to work, we will need to add a GameFlow component with an Integer variable that we will call "Health", as shown in the image:
 
-![FindVar](../.gitbook/assets/api-findvar.png)
+![](../.gitbook/assets/api-findvar.png)
 
 If everything is correctly configured, when entering Play mode we should see a message in console with the value of our variable that will confirm that our script finds the variable and can access its value.
 

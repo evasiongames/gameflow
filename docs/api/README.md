@@ -4,7 +4,7 @@ The main objectives of the GameFlow API \(Application Programming Interface\) ar
 
 * Creating your own [custom actions](custom-actions.md) and [custom conditions](custom-conditions.md).
 * Building block sequences programmatically, like [templates](templates.md).
-* [Communication with GameFlow](communication.md): searching for blocks in order to access their public properties and methods.
+* [Communication](communication.md) like searching for specific GameFlow blocks in order to access their public properties and methods.
 * [Direct execution](direct-execution.md) of actions from your scripts.
 * [Listening](event-listening.md) and reaction to GameFlow events from your scripts.
 
