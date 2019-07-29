@@ -18,7 +18,7 @@ Once GameFlow has been downloaded, it will be available in the Unity Hub to be a
 
 > To make future updates easier, leave the GameFlow assets as a top level folder in your project - just leave them where they are to keep things simple.
 
-Once you have installed GameFlow for the first time, you should go ahead and [build a small test project](https://evasiongames.com/gameflow/docs/helloworld) to verify everything is working and begin to start working with GameFlow!
+Once you have installed GameFlow for the first time, you should go ahead and build a small test project to verify everything is working and begin to start working with GameFlow!
 
 ### Updates <a id="updates"></a>
 

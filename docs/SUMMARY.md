@@ -2,6 +2,7 @@
 
 * [Overview](README.md)
 * [Installation](installation.md)
+* [Hello, World!](hello-world.md)
 * [Tutorials](tutorials/README.md)
   * [01: Object rotation & Color change](tutorials/01.md)
   * [02: Moving a cube with Keys and Forces](tutorials/02.md)
