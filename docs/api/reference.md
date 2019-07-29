@@ -1,16 +1,14 @@
 # Reference
 
-## A
-
-### Action (Class)
+## Action (Class)
 
 Base class for implementing custom Action blocks.
 
-### ActionEditor (Class)
+## ActionEditor (Class)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-### ActivationEvent (Class)
+## ActivationEvent (Class)
 
 Event fired when a GameObject is activated.
 
@@ -24,7 +22,7 @@ Event fired when a GameObject is activated.
 
 Events of this type are managed by the [On Activate](..\reference.md#OnActivate) program.
 
-### ApplicationFocusEvent (Class)
+## ApplicationFocusEvent (Class)
 
 Event fired when the Application gets or losts the input focus.
 
@@ -38,7 +36,7 @@ Event fired when the Application gets or losts the input focus.
 
 Events of this type are managed by the [On Application Focus](OnApplicationFocus) program.
 
-### ApplicationInitEvent (Class)
+## ApplicationInitEvent (Class)
 
 Event fired when the Application starts.
 
@@ -46,7 +44,7 @@ Event fired when the Application starts.
 
 Events of this type are managed by the [On Application Init](OnApplicationInit) program.
 
-### ApplicationPauseEvent (Class)
+## ApplicationPauseEvent (Class)
 
 Event fired when the Application enters or exits pause.
 
@@ -62,7 +60,7 @@ The term "Pause" here refers to OS level pause, not to be confused with [GamePau
 
 Events of this type are managed by the [On Application Pause](OnApplicationPause) program.
 
-### ApplicationQuitEvent (Class)
+## ApplicationQuitEvent (Class)
 
 Event fired when the Application is about to close.
 
@@ -70,15 +68,11 @@ Event fired when the Application is about to close.
 
 Events of this type are managed by the [On Application Quit](OnApplicationQuit) program.
 
-## B
-
-### BuiltinVariable (Class)
+## BuiltinVariable (Class)
 
 Base class for implementing built-in Variables.
 
-## C
-
-### ClickEvent (Class)
+## ClickEvent (Class)
 
 Event fired when a click is detected in the area of an UI element.
 
@@ -93,7 +87,7 @@ Event fired when a click is detected in the area of an UI element.
 
 Events of this type are managed by the [On Click](OnClick) program.
 
-### CollisionEnterEvent (Class)
+## CollisionEnterEvent (Class)
 
 Event fired when a collider/rigidbody has begun touching another rigidbody/collider.
 
@@ -110,7 +104,7 @@ Event fired when a collider/rigidbody has begun touching another rigidbody/colli
 
 Events of this type are managed by the [On Collision Enter](OnCollisionEnter) program.
 
-### CollisionExitEvent (Class)
+## CollisionExitEvent (Class)
 
 Event fired when a collider/rigidbody has stopped touching another rigidbody/collider.
 
@@ -127,7 +121,7 @@ Event fired when a collider/rigidbody has stopped touching another rigidbody/col
 
 Events of this type are managed by the [On Collision Exit](OnCollisionExit) program.
 
-### CollisionStayEvent (Class)
+## CollisionStayEvent (Class)
 
 Event fired while (that is, every frame) a collider/rigidbody is touching another rigidbody/collider.
 
@@ -144,19 +138,19 @@ Event fired while (that is, every frame) a collider/rigidbody is touching anothe
 
 Events of this type are managed by the [On Collision Stay](OnCollisionStay) program.
 
-### Command (Class)
+## Command (Class)
 
 Class implementing the Command block.
 
-### Condition (Class)
+## Condition (Class)
 
 Base class for implementing custom Condition blocks.
 
-### ConditionEditor (Class)
+## ConditionEditor (Class)
 
 Base class for implementing the user interface of a custom [Condition](#condition-class) blocks.
 
-### CustomEvent (Class)
+## CustomEvent (Class)
 
 Event typically fired by the [Fire Custom Event](FireCustomEvent) action.
 
@@ -168,7 +162,7 @@ Event typically fired by the [Fire Custom Event](FireCustomEvent) action.
 | kind     | A literal descriptor / identifier useful for filtering | string     |
 | data     | Data attached to the event                             | Variable   |
 
-### Methods
+## Methods
 
 `public void AddListener(IEventListener listener)`
 
@@ -182,9 +176,7 @@ Removes the specified listener from the subscription list for events of this typ
 
 Events of this type are managed by the [On Custom Event](OnCustomEvent) program.
 
-## D
-
-### DeactivationEvent (Class)
+## DeactivationEvent (Class)
 
 Event fired when a GameObject is deactivated.
 
@@ -198,11 +190,11 @@ Event fired when a GameObject is deactivated.
 
 Events of this type are managed by the [On Deactivate](OnDeactivate) program.
 
-### Description (Class)
+## Description (Class)
 
 Class implementing the [Description](Description) block.
 
-### DeselectEvent (Class)
+## DeselectEvent (Class)
 
 Event fired when a selectable UI element is deselected.
 
@@ -216,21 +208,19 @@ Event fired when a selectable UI element is deselected.
 
 Events of this type are managed by the [On Deselect](OnDeselect) program.
 
-### DrawGizmosAction (Class)
+## DrawGizmosAction (Class)
 
 Base class for implementing special custom Action blocks that only work within [On Draw Gizmos](OnDrawGizmos) Programs.
 
-### DrawGizmosActionEditor (Class)
+## DrawGizmosActionEditor (Class)
 
 Base class for implementing the user interface of a custom block extending the [DrawGizmosAction](#drawgizmosaction-class) class.
 
-### During (Class)
+## During (Class)
 
 Class implementing the [During](During) Action block.
 
-## E
-
-### EndEditEvent (Class)
+## EndEditEvent (Class)
 
 Event fired when the editing of an InputField has ended.
 
@@ -245,11 +235,11 @@ Event fired when the editing of an InputField has ended.
 
 Events of this type are managed by the [On End Edit](OnEndEdit) program.
 
-### EvaluateConditions (Class)
+## EvaluateConditions (Class)
 
 Class implementing the [Evaluate Conditions](EvaluateConditions) Action block.
 
-### ExternalMessageEvent (Class)
+## ExternalMessageEvent (Class)
 
 Event fired when a message from the host browser is received.
 
@@ -266,31 +256,27 @@ Event fired when a message from the host browser is received.
 
 Events of this type are managed by the [On External Message](OnExternalMessage) program.
 
-## F
-
-### For (Class)
+## For (Class)
 
 Class implementing the [For](For) Action block.
 
-### ForEach (Class)
+## ForEach (Class)
 
 Class implementing the [For Each](ForEach) Action block.
 
-### Force (Class)
+## Force (Class)
 
 Class implementing the Force block.
 
-### Function (Class)
+## Function (Class)
 
 Base class for implementing custom Action blocks that return a result value.
 
-### FunctionEditor (Class)
+## FunctionEditor (Class)
 
 Base class for implementing the user interface of custom [Function](#function-class) blocks.
 
-## G
-
-### GameOverEvent (Class)
+## GameOverEvent (Class)
 
 Event fired by the [Game Over](GameOver) action.
 
@@ -298,7 +284,7 @@ Event fired by the [Game Over](GameOver) action.
 
 Events of this type are managed by the [On Game Over](OnGameOver) program.
 
-### GamePauseEvent (Class)
+## GamePauseEvent (Class)
 
 Event fired by the [Pause Game](Pause Game) action.
 
@@ -306,7 +292,7 @@ Event fired by the [Pause Game](Pause Game) action.
 
 Events of this type are managed by the [On Game Pause](OnGamePause) program.
 
-### GameResumeEvent (Class)
+## GameResumeEvent (Class)
 
 Event fired by the [Resume Game](ResumeGame) action.
 
@@ -314,7 +300,7 @@ Event fired by the [Resume Game](ResumeGame) action.
 
 Events of this type are managed by the [On Game Resume](OnGameResume) program.
 
-### GameStartEvent (Class)
+## GameStartEvent (Class)
 
 Event fired by the [Start Game](StartGame) action.
 
@@ -322,23 +308,19 @@ Event fired by the [Start Game](StartGame) action.
 
 Events of this type are managed by the [On Game Start](OnGameStart) program.
 
-### Group (Class)
+## Group (Class)
 
 Class implementing the [Group](Group) Action block.
 
-## I
-
-### If (Class)
+## If (Class)
 
 Class implementing the [If](If) Action block.
 
-## K
-
-### Key (Class)
+## Key (Class)
 
 Class implementing the Key block.
 
-### KeyDownEvent (Class)
+## KeyDownEvent (Class)
 
 Event fired when a [Key](Key) is pressed.
 
@@ -348,7 +330,7 @@ Event fired when a [Key](Key) is pressed.
 | -------- | ------------------------ | ---- |
 | key      | The key that was pressed | Key  |
 
-### KeyUpEvent (Class)
+## KeyUpEvent (Class)
 
 Event fired when a [Key](Key) that was pressed is released.
 
@@ -358,9 +340,7 @@ Event fired when a [Key](Key) that was pressed is released.
 | -------- | ------------------------- | ---- |
 | key      | The key that was released | Key  |
 
-## L
-
-### LanguageEvent (Class)
+## LanguageEvent (Class)
 
 Event fired when the current language is changed.
 
@@ -374,97 +354,95 @@ Event fired when the current language is changed.
 
 Events of this type are managed by the [On Language Set](OnLanguageSet) program.
 
-### LimitValueAction (Class)
+## LimitValueAction (Class)
 
 Base class for implementing custom Action blocks.
 
-### LimitValueActionEditor (Class)
+## LimitValueActionEditor (Class)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-### List (Class)
+## List (Class)
 
 Class implementing the List block.
 
-### ListAction (Class)
+## ListAction (Class)
 
 Base class for implementing custom Action blocks that work with a List.
 
-### ListActionEditor (Class)
+## ListActionEditor (Class)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-### ListFunction (Class)
+## ListFunction (Class)
 
 Base class for implementing custom Action blocks that work with a List and return a result value.
 
-### ListFunctionEditor (Class)
+## ListFunctionEditor (Class)
 
 Base class for implementing the user interface of custom [Function](#function-class) blocks.
 
-### ListIndexAction (Class)
+## ListIndexAction (Class)
 
 Base class for implementing custom Action blocks that work with a List and an Index property.
 
-### ListIndexActionEditor (Class)
+## ListIndexActionEditor (Class)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-### ListIndexFunction (Class)
+## ListIndexFunction (Class)
 
 Base class for implementing custom Action blocks that work with a List and an Index property and return a result value.
 
-### ListIndexFunctionEditor (Class)
+## ListIndexFunctionEditor (Class)
 
 Base class for implementing the user interface of custom [Function](#function-class) blocks.
 
-### ListItemAction (Class)
+## ListItemAction (Class)
 
 Base class for implementing custom Action blocks that work with a List and an Item property.
 
-### ListItemActionEditor (Class)
+## ListItemActionEditor (Class)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-### ListItemFunction (Class)
+## ListItemFunction (Class)
 
 Base class for implementing custom Action blocks that work with a List and an Item property and return a result value.
 
-### ListItemFunctionEditor (Class)
+## ListItemFunctionEditor (Class)
 
 Base class for implementing the user interface of custom [Function](#function-class) blocks.
 
-### ListItemIndexAction (Class)
+## ListItemIndexAction (Class)
 
 Base class for implementing custom Action blocks that work with a List, an Index and an Item property.
 
-### ListItemIndexActionEditor (Class)
+## ListItemIndexActionEditor (Class)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-### ListItemIndexFunction (Class)
+## ListItemIndexFunction (Class)
 
 Base class for implementing custom Action blocks that work with a List, an Index and an Item property and return a result value.
 
-### ListItemIndexFunctionEditor (Class)
+## ListItemIndexFunctionEditor (Class)
 
 Base class for implementing the user interface of custom [Function](#function-class) blocks.
 
-### Localization (Class)
+## Localization (Class)
 
 Class implementing the Localization block.
 
-### Loop (Class)
+## Loop (Class)
 
 Class implementing the [Loop](Loop) Action block.
 
-## M
-
-### Macro (Class)
+## Macro (Class)
 
 Class implementing the Macro Program block.
 
-### MouseDownEvent (Class)
+## MouseDownEvent (Class)
 
 Event fired when any mouse button is pressed in the area of an UI element or Collider.
 
@@ -479,7 +457,7 @@ Event fired when any mouse button is pressed in the area of an UI element or Col
 
 Events of this type are managed by the [On Mouse Down](OnMouseDown) program.
 
-### MouseDragEvent (Class)
+## MouseDragEvent (Class)
 
 Event fired when the mouse is dragged in the area of an UI element or Collider.
 
@@ -495,7 +473,7 @@ Event fired when the mouse is dragged in the area of an UI element or Collider.
 
 Events of this type are managed by the [On Mouse Drag](OnMouseDrag) program.
 
-### MouseEnterEvent (Class)
+## MouseEnterEvent (Class)
 
 Event fired after the mouse pointer enters the area of an UI element or Collider.
 
@@ -510,7 +488,7 @@ Event fired after the mouse pointer enters the area of an UI element or Collider
 
 Events of this type are managed by the [On Mouse Enter](OnMouseEnter) program.
 
-### MouseExitEvent (Class)
+## MouseExitEvent (Class)
 
 Event fired after the mouse pointer exits the area of an UI element or Collider.
 
@@ -525,7 +503,7 @@ Event fired after the mouse pointer exits the area of an UI element or Collider.
 
 Events of this type are managed by the [On Mouse Exit](OnMouseExit) program.
 
-### MouseOverEvent (Class)
+## MouseOverEvent (Class)
 
 Event fired while (that is, every frame) the mouse pointer is inside the area of an UI element or Collider.
 
@@ -540,7 +518,7 @@ Event fired while (that is, every frame) the mouse pointer is inside the area of
 
 Events of this type are managed by the [On Mouse Over](OnMouseOver) program.
 
-### MouseUpEvent (Class)
+## MouseUpEvent (Class)
 
 Event fired when any mouse button is released in the area of an UI element or Collider.
 
@@ -555,255 +533,249 @@ Event fired when any mouse button is released in the area of an UI element or Co
 
 Events of this type are managed by the [On Mouse Up](OnMouseUp) program.
 
-## N
-
-### Note (Class)
+## Note (Class)
 
 Class implementing the [Note](Note) block.
 
-### NumericParameterAction (Class)
+## NumericParameterAction (Class)
 
-### NumericParameterActionEditor (Class)
-
-Base class for implementing the user interface of a custom Action blocks.
-
-### NumericVariableAction (Class)
-
-### NumericVariableActionEditor (Class)
+## NumericParameterActionEditor (Class)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-## O
+## NumericVariableAction (Class)
 
-### OnActivate (Class)
+## NumericVariableActionEditor (Class)
+
+Base class for implementing the user interface of a custom Action blocks.
+
+## OnActivate (Class)
 
 Class implementing the [On Activate](OnActivate) Program block.
 
-### OnApplicationFocus (Class)
+## OnApplicationFocus (Class)
 
 Class implementing the [On Application Focus](OnApplicationFocus) Program block.
 
-### OnApplicationInit (Class)
+## OnApplicationInit (Class)
 
 Class implementing the [On Application Init](OnApplicationInit) Program block.
 
-### OnApplicationPause (Class)
+## OnApplicationPause (Class)
 
 Class implementing the [On Application Pause](OnApplicationPause) Program block.
 
-### OnApplicationQuit (Class)
+## OnApplicationQuit (Class)
 
 Class implementing the [On Application Quit](OnApplicationQuit) Program block.
 
-### OnAwake (Class)
+## OnAwake (Class)
 
 Class implementing the [On Awake](OnAwake) Program block.
 
-### OnClick (Class)
+## OnClick (Class)
 
 Class implementing the [On Click](OnClick) Program block.
 
-### OnCollisionEnter (Class)
+## OnCollisionEnter (Class)
 
 Class implementing the [On Collision Enter](OnCollisionEnter) Program block.
 
-### OnCollisionEnter2D (Class)
+## OnCollisionEnter2D (Class)
 
 Class implementing the [On Collision Enter 2D](OnCollisionEnter2D) Program block.
 
-### OnCollisionExit (Class)
+## OnCollisionExit (Class)
 
 Class implementing the [On Collision Exit](OnCollisionExit) Program block.
 
-### OnCollisionExit2D (Class)
+## OnCollisionExit2D (Class)
 
 Class implementing the [On Collision Exit 2D](OnCollisionExit2D) Program block.
 
-### OnCollisionStay (Class)
+## OnCollisionStay (Class)
 
 Class implementing the [On Collision Stay](OnCollisionStay) Program block.
 
-### OnCollisionStay2D (Class)
+## OnCollisionStay2D (Class)
 
 Class implementing the [On Collision Stay 2D](OnCollisionStay2D) Program block.
 
-### OnCustomEvent (Class)
+## OnCustomEvent (Class)
 
 Class implementing the [On Custom Event](OnCustomEvent) Program block.
 
-### OnDeactivate (Class)
+## OnDeactivate (Class)
 
 Class implementing the [On Deactivate](OnDeactivate) Program block.
 
-### OnDeselect (Class)
+## OnDeselect (Class)
 
 Class implementing the [On Deselect](OnDeselect) Program block.
 
-### OnDestroy (Class)
+## OnDestroy (Class)
 
 Class implementing the [On Destroy](OnDestroy) Program block.
 
-### OnDrawGizmos (Class)
+## OnDrawGizmos (Class)
 
 Class implementing the [On Draw Gizmos](OnDrawGizmos) Program block.
 
-### OnEndEdit (Class)
+## OnEndEdit (Class)
 
 Class implementing the [On End Edit](OnEndEdit) Program block.
 
-### OnExternalMessage (Class)
+## OnExternalMessage (Class)
 
 Class implementing the [On External Message](OnExternalMessage) Program block.
 
-### OnFixedUpdate (Class)
+## OnFixedUpdate (Class)
 
 Class implementing the [On Fixed Update](OnFixedUpdate) Program block.
 
-### OnGameOver (Class)
+## OnGameOver (Class)
 
 Class implementing the [On Game Over](OnGameOver) Program block.
 
-### OnGamePause (Class)
+## OnGamePause (Class)
 
 Class implementing the [[On Game Pause](OnGamePause) Program block.
 
-### OnGameResume (Class)
+## OnGameResume (Class)
 
 Class implementing the [On Game Resume](OnGameResume) Program block.
 
-### OnGameStart (Class)
+## OnGameStart (Class)
 
 Class implementing the [On Game Start](OnGameStart) Program block.
 
-### OnLanguageSet (Class)
+## OnLanguageSet (Class)
 
 Class implementing the [On Language Set](OnLanguageSet) Program block.
 
-### OnLateUpdate (Class)
+## OnLateUpdate (Class)
 
 Class implementing the [On Late Update](OnLateUpdate) Program block.
 
-### OnMouseDown (Class)
+## OnMouseDown (Class)
 
 Class implementing the [On Mouse Down](OnMouseDown) Program block.
 
-### OnMouseDrag (Class)
+## OnMouseDrag (Class)
 
 Class implementing the [On Mouse Drag](OnMouseDrag) Program block.
 
 
-### OnMouseEnter (Class)
+## OnMouseEnter (Class)
 
 Class implementing the [[On Mouse Enter](OnMouseEnter) Program block.
 
-### OnMouseExit (Class)
+## OnMouseExit (Class)
 
 Class implementing the [On Mouse Exit](OnMouseExit) Program block.
 
-### OnMouseOver (Class)
+## OnMouseOver (Class)
 
 Class implementing the [On Mouse Over](OnMouseOver) Program block.
 
-### OnMouseUp (Class)
+## OnMouseUp (Class)
 
 Class implementing the [On Mouse Up](OnMouseUp) Program block.
 
-### OnParameterChange (Class)
+## OnParameterChange (Class)
 
 Class implementing the On Parameter Change](OnParameterChange) Program block.
 
-### OnPointerDown (Class)
+## OnPointerDown (Class)
 
 Class implementing the [On Pointer Down](OnPointerDown) Program block.
 
-### OnPointerEnter (Class)
+## OnPointerEnter (Class)
 
 Class implementing the [On Pointer Enter](OnPointerEnter) Program block.
 
-### OnPointerExit (Class)
+## OnPointerExit (Class)
 
 Class implementing the [On Pointer Exit](OnPointerExit) Program block.
 
-### OnPointerUp (Class)
+## OnPointerUp (Class)
 
 Class implementing the [On Pointer Up](OnPointerUp) Program block.
 
-### OnProgramFinish (Class)
+## OnProgramFinish (Class)
 
 Class implementing the [On Program Finish](OnProgramFinish) Program block.
 
-### OnSceneLoad (Class)
+## OnSceneLoad (Class)
 
 Class implementing the [On Scene Load](OnSceneLoad) Program block.
 
 `1.2`
 
-### OnSelect (Class)
+## OnSelect (Class)
 
 Class implementing the [On Select](OnSelect) Program block.
 
-### OnStart (Class)
+## OnStart (Class)
 
 Class implementing the [On Start](OnStart) Program block.
 
-### OnState (Class)
+## OnState (Class)
 
 Class implementing the [On State](OnState) Action block.
 
-### OnTimerExpire (Class)
+## OnTimerExpire (Class)
 
 Class implementing the [On Timer Expire](OnTimerExpire) Program block.
 
-### OnTriggerEnter (Class)
+## OnTriggerEnter (Class)
 
 Class implementing the [On Trigger Enter](OnTriggerEnter) Program block.
 
 
-### OnTriggerEnter2D (Class)
+## OnTriggerEnter2D (Class)
 
 Class implementing the [On Trigger Enter 2D](OnTriggerEnter2D) Program block.
 
-### OnTriggerExit (Class)
+## OnTriggerExit (Class)
 
 Class implementing the [On Trigger Exit](OnTriggerExit) Program block.
 
-### OnTriggerExit2D (Class)
+## OnTriggerExit2D (Class)
 
 Class implementing the [On Trigger Exit 2D](OnTriggerExit2D) Program block.
 
-### OnTriggerStay (Class)
+## OnTriggerStay (Class)
 
 Class implementing the [On Trigger Stay](OnTriggerStay) Program block.
 
-### OnTriggerStay2D (Class)
+## OnTriggerStay2D (Class)
 
 Class implementing the [On Trigger Stay 2D](OnTriggerStay2D) Program block.
 
-### OnUpdate (Class)
+## OnUpdate (Class)
 
 Class implementing the [On Update](OnUpdate) Program block.
 
-### OnValueChange (Class)
+## OnValueChange (Class)
 
 Class implementing the [On Value Change](OnValueChange) Program block.
 
-### OnVariableChange (Class)
+## OnVariableChange (Class)
 
 Class implementing the [On Variable Change](OnVariableChange) Program block.
 
-## P
-
-### Parameter (Class)
+## Parameter (Class)
 
 Class implementing the Parameter block.
 
-### ParameterAction (Class)
+## ParameterAction (Class)
 
-### ParameterActionEditor (Class)
+## ParameterActionEditor (Class)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-### ParameterChangeEvent (Class)
+## ParameterChangeEvent (Class)
 
 Event fired when the value of a [Parameter](Parameter) is changed.
 
@@ -817,11 +789,11 @@ Event fired when the value of a [Parameter](Parameter) is changed.
 
 Events of this type are managed by the [On Parameter Change](OnParameterChange) program.
 
-### Path (Class)
+## Path (Class)
 
 Class implementing the Path block.
 
-### PointerDownEvent (Class)
+## PointerDownEvent (Class)
 
 Event fired when the pointer is down in the area of an UI element.
 
@@ -836,7 +808,7 @@ Event fired when the pointer is down in the area of an UI element.
 
 Events of this type are managed by the [On Pointer Down](OnPointerDown) program.
 
-### PointerEnterEvent (Class)
+## PointerEnterEvent (Class)
 
 Event fired when the pointer enters the area of an UI element.
 
@@ -851,7 +823,7 @@ Event fired when the pointer enters the area of an UI element.
 
 Events of this type are managed by the [On Pointer Enter](OnPointerEnter) program.
 
-### PointerExitEvent (Class)
+## PointerExitEvent (Class)
 
 Event fired when the pointer exits the area of an UI element.
 
@@ -866,7 +838,7 @@ Event fired when the pointer exits the area of an UI element.
 
 Events of this type are managed by the [On Pointer Exit](OnPointerExit) program.
 
-### PointerUpEvent (Class)
+## PointerUpEvent (Class)
 
 Event fired when the pointer stops being down in the area of an UI element.
 
@@ -881,11 +853,11 @@ Event fired when the pointer stops being down in the area of an UI element.
 
 Events of this type are managed by the [On Pointer Up](OnPointerUp) program.
 
-### Pool (Class)
+## Pool (Class)
 
 Class implementing the Pool block.
 
-### ProgramFinishEvent (Class)
+## ProgramFinishEvent (Class)
 
 Event fired after a [Program](Program) finished.
 
@@ -899,23 +871,19 @@ Event fired after a [Program](Program) finished.
 
 Events of this type are managed by the [On Program Finish](OnProgramFinish) program.
 
-## R
-
-### Ray (Class)
+## Ray (Class)
 
 Class implementing the Ray block.
 
-### Repeat (Clase)
+## Repeat (Clase)
 
 Class implementing the [Repeat](Repeat) Action block.
 
-### RepeatUntil (Clase)
+## RepeatUntil (Clase)
 
 Class implementing the [Repeat Until](RepeatUntil) Action block.
 
-## S
-
-### SceneLoadEvent (Class)
+## SceneLoadEvent (Class)
 
 Event fired after a Scene is completely loaded.
 
@@ -932,7 +900,7 @@ Event fired after a Scene is completely loaded.
 
 Events of this type are managed by the [On Scene Load](OnSceneLoad) program.
 
-### SelectEvent (Class)
+## SelectEvent (Class)
 
 Event fired when a selectable UI element is selected.
 
@@ -946,37 +914,35 @@ Event fired when a selectable UI element is selected.
 
 Events of this type are managed by the [On Select](OnSelect) program.
 
-### Separator (Class)
+## Separator (Class)
 
 Class implementing the [Separator](Separator) block.
 
-### State (Class)
+## State (Class)
 
 Class implementing the [State](State) block.
 
-### StateMachine (Class)
+## StateMachine (Class)
 
 Class implementing the [State Machine](StateMachine) block.
 
-## T
+## TimeAction (Class)
 
-### TimeAction (Class)
-
-### TimeActionEditor (Class)
+## TimeActionEditor (Class)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-### TimeFunction (Class)
+## TimeFunction (Class)
 
 Base class for implementing custom Action blocks that return a result value.
 
-### TimeFunctionEditor (Class)
+## TimeFunctionEditor (Class)
 
 Base class for implementing the user interface of custom [Function](#function-class) blocks.
 
-### Timer (Class)
+## Timer (Class)
 
-### TimerExpireEvent (Class)
+## TimerExpireEvent (Class)
 
 Event fired after a [Timer](Timer) expires.
 
@@ -990,23 +956,23 @@ Event fired after a [Timer](Timer) expires.
 
 Events of this type are managed by the [On Timer Expire](OnTimerExpire) program.
 
-### TransformAction (Class)
+## TransformAction (Class)
 
 Base class for implementing custom Action blocks.
 
-### TransformAction2D (Class)
+## TransformAction2D (Class)
 
 Base class for implementing custom Action blocks.
 
-### TransformAction2DEditor (Class)
+## TransformAction2DEditor (Class)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-### TransformActionEditor (Class)
+## TransformActionEditor (Class)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-### TriggerEnterEvent (Class)
+## TriggerEnterEvent (Class)
 
 Event fired when the area of a trigger type Collider is entered by another Collider or Rigidbody.
 
@@ -1021,7 +987,7 @@ Event fired when the area of a trigger type Collider is entered by another Colli
 
 Events of this type are managed by the [On Trigger Enter](OnTriggerEnter) program.
 
-### TriggerExitEvent (Class)
+## TriggerExitEvent (Class)
 
 Event fired when the area of a trigger type Collider is no longer intersected by another Collider or Rigidbody.
 
@@ -1036,7 +1002,7 @@ Event fired when the area of a trigger type Collider is no longer intersected by
 
 Events of this type are managed by the [On Trigger Exit](OnTriggerExit) program.
 
-### TriggeStayEvent (Class)
+## TriggeStayEvent (Class)
 
 Event fired while (that is, every frame) the area of a trigger type Collider is intersected by another Collider or Rigidbody.
 
@@ -1051,15 +1017,13 @@ Event fired while (that is, every frame) the area of a trigger type Collider is 
 
 Events of this type are managed by the [On Trigger Stay](OnTriggerStay) program.
 
-## V
+## ValueAction (Class)
 
-### ValueAction (Class)
-
-### ValueActionEditor (Class)
+## ValueActionEditor (Class)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-### ValueChangeEvent (Class)
+## ValueChangeEvent (Class)
 
 Event fired when when the value of a UI Component (of type InputField, Toggle, Slider or Scrollbar) is changed.
 
@@ -1077,19 +1041,19 @@ Event fired when when the value of a UI Component (of type InputField, Toggle, S
 
 Events of this type are managed by the [On Value Change](OnValueChange) program.
 
-### ValueCondition (Class)
+## ValueCondition (Class)
 
 Base class for implementing custom Condition blocks.
 
-### Variable (Class)
+## Variable (Class)
 
-### VariableAction (Class)
+## VariableAction (Class)
 
-### VariableActionEditor (Class)
+## VariableActionEditor (Class)
 
 Base class for implementing the user interface of a custom Action blocks.
 
-### VariableChangeEvent (Class)
+## VariableChangeEvent (Class)
 
 Event fired when the value of a [Variable](Variable) is changed.
 
@@ -1103,8 +1067,6 @@ Event fired when the value of a [Variable](Variable) is changed.
 
 Events of this type are managed by the [On Variable Change](OnVariableChange) program.
 
-## W
-
-### While (Clase)
+## While (Clase)
 
 Class implementing the [While](While) Action block.
