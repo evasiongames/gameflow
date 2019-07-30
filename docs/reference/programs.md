@@ -68,7 +68,7 @@ Program to be executed when a [GameObject](http://docs.unity3d.com/Manual/class-
 
 ## On Demand
 
-Defines a sequence of actions that is not associated to an event, but executed exclusively on demand \(that is, by using the [Execute Program](../actions.md#execute-program) action\).
+Defines a sequence of actions that is not associated to an event, but executed exclusively on demand \(that is, by using the [Execute Program](actions.md#execute-program) action\).
 
 ## On Deselect
 
@@ -96,19 +96,19 @@ Program to be executed, if enabled, every fixed framerate frame.
 
 ## On Game Over
 
-Program to be executed when a notification from the [Game Over](../actions.md#game-over) action is received.
+Program to be executed when a notification from the [Game Over](actions.md#game-over) action is received.
 
 ## On Game Pause
 
-Program to be executed when the game gets paused after a notification from the [Pause Game](../actions.md#pause-game) action.
+Program to be executed when the game gets paused after a notification from the [Pause Game](actions.md#pause-game) action.
 
 ## On Game Resume
 
-Program to be executed when the game gets resume after a notification from the [Resume Game](../actions.md#resume-game) action.
+Program to be executed when the game gets resume after a notification from the [Resume Game](actions.md#resume-game) action.
 
 ## On Game Start
 
-Program to be executed when a notification from the [Start Game](../actions.md#start-game) action is received.
+Program to be executed when a notification from the [Start Game](actions.md#start-game) action is received.
 
 ## On Language Set
 
@@ -144,7 +144,7 @@ Program to be executed when any mouse button stops being pressed over a Collider
 
 ## On Parameter Change
 
-Program to be executed when a [Parameter](../data.md#parameter) of the GameObject changes.
+Program to be executed when a [Parameter](data.md#parameter) of the GameObject changes.
 
 ## On Pointer Down
 
@@ -186,7 +186,7 @@ Program to be executed on application start \(or first time the [GameObject](htt
 
 ## On Timer Expire
 
-Program to be executed once a [Timer](../tools.md#timer) component in the listening range gets expired.
+Program to be executed once a [Timer](tools.md#timer) component in the listening range gets expired.
 
 ## On Trigger Enter
 
@@ -222,12 +222,12 @@ Program that will be executed when the value of a UI component in the listening 
 
 ## On Variable Change
 
-Program to be executed when the value of the specified [Variable](../data.md#variable) changes.
+Program to be executed when the value of the specified [Variable](data.md#variable) changes.
 
 ## State
 
-Defines a state that can be used in a [State Machine](reference.md#state-machine).
+Defines a state that can be used in a [State Machine](#state-machine).
 
 ## State Machine
 
-Defines a list of State blocks in which only a state can be executed at a time.
+Defines a list of [State](#state) blocks in which only a state can be executed at a time.

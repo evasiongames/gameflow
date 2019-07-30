@@ -46,5 +46,5 @@ A special kind of block used to insert a space of separation between other block
 
 Triggers timer events only once or at regular time intervals.
 
-See [On Timer Expire](../programs.md#on-timer-expire).
+See [On Timer Expire](programs.md#on-timer-expire).
 
