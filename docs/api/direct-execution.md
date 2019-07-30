@@ -4,7 +4,7 @@ Another possibility offered by the GameFlow API is to be able to execute the int
 
 To make this possible, the GameFlow action classes offer one or more static execution methods that by convention are always called `Execute()`. Therefore, it is only necessary to know the name of the action class to be used and invoke the appropriate method.
 
-If, for example, we wanted to color in Red the GameObject referred to by `target`, we could do it taking advantage of the action [Set Color](../reference.md#set-color) in this way:
+If, for example, we wanted to color in Red the GameObject referred to by `target`, we could do it taking advantage of the [Set Color](../reference/actions.md#set-color) action in this way:
 
 ```text
 SetColor.Execute(target, Color.red);

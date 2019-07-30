@@ -7,7 +7,7 @@ In the same way as in the case of own shares, two scripts are required to create
 
 ## Wizard
 
-To help in the creation of the C \# base code for these scripts, GameFlow has a code generation wizard that can be accessed through the menu option Assets &gt; Create &gt; GameFlow &gt; Condition ...
+To help in the creation of the C\# base code for these scripts, GameFlow has a code generation wizard that can be accessed through the menu option Assets &gt; Create &gt; GameFlow &gt; Condition ...
 
 ![](../.gitbook/assets/api-createcondition.png)
 

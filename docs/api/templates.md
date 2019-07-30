@@ -2,7 +2,7 @@
 
 One of the most interesting possibilities of our API is the ability to build scripts 'template' programmatically. The steps to follow for this are:
 
-1. Create a C \# script that inherits from `GFBehaviour`.
+1. Create a C\# script that inherits from `GFBehaviour`.
 2. Implement the `OnInit()` method describing the initial configuration of default blocks that we want using methods.
 
 The `OnInit()` method will be executed automatically every time we add our script to a GameObject, allowing us to use a series of specialized methods to add blocks to the script just as we would in the Editor, thus converting the script into a template .
@@ -26,7 +26,7 @@ The list of classes that represent independent blocks is the following:
 
 ## Actions
 
-The actions are not independent blocks and therefore must be added using the `AddAction<T>()` method of that program, state or action that will contain it, where `T` must be replaced by the name of the class that represents the action, which will normally be the name of the action without spaces \(for example, the class for the action 'Set Rotation' would be `SetRotation`\). The complete list of available actions can be found in the [Actions Reference](reference.md#actions).
+The actions are not independent blocks and therefore must be added using the `AddAction<T>()` method of that program, state or action that will contain it, where `T` must be replaced by the name of the class that represents the action, which will normally be the name of the action without spaces \(for example, the class for the action 'Set Rotation' would be `SetRotation`\). The complete list of available actions can be found in the [Actions Reference](../reference.md/actions).
 
 Apart from all programs and states, the list of action classes that support the `AddAction<T>()` method is the following:
 
@@ -38,7 +38,7 @@ This method will return a reference to the created action that we can use to, fo
 
 ## Conditions
 
-Conditions are even less independent blocks than actions, since they can only be added to a few specific actions that support the `AddCondition<T>` method, where `T` must be replaced by the name of the class representing the condition to be added. The complete list of available conditions can be found in the [Conditions Reference](reference.md#conditions).
+Conditions are even less independent blocks than actions, since they can only be added to a few specific actions that support the `AddCondition<T>` method, where `T` must be replaced by the name of the class representing the condition to be added. The complete list of available conditions can be found in the [Conditions Reference](../reference.md/conditions).
 
 The list of action classes that support the `AddCondition<T>()` method is as follows:
 

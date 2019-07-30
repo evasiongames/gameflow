@@ -207,5 +207,5 @@ As explained in the comments, it is not only possible to use own methods of `Uni
 
 Remember also that it is possible to run any program at edit time without having to transform it into a macro or utility using the Execute option in its context menu and that we can repeat the last execution quickly using the keyboard shortcut Alt-0.
 
-For more information about the operation of the mechanism for delegating the execution of actions in Edit mode, consult the entries of the classes [Action](reference.md#action-class) and [ActionEditor](reference.md#actionEditor-%20class) in the GameFlow reference.
+For more information about the operation of the mechanism for delegating the execution of actions in Edit mode, consult the entries of the classes [Action](reference.md#action-class) and [ActionEditor](reference.md#actioneditor-class) in the GameFlow reference.
 
