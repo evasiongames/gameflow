@@ -1,4 +1,4 @@
-# Reference
+# Actions
 
 ## Activate GameObject
 
@@ -592,7 +592,7 @@ Gets a property of the specified [ConstantForce](http://docs.unity3d.com/Manual/
 
 ## Get Current State
 
-Gets the current state of the specified [StateMachine](.md#state-machine).
+Gets the current state of the specified [StateMachine](https://github.com/evasiongames/gameflow/tree/6faebaf2aabb6bd64785a4c90fd988e2e11be354/docs/reference/.md/README.md#state-machine).
 
 ## Get Direction
 
@@ -1182,7 +1182,7 @@ You can toggle the visibility of the Else sequence by clicking on the **=** icon
 
 The If action works like this: If the result of the evaluation of the conditions is true, the "Then" sequence will be started, otherwise the Else will be executed.
 
-The effect of the [Break](.md#Break) action when it is contained in an If action is not only breaking the current sequence, but also breaking the loop or program where the If is contained.
+The effect of the [Break](https://github.com/evasiongames/gameflow/tree/6faebaf2aabb6bd64785a4c90fd988e2e11be354/docs/reference/.md/README.md#Break) action when it is contained in an If action is not only breaking the current sequence, but also breaking the loop or program where the If is contained.
 
 ## Ignore Collision
 
@@ -1596,7 +1596,7 @@ Sets a property of the specified [ConstantForce](http://docs.unity3d.com/Manual/
 
 ## Set Current State
 
-Sets the specified [State](programs.md#state) as the current one in its [StateMachine](.md#state-machine).
+Sets the specified [State](programs.md#state) as the current one in its [StateMachine](https://github.com/evasiongames/gameflow/tree/6faebaf2aabb6bd64785a4c90fd988e2e11be354/docs/reference/.md/README.md#state-machine).
 
 ## Set Distance
 
@@ -1774,7 +1774,7 @@ Sets a property of the global Physics Settings.
 
 Sets the runtime platform.
 
-Sets the runtime platform that [Platform Condition](.md#platform-condition) will evaluate. Useful for testing purposes.
+Sets the runtime platform that [Platform Condition](https://github.com/evasiongames/gameflow/tree/6faebaf2aabb6bd64785a4c90fd988e2e11be354/docs/reference/.md/README.md#platform-condition) will evaluate. Useful for testing purposes.
 
 ## Set Platform Effector 2DProperty
 
@@ -1784,7 +1784,7 @@ Sets a property of the specified [Platform](http://docs.unity3d.com/Manual/class
 
 Sets the runtime platform type.
 
-Sets the runtime platform type that [Platform Type Condition](.md#platform-type-condition.html) will evaluate. Useful for testing purposes.
+Sets the runtime platform type that [Platform Type Condition](https://github.com/evasiongames/gameflow/tree/6faebaf2aabb6bd64785a4c90fd988e2e11be354/docs/reference/.md/README.md#platform-type-condition.html) will evaluate. Useful for testing purposes.
 
 ## Set Point Effector 2DProperty
 
@@ -2148,7 +2148,7 @@ Toggles the boolean-value of the specified [Variable](data.md#variable).
 
 Triggers a custom event with specified kind and information.
 
-Related: [On Custom Event](.md#on-custom-event)
+Related: [On Custom Event](https://github.com/evasiongames/gameflow/tree/6faebaf2aabb6bd64785a4c90fd988e2e11be354/docs/reference/.md/README.md#on-custom-event)
 
 `1.0`
 

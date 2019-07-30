@@ -9,7 +9,7 @@ In the same way as in the case of own shares, two scripts are required to create
 
 To help in the creation of the C\# base code for these scripts, GameFlow has a code generation wizard that can be accessed through the menu option Assets &gt; Create &gt; GameFlow &gt; Condition ...
 
-![](../.gitbook/assets/api-createcondition.png)
+![](../.gitbook/assets/api-createcondition%20%281%29.png)
 
 In this window we can decide the namespace, name of the condition and the destination folders of the two scripts to generate once we click on the Create button.
 
@@ -21,7 +21,7 @@ Once the scripts are generated and the compilation is finished, our new conditio
 
 Of course we can add our condition in those actions that support conditions as if it were any other condition available as a series:
 
-![](../.gitbook/assets/api-mycondition2%20%281%29.png)
+![](../.gitbook/assets/api-mycondition2-1.png)
 
 ## Generated code
 

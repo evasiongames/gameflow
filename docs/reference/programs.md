@@ -116,7 +116,7 @@ Program to be executed when the app language is set or changed.
 
 ## On Late Update
 
-Program to be executed, if enabled, every frame after the execution of all [On Update](#on-update) programs.
+Program to be executed, if enabled, every frame after the execution of all [On Update](programs.md#on-update) programs.
 
 ## On Mouse Down
 
@@ -226,8 +226,9 @@ Program to be executed when the value of the specified [Variable](data.md#variab
 
 ## State
 
-Defines a state that can be used in a [State Machine](#state-machine).
+Defines a state that can be used in a [State Machine](programs.md#state-machine).
 
 ## State Machine
 
-Defines a list of [State](#state) blocks in which only a state can be executed at a time.
+Defines a list of [State](programs.md#state) blocks in which only a state can be executed at a time.
+

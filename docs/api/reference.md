@@ -12,13 +12,13 @@ Base class for implementing the user interface of a custom Action blocks.
 
 Event fired when a GameObject is activated.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject that was activated | GameObject |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Activate](../reference/programs.md#on-activate) program.
 
@@ -26,13 +26,13 @@ Events of this type are managed by the [On Activate](../reference/programs.md#on
 
 Event fired when the Application gets or losts the input focus.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | isFocused | Whether the application is currently focused or not. | bool |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Application Focus](../reference/programs.md#on-application-focus) program.
 
@@ -40,7 +40,7 @@ Events of this type are managed by the [On Application Focus](../reference/progr
 
 Event fired when the Application starts.
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Application Init](../reference/programs.md#on-application-init) program.
 
@@ -48,15 +48,15 @@ Events of this type are managed by the [On Application Init](../reference/progra
 
 Event fired when the Application enters or exits pause.
 
-The term "Pause" here refers to OS level pause, not to be confused with [GamePauseEvent](#game-pause-event).
+The term "Pause" here refers to OS level pause, not to be confused with [GamePauseEvent](reference.md#game-pause-event).
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | isPaused | Whether the application is currently paused or not. | bool |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Application Pause](../reference/programs.md#on-application-pause) program.
 
@@ -64,7 +64,7 @@ Events of this type are managed by the [On Application Pause](../reference/progr
 
 Event fired when the Application is about to close.
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Application Quit](../reference/programs.md#on-application-quit) program.
 
@@ -76,14 +76,14 @@ Base class for implementing built-in Variables.
 
 Event fired when a click is detected in the area of an UI element.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject where the event was originated | GameObject |
 | position | The current screen coordinates of the pointer | Vector2 |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Click](../reference/programs.md#on-click) program.
 
@@ -91,7 +91,7 @@ Events of this type are managed by the [On Click](../reference/programs.md#on-cl
 
 Event fired when a collider/rigidbody has begun touching another rigidbody/collider.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
@@ -100,7 +100,7 @@ Event fired when a collider/rigidbody has begun touching another rigidbody/colli
 | contactPoint | The 3d world coordinates of the collision contact point | Vector3 |
 | relativeVelocity | The relative linear velocity of the two colliding objects | Vector3 |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Collision Enter](../reference/programs.md#on-collision-enter) program.
 
@@ -108,7 +108,7 @@ Events of this type are managed by the [On Collision Enter](../reference/program
 
 Event fired when a collider/rigidbody has stopped touching another rigidbody/collider.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
@@ -117,7 +117,7 @@ Event fired when a collider/rigidbody has stopped touching another rigidbody/col
 | contactPoint | The 3d world coordinates of the collision contact point | Vector3 |
 | relativeVelocity | The relative linear velocity of the two colliding objects | Vector3 |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Collision Exit](../reference/programs.md#on-collision-exit) program.
 
@@ -125,7 +125,7 @@ Events of this type are managed by the [On Collision Exit](../reference/programs
 
 Event fired while \(that is, every frame\) a collider/rigidbody is touching another rigidbody/collider.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
@@ -134,7 +134,7 @@ Event fired while \(that is, every frame\) a collider/rigidbody is touching anot
 | contactPoint | The 3d world coordinates of the collision contact point | Vector3 |
 | relativeVelocity | The relative linear velocity of the two colliding objects | Vector3 |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Collision Stay](../reference/programs.md#on-collision-stay) program.
 
@@ -148,13 +148,13 @@ Base class for implementing custom Condition blocks.
 
 ## ConditionEditor \(Class\)
 
-Base class for implementing the user interface of a custom [Condition](#condition-class) blocks.
+Base class for implementing the user interface of a custom [Condition](reference.md#condition-class) blocks.
 
 ## CustomEvent \(Class\)
 
 Event typically fired by the [Fire Custom Event](../reference/actions.md#fire-custom-event) action.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
@@ -162,7 +162,7 @@ Event typically fired by the [Fire Custom Event](../reference/actions.md#fire-cu
 | kind | A literal descriptor / identifier useful for filtering | string |
 | data | Data attached to the event | Variable |
 
-#### Methods
+### Methods
 
 `public void AddListener(IEventListener listener)`
 
@@ -172,7 +172,7 @@ Subscribes the specified listener to next events of this type.
 
 Removes the specified listener from the subscription list for events of this type.
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Custom Event](../reference/programs.md#on-custom-event) program.
 
@@ -180,13 +180,13 @@ Events of this type are managed by the [On Custom Event](../reference/programs.m
 
 Event fired when a GameObject is deactivated.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject that was deactivated | GameObject |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Deactivate](../reference/programs.md#on-deactivate) program.
 
@@ -198,13 +198,13 @@ Class implementing the [Description](../reference/tools.md#description) block.
 
 Event fired when a selectable UI element is deselected.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject where the event was originated | GameObject |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Deselect](../reference/programs.md#on-deselect) program.
 
@@ -214,7 +214,7 @@ Base class for implementing special custom Action blocks that only work within [
 
 ## DrawGizmosActionEditor \(Class\)
 
-Base class for implementing the user interface of a custom block extending the [DrawGizmosAction](#drawgizmosaction-class) class.
+Base class for implementing the user interface of a custom block extending the [DrawGizmosAction](reference.md#drawgizmosaction-class) class.
 
 ## During \(Class\)
 
@@ -224,14 +224,14 @@ Class implementing the [During](../reference/actions.md#during) Action block.
 
 Event fired when the editing of an InputField has ended.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject that originated the event | GameObject |
 | value | The text in the InputField | String |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On End Edit](../reference/programs.md#on-end-edit) program.
 
@@ -243,7 +243,7 @@ Class implementing the [Evaluate Conditions](../reference/actions.md#evaluate-co
 
 Event fired when a message from the host browser is received.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
@@ -252,7 +252,7 @@ Event fired when a message from the host browser is received.
 | floatMessage | The received message as 32-bit floating-point value | float |
 | dataType | The data type of the received message | DataType |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On External Message](../reference/programs.md#on-external-message) program.
 
@@ -274,13 +274,13 @@ Base class for implementing custom Action blocks that return a result value.
 
 ## FunctionEditor \(Class\)
 
-Base class for implementing the user interface of custom [Function](#function-class) blocks.
+Base class for implementing the user interface of custom [Function](reference.md#function-class) blocks.
 
 ## GameOverEvent \(Class\)
 
 Event fired by the [Game Over](../reference/actions.md#game-over) action.
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Game Over](../reference/programs.md#on-game-over) program.
 
@@ -288,7 +288,7 @@ Events of this type are managed by the [On Game Over](../reference/programs.md#o
 
 Event fired by the [Pause Game](../reference/actions.md#pause-game) action.
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Game Pause](../reference/programs.md#on-game-pause) program.
 
@@ -296,7 +296,7 @@ Events of this type are managed by the [On Game Pause](../reference/programs.md#
 
 Event fired by the [Resume Game](../reference/actions.md#resume-game) action.
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Game Resume](../reference/programs.md#on-game-resume) program.
 
@@ -304,7 +304,7 @@ Events of this type are managed by the [On Game Resume](../reference/programs.md
 
 Event fired by the [Start Game](../reference/actions.md#start-game) action.
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Game Start](../reference/programs.md#on-game-start) program.
 
@@ -324,7 +324,7 @@ Class implementing the Key block.
 
 Event fired when a [Key](../reference/tools.md#key) is pressed.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
@@ -334,7 +334,7 @@ Event fired when a [Key](../reference/tools.md#key) is pressed.
 
 Event fired when a [Key](../reference/tools.md#key) that was pressed is released.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
@@ -344,13 +344,13 @@ Event fired when a [Key](../reference/tools.md#key) that was pressed is released
 
 Event fired when the current language is changed.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | language | The new current language | Language |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Language Set](../reference/programs.md#on-language-set) program.
 
@@ -380,7 +380,7 @@ Base class for implementing custom Action blocks that work with a List and retur
 
 ## ListFunctionEditor \(Class\)
 
-Base class for implementing the user interface of custom [Function](#function-class) blocks.
+Base class for implementing the user interface of custom [Function](reference.md#function-class) blocks.
 
 ## ListIndexAction \(Class\)
 
@@ -396,7 +396,7 @@ Base class for implementing custom Action blocks that work with a List and an In
 
 ## ListIndexFunctionEditor \(Class\)
 
-Base class for implementing the user interface of custom [Function](#function-class) blocks.
+Base class for implementing the user interface of custom [Function](reference.md#function-class) blocks.
 
 ## ListItemAction \(Class\)
 
@@ -412,7 +412,7 @@ Base class for implementing custom Action blocks that work with a List and an It
 
 ## ListItemFunctionEditor \(Class\)
 
-Base class for implementing the user interface of custom [Function](#function-class) blocks.
+Base class for implementing the user interface of custom [Function](reference.md#function-class) blocks.
 
 ## ListItemIndexAction \(Class\)
 
@@ -428,7 +428,7 @@ Base class for implementing custom Action blocks that work with a List, an Index
 
 ## ListItemIndexFunctionEditor \(Class\)
 
-Base class for implementing the user interface of custom [Function](#function-class) blocks.
+Base class for implementing the user interface of custom [Function](reference.md#function-class) blocks.
 
 ## Localization \(Class\)
 
@@ -446,14 +446,14 @@ Class implementing the Macro Program block.
 
 Event fired when any mouse button is pressed in the area of an UI element or Collider.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject where the event was originated | GameObject |
 | position | The current screen coordinates of the mouse pointer | Vector2 |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Mouse Down](../reference/programs.md#on-mouse-down) program.
 
@@ -461,7 +461,7 @@ Events of this type are managed by the [On Mouse Down](../reference/programs.md#
 
 Event fired when the mouse is dragged in the area of an UI element or Collider.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
@@ -469,7 +469,7 @@ Event fired when the mouse is dragged in the area of an UI element or Collider.
 | position | The current screen coordinates of the mouse pointer | Vector2 |
 | delta | The mouse movement since last frame expressed as relative screen coordinates | Vector2 |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Mouse Drag](../reference/programs.md#on-mouse-drag) program.
 
@@ -477,14 +477,14 @@ Events of this type are managed by the [On Mouse Drag](../reference/programs.md#
 
 Event fired after the mouse pointer enters the area of an UI element or Collider.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject where the event was originated | GameObject |
 | position | The current screen coordinates of the mouse pointer | Vector2 |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Mouse Enter](../reference/programs.md#on-mouse-enter) program.
 
@@ -492,14 +492,14 @@ Events of this type are managed by the [On Mouse Enter](../reference/programs.md
 
 Event fired after the mouse pointer exits the area of an UI element or Collider.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject where the event was originated | GameObject |
 | position | The current screen coordinates of the mouse pointer | Vector2 |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Mouse Exit](../reference/programs.md#on-mouse-exit) program.
 
@@ -507,14 +507,14 @@ Events of this type are managed by the [On Mouse Exit](../reference/programs.md#
 
 Event fired while \(that is, every frame\) the mouse pointer is inside the area of an UI element or Collider.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject where the event was originated | GameObject |
 | position | The current screen coordinates of the mouse pointer | Vector2 |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Mouse Over](../reference/programs.md#on-mouse-over) program.
 
@@ -522,14 +522,14 @@ Events of this type are managed by the [On Mouse Over](../reference/programs.md#
 
 Event fired when any mouse button is released in the area of an UI element or Collider.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject where the event was originated | GameObject |
 | position | The current screen coordinates of the mouse pointer | Vector2 |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Mouse Up](../reference/programs.md#on-mouse-up) program.
 
@@ -777,13 +777,13 @@ Base class for implementing the user interface of a custom Action blocks.
 
 Event fired when the value of a [Parameter](../reference/data.md#parameter) is changed.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | parameter | The Parameter changed | Parameter |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Parameter Change](../reference/programs.md#on-parameter-change) program.
 
@@ -795,14 +795,14 @@ Class implementing the Path block.
 
 Event fired when the pointer is down in the area of an UI element.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject where the event was originated | GameObject |
 | position | The current screen coordinates of the pointer | Vector2 |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Pointer Down](../reference/programs.md#on-pointer-down) program.
 
@@ -810,14 +810,14 @@ Events of this type are managed by the [On Pointer Down](../reference/programs.m
 
 Event fired when the pointer enters the area of an UI element.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject where the event was originated | GameObject |
 | position | The current screen coordinates of the pointer | Vector2 |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Pointer Enter](../reference/programs.md#on-pointer-enter) program.
 
@@ -825,14 +825,14 @@ Events of this type are managed by the [On Pointer Enter](../reference/programs.
 
 Event fired when the pointer exits the area of an UI element.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject where the event was originated | GameObject |
 | position | The current screen coordinates of the pointer | Vector2 |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Pointer Exit](../reference/programs.md#on-pointer-exit) program.
 
@@ -840,14 +840,14 @@ Events of this type are managed by the [On Pointer Exit](../reference/programs.m
 
 Event fired when the pointer stops being down in the area of an UI element.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject where the event was originated | GameObject |
 | position | The current screen coordinates of the pointer | Vector2 |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Pointer Up](../reference/programs.md#on-pointer-up) program.
 
@@ -859,13 +859,13 @@ Class implementing the Pool block.
 
 Event fired after a Program finished.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | program | The Program that finished | Program |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Program Finish](../reference/programs.md#on-program-finish) program.
 
@@ -887,14 +887,14 @@ Event fired after a Scene is completely loaded.
 
 `1.2`
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | scene | The loaded scene | Scene |
 | loadMode | The mode used for loading the scene | LoadSceneMode |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Scene Load](../reference/programs.md#on-scene-load) program.
 
@@ -902,13 +902,13 @@ Events of this type are managed by the [On Scene Load](../reference/programs.md#
 
 Event fired when a selectable UI element is selected.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject where the event was originated | GameObject |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Select](../reference/programs.md#on-select) program.
 
@@ -936,7 +936,7 @@ Base class for implementing custom Action blocks that return a result value.
 
 ## TimeFunctionEditor \(Class\)
 
-Base class for implementing the user interface of custom [Function](#function-class) blocks.
+Base class for implementing the user interface of custom [Function](reference.md#function-class) blocks.
 
 ## Timer \(Class\)
 
@@ -944,13 +944,13 @@ Base class for implementing the user interface of custom [Function](#function-cl
 
 Event fired after a [Timer](../reference/tools.md#timer) expires.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | timer | The Timer that expired | Timer |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Timer Expire](../reference/programs.md#on-timer-expire) program.
 
@@ -974,14 +974,14 @@ Base class for implementing the user interface of a custom Action blocks.
 
 Event fired when the area of a trigger type Collider is entered by another Collider or Rigidbody.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject containing the entered trigger Collider | GameObject |
 | other | The GameObject containing the Collider that entered 'source' | GameObject |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Trigger Enter](../reference/programs.md#on-trigger-enter) program.
 
@@ -989,14 +989,14 @@ Events of this type are managed by the [On Trigger Enter](../reference/programs.
 
 Event fired when the area of a trigger type Collider is no longer intersected by another Collider or Rigidbody.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject containing the intersected trigger Collider | GameObject |
 | other | The GameObject containing the object that intersected 'source' | GameObject |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Trigger Exit](../reference/programs.md#on-trigger-exit) program.
 
@@ -1004,14 +1004,14 @@ Events of this type are managed by the [On Trigger Exit](../reference/programs.m
 
 Event fired while \(that is, every frame\) the area of a trigger type Collider is intersected by another Collider or Rigidbody.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | source | The GameObject containing the trigger Collider being intersected | GameObject |
 | other | The GameObject containing the object that is intersecting the 'source' Collider | GameObject |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Trigger Stay](../reference/programs.md#on-trigger-stay) program.
 
@@ -1025,7 +1025,7 @@ Base class for implementing the user interface of a custom Action blocks.
 
 Event fired when when the value of a UI Component \(of type InputField, Toggle, Slider or Scrollbar\) is changed.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
@@ -1035,7 +1035,7 @@ Event fired when when the value of a UI Component \(of type InputField, Toggle, 
 | floatValue | The new value as 32-bit floating-point value \(Slider and Scrollbar\) | float |
 | dataType | The data type of the changed value | DataType |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Value Change](../reference/programs.md#on-value-change) program.
 
@@ -1055,13 +1055,13 @@ Base class for implementing the user interface of a custom Action blocks.
 
 Event fired when the value of a [Variable](../reference/data.md#variable) is changed.
 
-#### Properties
+### Properties
 
 | Property | Description | Type |
 | :--- | :--- | :--- |
 | variable | The Variable changed | Variable |
 
-#### Remarks
+### Remarks
 
 Events of this type are managed by the [On Variable Change](../reference/programs.md#on-variable-change) program.
 
