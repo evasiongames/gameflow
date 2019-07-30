@@ -2,8 +2,8 @@
 
 ## Related Actions
 
-[Flip](../reference.md#flip)  
-[Follow](../reference.md#follow)  
+[Flip](reference/actions.md#flip)  
+[Follow](../reference/actions.md#follow)  
 [Get Animation Property](../reference.md#get-animation-property)  
 [Get Animator Parameter](../reference.md#get-animator-parameter)  
 [Get Animator Property](../reference.md#get-animator-property)  
