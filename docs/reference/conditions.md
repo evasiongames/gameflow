@@ -30,7 +30,7 @@ Evaluates the collision state of specified Collider2D component.
 
 ## Current State
 
-Evaluates whether the specified [State](../programs.md#state) is currently executing.
+Evaluates whether the specified [State](programs.md#state) is currently executing.
 
 ## Device Type
 
@@ -62,7 +62,7 @@ Evaluates the count of items of the specified list.
 
 ## Key
 
-Evaluates whether the specified [Key](../tools.md#key) is or has been pressed.
+Evaluates whether the specified [Key](tools.md#key) is or has been pressed.
 
 ## Layer
 
@@ -88,7 +88,7 @@ Evaluates whether a specific mouse button is or has just been pressed.
 
 ## Parameter Value
 
-Evaluates the value of the specified [Parameter](../data.md#parameter).
+Evaluates the value of the specified [Parameter](data.md#parameter).
 
 ## Platform
 
@@ -102,7 +102,7 @@ Evaluates properties of the specified Program.
 
 ## Ray
 
-Evaluates whether the indicated [Ray](../tools.md#ray) intersects the specified object.
+Evaluates whether the indicated [Ray](tools.md#ray) intersects the specified object.
 
 ## Shader
 
@@ -114,7 +114,7 @@ Evaluates whether the specified Shader keyword is enabled.
 
 ## State Machine
 
-Evaluates properties of the specified [State Machine](../programs.md#state-machine).
+Evaluates properties of the specified [State Machine](programs.md#state-machine).
 
 `1.0`
 
@@ -124,7 +124,7 @@ Evaluates the Tag of the specified [GameObject](http://docs.unity3d.com/Manual/c
 
 ## Timer
 
-Evaluates properties of the specified [Timer](../tools.md#timer) component.
+Evaluates properties of the specified [Timer](tools.md#timer) component.
 
 ## Variable Value
 

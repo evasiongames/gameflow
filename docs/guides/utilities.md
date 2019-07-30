@@ -2,5 +2,5 @@
 
 ## Related Actions
 
-[Show In Window](../reference.md#show-in-window)
+[Show In Window](../reference/actions.md#show-in-window)
 

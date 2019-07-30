@@ -10,7 +10,7 @@ Activates the specified [GameObject](http://docs.unity3d.com/Manual/class-GameOb
 
 ## Activate GameObjects In List
 
-Activates the objects contained in the specified [List](../data.md#list).
+Activates the objects contained in the specified [List](data.md#list).
 
 ## Add Component
 
@@ -26,19 +26,19 @@ Adds a force to the specified target [Rigidbody2D](http://docs.unity3d.com/Manua
 
 ## Add Hierarchy To List
 
-Adds the indicated GameObject and its hierarchy to the specified [List](../data.md#list).
+Adds the indicated GameObject and its hierarchy to the specified [List](data.md#list).
 
 ## Add Item To List
 
-Adds an item to the specified [List](../data.md#list).
+Adds an item to the specified [List](data.md#list).
 
 ## Add Selection To List
 
-Adds the selected GameObjects to the specified [List](../data.md#list).
+Adds the selected GameObjects to the specified [List](data.md#list).
 
 ## Add To String
 
-Adds text to the specified [Variable](../data.md#variable).
+Adds text to the specified [Variable](data.md#variable).
 
 `1.0`
 
@@ -78,7 +78,7 @@ The output folder for the captured screenshot will be
 
 ## Change String Case
 
-Changes the case of the text stored in the specified [Variable](../data.md#variable).
+Changes the case of the text stored in the specified [Variable](data.md#variable).
 
 ## Clamp Local Position
 
@@ -108,7 +108,7 @@ Clears the debug console.
 
 ## Clear List
 
-Removes all items in the specified [List](../data.md#list).
+Removes all items in the specified [List](data.md#list).
 
 ## Clear Particles
 
@@ -128,7 +128,7 @@ Adds a program comment as a text note. This is a no-op action.
 
 ## Concatenate Strings
 
-Concatenates two strings and saves the result in the specified output [Variable](../data.md#variable).
+Concatenates two strings and saves the result in the specified output [Variable](data.md#variable).
 
 ## Confine
 
@@ -176,25 +176,25 @@ Deactivates the specified [GameObject](http://docs.unity3d.com/Manual/class-Game
 
 ## Deactivate GameObjects In List
 
-Deactivates the objects contained in the specified [List](../data.md#list).
+Deactivates the objects contained in the specified [List](data.md#list).
 
 ## Decrement Parameter Value
 
-Decrements the numeric value of the specified [Parameter](../data.md#parameter).
+Decrements the numeric value of the specified [Parameter](data.md#parameter).
 
 ## Decrement Variable Value
 
-Decrements the numeric value of the specified [Variable](../data.md#variable).
+Decrements the numeric value of the specified [Variable](data.md#variable).
 
 ## Destroy
 
 Destroys the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) or component.
 
-If the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) belonged to a [Pool](../tools.md#pool) it will released instead of destroyed.
+If the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) belonged to a [Pool](tools.md#pool) it will released instead of destroyed.
 
 ## Destroy GameObjects In List
 
-Destroys the objects contained in the specified [List](../data.md#list).
+Destroys the objects contained in the specified [List](data.md#list).
 
 ## Disable Behaviour
 
@@ -202,7 +202,7 @@ Disables the specified Behaviour component.
 
 ## Disable Behaviours In List
 
-Disables all the Behaviour components found in the specified [List](../data.md#list).
+Disables all the Behaviour components found in the specified [List](data.md#list).
 
 ## Disable Collider
 
@@ -220,7 +220,7 @@ Disables the specified Component.
 
 ## Disable Components In List
 
-Disables all the components of the specified [List](../data.md#list).
+Disables all the components of the specified [List](data.md#list).
 
 ## Disable Program
 
@@ -232,13 +232,13 @@ Unsets a global shader keyword.
 
 ## Disable State Machine
 
-Disables the specified [State Machine](../programs.md#state-machine).
+Disables the specified [State Machine](programs.md#state-machine).
 
 `1.0`
 
 ## Disable Timer
 
-Disables the specified [Timer](../tools.md#timer).
+Disables the specified [Timer](tools.md#timer).
 
 `1.0`
 
@@ -250,11 +250,11 @@ Displays a modal dialog and gets the user choice.
 
 ## Divide Parameter Value
 
-Divides the numeric value of the specified [Parameter](../data.md#parameter).
+Divides the numeric value of the specified [Parameter](data.md#parameter).
 
 ## Divide Variable Value
 
-Divides the numeric value of the specified [Variable](../data.md#variable).
+Divides the numeric value of the specified [Variable](data.md#variable).
 
 ## Dont Destroy On Load
 
@@ -284,7 +284,7 @@ Draws the specified Collider2D component.
 
 ## Draw Force
 
-Draws the specified [Force](../tools.md#force).
+Draws the specified [Force](tools.md#force).
 
 ## Draw Line
 
@@ -302,7 +302,7 @@ Enables the specified Behaviour component.
 
 ## Enable Behaviours In List
 
-Enables all the Behaviour components found in the specified [List](../data.md#list).
+Enables all the Behaviour components found in the specified [List](data.md#list).
 
 ## Enable Collider
 
@@ -320,7 +320,7 @@ Enables the specified Component.
 
 ## Enable Components In List
 
-Enables all the components of the specified [List](../data.md#list).
+Enables all the components of the specified [List](data.md#list).
 
 ## Enable Program
 
@@ -332,13 +332,13 @@ Sets a global shader keyword.
 
 ## Enable State Machine
 
-Enables the specified [State Machine](../programs.md#state-machine).
+Enables the specified [State Machine](programs.md#state-machine).
 
 `1.0`
 
 ## Enable Timer
 
-Enables the specified [Timer](../tools.md#timer).
+Enables the specified [Timer](tools.md#timer).
 
 `1.0`
 
@@ -362,7 +362,7 @@ Evaluates the selected mathematical function.
 
 ## Execute Command
 
-Executes the specified [Command](../tools.md#command).
+Executes the specified [Command](tools.md#command).
 
 ## Execute Program
 
@@ -422,7 +422,7 @@ Makes a specified object follow another.
 
 ## Follow Path
 
-Makes a specified object follow the specified [Path](../tools.md#path).
+Makes a specified object follow the specified [Path](tools.md#path).
 
 ## For
 
@@ -430,7 +430,7 @@ Executes the contained actions for a number of times specified by a numeric rang
 
 ## For Each
 
-Executes the contained actions for each item of the specified [List](../data.md#list).
+Executes the contained actions for each item of the specified [List](data.md#list).
 
 ## Freeze
 
@@ -592,7 +592,7 @@ Gets a property of the specified [ConstantForce](http://docs.unity3d.com/Manual/
 
 ## Get Current State
 
-Gets the current state of the specified [StateMachine](../.md#state-machine).
+Gets the current state of the specified [StateMachine](.md#state-machine).
 
 ## Get Direction
 
@@ -608,7 +608,7 @@ Gets a property of the specified [Dropdown](http://docs.unity3d.com/Manual/scrip
 
 ## Get Farthest
 
-Gets the farthest item in the specified [List](../data.md#list) to an indicated reference point or object.
+Gets the farthest item in the specified [List](data.md#list) to an indicated reference point or object.
 
 `1.0`
 
@@ -618,21 +618,21 @@ Gets the first child of the specified [GameObject](http://docs.unity3d.com/Manua
 
 ## Get First Item From List
 
-Gets the first item of the specified [List](../data.md#list).
+Gets the first item of the specified [List](data.md#list).
 
 ## Get First Raycast Hit
 
-Gets the first hit after casting the specified [Ray](../tools.md#ray).
+Gets the first hit after casting the specified [Ray](tools.md#ray).
 
 ## Get First Raycast Hit 2D
 
-Gets the first hit after casting the specified [Ray](../tools.md#ray) in the 2D space.
+Gets the first hit after casting the specified [Ray](tools.md#ray) in the 2D space.
 
 `1.2`
 
 ## Get Force Property
 
-Gets a property of the specified [Force](../tools.md#force).
+Gets a property of the specified [Force](tools.md#force).
 
 ## Get Fractional Part
 
@@ -662,11 +662,11 @@ Gets a property of the specified [Image](http://docs.unity3d.com/Manual/script-I
 
 ## Get Impact Point
 
-Gets the impact point after casting the specified [Ray](../tools.md#ray).
+Gets the impact point after casting the specified [Ray](tools.md#ray).
 
 ## Get Index Of Item In List
 
-Gets the index of the given item in the specified [List](../data.md#list).
+Gets the index of the given item in the specified [List](data.md#list).
 
 ## Get Input Axis Value
 
@@ -694,11 +694,11 @@ Gets the integer part of the specified numeric value.
 
 ## Get Item From List
 
-Gets the item at the given index in the specified [List](../data.md#list).
+Gets the item at the given index in the specified [List](data.md#list).
 
 ## Get JSONFrom List
 
-Generates the JSON representation for the data contained in the specified [List](../data.md#list).
+Generates the JSON representation for the data contained in the specified [List](data.md#list).
 
 ## Get Joint 2DProperty
 
@@ -714,7 +714,7 @@ Gets the last child of the specified [GameObject](http://docs.unity3d.com/Manual
 
 ## Get Last Item From List
 
-Gets the last item of the specified [List](../data.md#list).
+Gets the last item of the specified [List](data.md#list).
 
 ## Get Layer
 
@@ -734,7 +734,7 @@ Gets a property of the specified [LineRenderer](http://docs.unity3d.com/Manual/c
 
 ## Get List Count
 
-Gets the number of items in the specified [List](../data.md#list).
+Gets the number of items in the specified [List](data.md#list).
 
 ## Get Magnitude
 
@@ -766,13 +766,13 @@ Gets a property of the specified [NavMeshObstacle](http://docs.unity3d.com/Manua
 
 ## Get Nearest
 
-Gets the nearest item in the given [List](../data.md#list) to a given point or object.
+Gets the nearest item in the given [List](data.md#list) to a given point or object.
 
 `1.0`
 
 ## Get Object From Pool
 
-Requests a free object to the specified [Pool](../tools.md#pool).
+Requests a free object to the specified [Pool](tools.md#pool).
 
 ## Get Off Mesh Link Property
 
@@ -796,7 +796,7 @@ Gets a property of the specified [ParticleSystem](http://docs.unity3d.com/Manual
 
 ## Get Path Property
 
-Gets a property of the specified [Path](../tools.md#path) component.
+Gets a property of the specified [Path](tools.md#path) component.
 
 ## Get Physics Property
 
@@ -812,7 +812,7 @@ Gets a property of the specified [PointEffector2D](http://docs.unity3d.com/Manua
 
 ## Get Pool Capacity
 
-Gets the maximum number of objects in the specified [Pool](../tools.md#pool) component.
+Gets the maximum number of objects in the specified [Pool](tools.md#pool) component.
 
 ## Get Position
 
@@ -824,7 +824,7 @@ Gets the 2D world position of the specified object.
 
 ## Get Position In Path
 
-Gets a position in the specified [Path](../tools.md#path) component.
+Gets a position in the specified [Path](tools.md#path) component.
 
 ## Get Program Property
 
@@ -848,7 +848,7 @@ Gets a random [Color](http://docs.unity3d.com/ScriptReference/Color.html) betwee
 
 ## Get Random Item From List
 
-Gets a random item from the specified [List](../data.md#list).
+Gets a random item from the specified [List](data.md#list).
 
 ## Get Random Number
 
@@ -866,7 +866,7 @@ Gets a random point inside the space of the specified Collider2D component.
 
 ## Get Random Point In Collider List
 
-Gets a random point in any Collider of the specified [List](../data.md#list).
+Gets a random point in any Collider of the specified [List](data.md#list).
 
 ## Get Random Position
 
@@ -890,11 +890,11 @@ Gets a property of the specified Raw Image component.
 
 ## Get Ray Point
 
-Returns the position of the point at the given distance along the specified [Ray](../tools.md#ray).
+Returns the position of the point at the given distance along the specified [Ray](tools.md#ray).
 
 ## Get Ray Property
 
-Gets a property of the specified [Ray](../tools.md#ray).
+Gets a property of the specified [Ray](tools.md#ray).
 
 ## Get Raycast Hit Property
 
@@ -908,11 +908,11 @@ Gets a property of the specified RaycastHit2D object.
 
 ## Get Raycast Hits
 
-Adds to a given [List](../data.md#list) the resulting hits after casting the specified [Ray](../tools.md#ray).
+Adds to a given [List](data.md#list) the resulting hits after casting the specified [Ray](tools.md#ray).
 
 ## Get Raycast Hits Count
 
-Get the number of impacts after casting the specified [Ray](../tools.md#ray).
+Get the number of impacts after casting the specified [Ray](tools.md#ray).
 
 ## Get Rect Property
 
@@ -994,7 +994,7 @@ Returns the currently selected GameObject.
 
 ## Get Selection
 
-Completes the specified output [List](../data.md#list) with the currently selected objects.
+Completes the specified output [List](data.md#list) with the currently selected objects.
 
 `1.0`
 
@@ -1024,11 +1024,11 @@ Gets a property of the specified [SpriteRenderer](http://docs.unity3d.com/Manual
 
 ## Get String Length
 
-Gets the length in characters of the string stored in the specified [Variable](../data.md#variable).
+Gets the length in characters of the string stored in the specified [Variable](data.md#variable).
 
 ## Get Substring
 
-Gets a part of the string stored in the specified [Variable](../data.md#variable).
+Gets a part of the string stored in the specified [Variable](data.md#variable).
 
 ## Get Surface Effector 2DProperty
 
@@ -1062,7 +1062,7 @@ Gets the value of a time-related property.
 
 ## Get Timer Property
 
-Gets a property of the specified [Timer](../tools.md#timer).
+Gets a property of the specified [Timer](tools.md#timer).
 
 ## Get Toggle Property
 
@@ -1170,7 +1170,7 @@ Hides the mouse cursor.
 
 ## Hide Parameter
 
-Hides the specified [Parameter](../data.md#parameter).
+Hides the specified [Parameter](data.md#parameter).
 
 ## If
 
@@ -1182,7 +1182,7 @@ You can toggle the visibility of the Else sequence by clicking on the **=** icon
 
 The If action works like this: If the result of the evaluation of the conditions is true, the "Then" sequence will be started, otherwise the Else will be executed.
 
-The effect of the [Break](../.md#Break) action when it is contained in an If action is not only breaking the current sequence, but also breaking the loop or program where the If is contained.
+The effect of the [Break](.md#Break) action when it is contained in an If action is not only breaking the current sequence, but also breaking the loop or program where the If is contained.
 
 ## Ignore Collision
 
@@ -1198,19 +1198,19 @@ Makes the collision detection system ignore all collisions between the specified
 
 ## Increment Parameter Value
 
-Increments the numeric value of the specified [Parameter](../data.md#parameter).
+Increments the numeric value of the specified [Parameter](data.md#parameter).
 
 ## Increment Variable Value
 
-Increments the numeric value of the specified [Variable](../data.md#variable).
+Increments the numeric value of the specified [Variable](data.md#variable).
 
 ## Insert In String
 
-Inserts text in the specified [Variable](../data.md#variable).
+Inserts text in the specified [Variable](data.md#variable).
 
 ## Insert Item In List
 
-Inserts an item in the given index of the specified [List](../data.md#list).
+Inserts an item in the given index of the specified [List](data.md#list).
 
 ## Instantiate
 
@@ -1226,11 +1226,11 @@ Interpolates the color of the specified [GameObject](http://docs.unity3d.com/Man
 
 ## Interpolate Value
 
-Interpolates the value of the specified [Variable](../data.md#variable).
+Interpolates the value of the specified [Variable](data.md#variable).
 
 ## Invert String
 
-Inverts the text stored in the specified [Variable](../data.md#variable).
+Inverts the text stored in the specified [Variable](data.md#variable).
 
 ## Invoke Method
 
@@ -1238,11 +1238,11 @@ Executes the specified method using Reflection.
 
 ## Limit Parameter Value
 
-Limits the value of the specified [Parameter](../data.md#parameter).
+Limits the value of the specified [Parameter](data.md#parameter).
 
 ## Limit Variable Value
 
-Limits the value of the specified [Variable](../data.md#variable).
+Limits the value of the specified [Variable](data.md#variable).
 
 ## Limit Velocity
 
@@ -1286,7 +1286,7 @@ Forces execution of the current looping action in the next update frame.
 
 ## Map Vector
 
-Maps the components of the vector stored in the specified [Variable](../data.md#variable).
+Maps the components of the vector stored in the specified [Variable](data.md#variable).
 
 ## Move
 
@@ -1298,19 +1298,19 @@ Moves the specified object to a random position.
 
 ## Multiply Parameter Value
 
-Multiplies the numeric value of the specified [Parameter](../data.md#parameter).
+Multiplies the numeric value of the specified [Parameter](data.md#parameter).
 
 ## Multiply Variable Value
 
-Multiplies the numeric value of the specified [Variable](../data.md#variable).
+Multiplies the numeric value of the specified [Variable](data.md#variable).
 
 ## On State
 
-Executes the contained actions if the current [State](../programs.md#state) is the currently in executiong in the [State Machine](../programs.md#state-machine) it belongs to.
+Executes the contained actions if the current [State](programs.md#state) is the currently in executiong in the [State Machine](programs.md#state-machine) it belongs to.
 
-On State is basically a shortcut for an [If](../actions.md#if) with a [Current State](../conditions.md#current-state-condition) condition.
+On State is basically a shortcut for an [If](actions.md#if) with a [Current State](conditions.md#current-state-condition) condition.
 
-The effect of the [Break](../actions.md#break) action when it is contained in an On State action is not only breaking the current sequence, but also breaking the loop or program where the On State is contained.
+The effect of the [Break](actions.md#break) action when it is contained in an On State action is not only breaking the current sequence, but also breaking the loop or program where the On State is contained.
 
 ## Open URL
 
@@ -1350,11 +1350,11 @@ Waits for a random time interval.
 
 ## Recalculate Path
 
-Recalculates the specified [Path](../tools.md#path).
+Recalculates the specified [Path](tools.md#path).
 
 ## Remove Item From List
 
-Removes an item from the specified [List](../data.md#list).
+Removes an item from the specified [List](data.md#list).
 
 ## Repeat
 
@@ -1366,7 +1366,7 @@ Executes the contained actions repeately until the conditions are met.
 
 ## Replace In String
 
-Gets a new replaced version of the text stored in the specified [Variable](../data.md#variable).
+Gets a new replaced version of the text stored in the specified [Variable](data.md#variable).
 
 ## Reset Language
 
@@ -1378,21 +1378,21 @@ Sets the default language as the current for localization purposes.
 
 ## Reset Pool
 
-Releases all the objects in the specified [Pool](../tools.md#pool).
+Releases all the objects in the specified [Pool](tools.md#pool).
 
 ## Reset Timer
 
-Resets and stops the specified [Timer](../tools.md#timer).
+Resets and stops the specified [Timer](tools.md#timer).
 
 ## Reset Variable Value
 
-Resets the value of the specified [Variable](../data.md#variable) to the default persistent value.
+Resets the value of the specified [Variable](data.md#variable) to the default persistent value.
 
 `1.0`
 
 ## Resize List
 
-Sets the size \(number of items\) in the specified [List](../data.md#list).
+Sets the size \(number of items\) in the specified [List](data.md#list).
 
 ## Restart Program
 
@@ -1400,7 +1400,7 @@ Restarts the specified Program.
 
 ## Restart Timer
 
-Restarts the specified [Timer](../tools.md#timer).
+Restarts the specified [Timer](tools.md#timer).
 
 ## Restore Collision
 
@@ -1420,7 +1420,7 @@ Resumes the game if it was paused.
 
 ## Resume Timer
 
-Resumes the specified [Timer](../tools.md#timer).
+Resumes the specified [Timer](tools.md#timer).
 
 ## Rotate
 
@@ -1432,7 +1432,7 @@ Rotates the specified object randomly.
 
 ## Round Variable Value
 
-Rounds the numeric value of the specified [Variable](../data.md#variable).
+Rounds the numeric value of the specified [Variable](data.md#variable).
 
 ## Save Data
 
@@ -1456,11 +1456,11 @@ Selects the specified UI component.
 
 ## Send Command
 
-Sends the [Command](../tools.md#command) with the specified Id to a target GameObject and executes it \(if exists\).
+Sends the [Command](tools.md#command) with the specified Id to a target GameObject and executes it \(if exists\).
 
 ## Send Command To List
 
-Sends a [Command](../tools.md#command) to all objects contained in the specified [List](../data.md#list).
+Sends a [Command](tools.md#command) to all objects contained in the specified [List](data.md#list).
 
 ## Send Message
 
@@ -1596,7 +1596,7 @@ Sets a property of the specified [ConstantForce](http://docs.unity3d.com/Manual/
 
 ## Set Current State
 
-Sets the specified [State](../programs.md#state) as the current one in its [StateMachine](../.md#state-machine).
+Sets the specified [State](programs.md#state) as the current one in its [StateMachine](.md#state-machine).
 
 ## Set Distance
 
@@ -1608,7 +1608,7 @@ Modifies the value of a property of the specified [Dropdown](http://docs.unity3d
 
 ## Set Force Property
 
-Modifies the values of a property of the specified [Force](../tools.md#force).
+Modifies the values of a property of the specified [Force](tools.md#force).
 
 ## Set GUIText Property
 
@@ -1632,7 +1632,7 @@ Modifies the value of a property of the specified [Input Field](http://docs.unit
 
 ## Set Item In List
 
-Sets the item at the given index in the specified [List](../data.md#list).
+Sets the item at the given index in the specified [List](data.md#list).
 
 ## Set Joint 2DProperty
 
@@ -1730,7 +1730,7 @@ Sets a property of the specified [NavMeshObstacle](http://docs.unity3d.com/Manua
 
 ## Set Next State
 
-Sets the next [State](../programs.md#state) to jump after the current one finishes.
+Sets the next [State](programs.md#state) to jump after the current one finishes.
 
 ## Set Off Mesh Link Property
 
@@ -1746,13 +1746,13 @@ Sets a property of the specified [Outline](http://docs.unity3d.com/Manual/class-
 
 ## Set Parameter Indirection
 
-Sets the value of indirection for the specified [Parameter](../data.md#parameter).
+Sets the value of indirection for the specified [Parameter](data.md#parameter).
 
 `1.0`
 
 ## Set Parameter Value
 
-Sets the value of the specified [Parameter](../data.md#parameter).
+Sets the value of the specified [Parameter](data.md#parameter).
 
 ## Set Parent
 
@@ -1764,7 +1764,7 @@ Sets a property of the specified [ParticleSystem](http://docs.unity3d.com/Manual
 
 ## Set Path Property
 
-Sets a property of the specified [Path](../tools.md#path) component.
+Sets a property of the specified [Path](tools.md#path) component.
 
 ## Set Physics Property
 
@@ -1774,7 +1774,7 @@ Sets a property of the global Physics Settings.
 
 Sets the runtime platform.
 
-Sets the runtime platform that [Platform Condition](../.md#platform-condition) will evaluate. Useful for testing purposes.
+Sets the runtime platform that [Platform Condition](.md#platform-condition) will evaluate. Useful for testing purposes.
 
 ## Set Platform Effector 2DProperty
 
@@ -1784,7 +1784,7 @@ Sets a property of the specified [Platform](http://docs.unity3d.com/Manual/class
 
 Sets the runtime platform type.
 
-Sets the runtime platform type that [Platform Type Condition](../.md#platform-type-condition.html) will evaluate. Useful for testing purposes.
+Sets the runtime platform type that [Platform Type Condition](.md#platform-type-condition.html) will evaluate. Useful for testing purposes.
 
 ## Set Point Effector 2DProperty
 
@@ -1852,7 +1852,7 @@ Modifies the value of a property of the specified Raw Image component.
 
 ## Set Ray Property
 
-Modifies the values of a property of the specified [Ray](../tools.md#ray).
+Modifies the values of a property of the specified [Ray](tools.md#ray).
 
 ## Set Rect Property
 
@@ -1938,7 +1938,7 @@ Sets a property of the specified [SpriteRenderer](http://docs.unity3d.com/Manual
 
 ## Set Substring
 
-Sets a part of the string stored in the specified [Variable](../data.md#variable).
+Sets a part of the string stored in the specified [Variable](data.md#variable).
 
 ## Set Surface Effector 2DProperty
 
@@ -1972,7 +1972,7 @@ Sets the time scale for de/acceleration effects during the game.
 
 ## Set Timer Property
 
-Modifies the values of a property of the specified [Timer](../tools.md#timer).
+Modifies the values of a property of the specified [Timer](tools.md#timer).
 
 ## Set Toggle Property
 
@@ -1988,17 +1988,17 @@ Sets a property of the specified [Transform](http://docs.unity3d.com/Manual/clas
 
 ## Set Variable Indirection
 
-Sets the value of indirection for the specified [Variable](../data.md#variable).
+Sets the value of indirection for the specified [Variable](data.md#variable).
 
 `1.0`
 
 ## Set Variable Value
 
-Sets the value of the specified [Variable](../data.md#variable).
+Sets the value of the specified [Variable](data.md#variable).
 
 ## Set Vector Component
 
-Sets the value of a component of the vector stored in the specified [Variable](../data.md#variable).
+Sets the value of a component of the vector stored in the specified [Variable](data.md#variable).
 
 ## Set Velocity
 
@@ -2032,7 +2032,7 @@ Sets a property of the specified [WindZone](http://docs.unity3d.com/Manual/class
 
 ## Set World Up
 
-Specifies the upward direction to use in actions like [Look At](../actions.md#look-at).
+Specifies the upward direction to use in actions like [Look At](actions.md#look-at).
 
 `1.0`
 
@@ -2064,11 +2064,11 @@ Shows the mouse cursor.
 
 ## Show Parameter
 
-Shows the specified [Parameter](../data.md#parameter).
+Shows the specified [Parameter](data.md#parameter).
 
 ## Shuffle List
 
-Randomly shuffles the specified [List](../data.md#list).
+Randomly shuffles the specified [List](data.md#list).
 
 `1.2`
 
@@ -2082,11 +2082,11 @@ Puts to sleep the specified 2D object.
 
 ## Sleep List
 
-Puts to sleep all objects \(2D or 3D\) in the specified [List](../data.md#list).
+Puts to sleep all objects \(2D or 3D\) in the specified [List](data.md#list).
 
 ## Sort List
 
-Sorts the items in the specified [List](../data.md#list).
+Sorts the items in the specified [List](data.md#list).
 
 ## Start Game
 
@@ -2112,7 +2112,7 @@ Stops the playback of the sound at the specified [AudioSource](http://docs.unity
 
 ## Stop Timer
 
-Stops the specified [Timer](../tools.md#timer).
+Stops the specified [Timer](tools.md#timer).
 
 ## Swap Values
 
@@ -2134,7 +2134,7 @@ Toggles the activation state of the specified [GameObject](http://docs.unity3d.c
 
 ## Toggle Parameter Value
 
-Toggles the boolean-value of the specified [Parameter](../data.md#parameter).
+Toggles the boolean-value of the specified [Parameter](data.md#parameter).
 
 ## Toggle Pause
 
@@ -2142,13 +2142,13 @@ Resumes the game if it was paused, otherwise pauses the game.
 
 ## Toggle Variable Value
 
-Toggles the boolean-value of the specified [Variable](../data.md#variable).
+Toggles the boolean-value of the specified [Variable](data.md#variable).
 
 ## Trigger Custom Event
 
 Triggers a custom event with specified kind and information.
 
-Related: [On Custom Event](../.md#on-custom-event)
+Related: [On Custom Event](.md#on-custom-event)
 
 `1.0`
 
@@ -2176,7 +2176,7 @@ Waits for the specified Program to finish.
 
 ## Wait For Timer
 
-Waits the specified [Timer](../tools.md#timer) for expiration.
+Waits the specified [Timer](tools.md#timer) for expiration.
 
 ## Wake Up
 
@@ -2188,7 +2188,7 @@ Wakes up the specified [Rigidbody2D](http://docs.unity3d.com/Manual/class-Rigidb
 
 ## Wake Up List
 
-Wakes up all objects \(2D or 3D\) in the specified [List](../data.md#list).
+Wakes up all objects \(2D or 3D\) in the specified [List](data.md#list).
 
 ## While
 

@@ -2,12 +2,9 @@
 
 ## Related Programs
 
-[On Language Set](../reference.md#on-language-set)
+[On Language Set](../reference/programs.md#on-language-set)
 
 ## Related Actions
 
-[Reset Language](../reference.md#reset-language)  
-[Set Language](../reference.md#set-language)
-
-## Related Conditions
-
+[Reset Language](../reference/actions.md#reset-language)  
+[Set Language](../reference/actions.md#set-language)

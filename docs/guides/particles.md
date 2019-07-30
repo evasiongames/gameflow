@@ -2,8 +2,8 @@
 
 ## Related Actions
 
-[Clear Particles](../reference.md#clear-particles)  
-[Control Particles](../reference.md#control-particles)  
-[Get Particle System Property](../reference.md#get-particle-system-property)  
-[Set Particle System Property](../reference.md#set-particle-system-property)
+[Clear Particles](../reference/actions.md#clear-particles)  
+[Control Particles](../reference/actions.md#control-particles)  
+[Get Particle System Property](../reference/actions.md#get-particle-system-property)  
+[Set Particle System Property](../reference/actions.md#set-particle-system-property)
 

@@ -2,5 +2,5 @@
 
 ## Related Actions
 
-[Comment](../reference.md#comment)
+[Comment](../reference/actions.md#comment)
 

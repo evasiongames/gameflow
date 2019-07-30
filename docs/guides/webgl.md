@@ -2,9 +2,9 @@
 
 ## Related Programs
 
-[On External Message](../reference.md#on-external-message)
+[On External Message](../reference/programs.md#on-external-message)
 
 ## Related Actions
 
-[Evaluate External](../reference.md#evaluate-external)
+[Evaluate External](../reference/actions.md#evaluate-external)
 

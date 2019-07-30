@@ -2,13 +2,13 @@
 
 ## Related Programs
 
-[Macro](../reference.md#macro)
+[Macro](../reference/programs.md#macro)
 
 ## Related Actions
 
-[Add Selection To List](../reference.md#add-selection-to-list)  
-[Get Selected GameObject](../reference.md#get-selected-gameobject)  
-[Get Selection](../reference.md#get-selection)  
-[Setup Progress](../reference.md#setup-progress)  
-[Update Progress](../reference.md#update-progress)
+[Add Selection To List](../reference/actions.md#add-selection-to-list)  
+[Get Selected GameObject](../reference/actions.md#get-selected-gameobject)  
+[Get Selection](../reference/actions.md#get-selection)  
+[Setup Progress](../reference/actions.md#setup-progress)  
+[Update Progress](../reference/actions.md#update-progress)
 
