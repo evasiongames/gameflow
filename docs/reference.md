@@ -4,7 +4,7 @@
 
 Activates the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
 
-### Properties:
+#### Properties:
 
 * **Target** GameObject or Variable. The object to activate.
 
@@ -296,10 +296,6 @@ Controls the collision events in this [GameObject](http://docs.unity3d.com/Manua
 
 Defines an identifiable shortcut to a Program.
 
-## Commands
-
-Shows all the [Command](reference.md#command) blocks defined in the inspected [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
-
 ## Comment
 
 Adds a program comment as a text note. This is a no-op action.
@@ -351,10 +347,6 @@ Creates and returns a web request object.
 ## Current State Condition
 
 Evaluates whether the specified [State](reference.md#state) is currently executing.
-
-## Data
-
-Shows all the [Variable](reference.md#variable) blocks defined in the inspected [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Deactivate GameObject
 
@@ -458,7 +450,7 @@ Divides the numeric value of the specified [Variable](reference.md#variable).
 
 Makes the object target not be destroyed automatically when loading a new scene.
 
-### Properties:
+#### Properties:
 
 * **Target:** GameObject or Variable. The object to preserve.
 
@@ -566,7 +558,7 @@ Executes the specified [Command](reference.md#command).
 
 Starts the execution of the specified [Program](reference.md#program).
 
-### Properties:
+#### Properties:
 
 * **Program:** The [Program](reference.md#program) to execute.
 * **Force Restart:** Indicate whether the program must be restarted before executing it.
@@ -633,10 +625,6 @@ Executes the contained actions for each item of the specified [List](reference.m
 ## Force
 
 Defines a force.
-
-## Forces
-
-Shows all the [Force](reference.md#force) components defined in the inspected [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Freeze
 
@@ -1748,7 +1736,7 @@ Program to be executed when the pointer stops being pressed over an UI component
 
 Program to be executed when a [Program](reference.md#program) in the listening range finishes.
 
-### Notes:
+#### Notes:
 
 This event won't be fired in Editor mode.
 
@@ -1830,10 +1818,6 @@ Defines a parameter of the specified type.
 
 Evaluates the value of the specified [Parameter](reference.md#parameter).
 
-## Parameters
-
-Shows all the [Parameter](reference.md#parameter) blocks defined in the inspected [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
-
 ## Path
 
 Defines a path or trajectory from a list of points.
@@ -1898,10 +1882,6 @@ Defines a ray.
 
 Evaluates whether the indicated [Ray](reference.md#ray) intersects the specified object.
 
-## Rays
-
-Shows all the [Ray](reference.md#ray) components defined in the inspected [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
-
 ## Recalculate Path
 
 Recalculates the specified [Path](reference.md#path).
@@ -1926,7 +1906,7 @@ Gets a new replaced version of the text stored in the specified [Variable](refer
 
 Sets the default language as the current for localization purposes.
 
-### Properties:
+#### Properties:
 
 * **Language:** SystemLanguage. The language to set as current.
 
@@ -2206,7 +2186,7 @@ Sets a property of the specified Joint component.
 
 Sets the current language for localization purposes.
 
-### Properties:
+#### Properties:
 
 * **Language:** SystemLanguage. The language to set as current.
 
@@ -2778,10 +2758,6 @@ Defines a variable of the specified type.
 
 Evaluates the value of the specified variable.
 
-## Variables
-
-Shows all the [Variable](reference.md#variable) blocks defined in the inspected [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
-
 ## Velocity Condition
 
 Evaluates the velocity of a specified [Rigidbody](http://docs.unity3d.com/Manual/class-Rigidbody.html) component.
@@ -2796,7 +2772,7 @@ Waits for the specified time interval.
 
 Waits for the specified [Program](reference.md#program) to finish.
 
-### Properties:
+#### Properties:
 
 * **Program:** The [Program](reference.md#program) to wait for.
 

@@ -21,7 +21,7 @@ Once the scripts are generated and the compilation is finished, our new conditio
 
 Of course we can add our condition in those actions that support conditions as if it were any other condition available as a series:
 
-![](../.gitbook/assets/api-mycondition2.png)
+![](../.gitbook/assets/api-mycondition2%20%281%29.png)
 
 ## Generated code
 
