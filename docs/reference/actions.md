@@ -2,7 +2,7 @@
 
 ## Activate GameObject
 
-Activates the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Activates the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 #### Properties:
 
@@ -14,15 +14,15 @@ Activates the objects contained in the specified [List](data.md#list).
 
 ## Add Component
 
-Adds a component to the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Adds a component to the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Add Force
 
-Adds a force to the specified target [Rigidbody](http://docs.unity3d.com/Manual/class-Rigidbody.html) component.
+Adds a force to the specified target [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html) component.
 
 ## Add Force 2D
 
-Adds a force to the specified target [Rigidbody2D](http://docs.unity3d.com/Manual/class-Rigidbody2D.html) component.
+Adds a force to the specified target [Rigidbody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html) component.
 
 ## Add Hierarchy To List
 
@@ -44,23 +44,23 @@ Adds text to the specified [Variable](data.md#variable).
 
 ## Add Torque
 
-Adds a torque to the specified target [Rigidbody](http://docs.unity3d.com/Manual/class-Rigidbody.html) component.
+Adds a torque to the specified target [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html) component.
 
 `1.0`
 
 ## Add Torque 2D
 
-Adds a torque to the specified target [Rigidbody2D](http://docs.unity3d.com/Manual/class-Rigidbody2D.html) component.
+Adds a torque to the specified target [Rigidbody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html) component.
 
 `1.0`
 
 ## Attract
 
-Attracts the specified target [Rigidbody](http://docs.unity3d.com/Manual/class-Rigidbody.html) towards the indicated point.
+Attracts the specified target [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html) towards the indicated point.
 
 ## Attract 2D
 
-Attracts the specified target [Rigidbody2D](http://docs.unity3d.com/Manual/class-Rigidbody2D.html) towards the indicated point.
+Attracts the specified target [Rigidbody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html) towards the indicated point.
 
 ## Break
 
@@ -112,11 +112,11 @@ Removes all items in the specified [List](data.md#list).
 
 ## Clear Particles
 
-Removes all particles from the specified [ParticleSystem](http://docs.unity3d.com/Manual/class-ParticleSystem.html) or ParticleEmitter.
+Removes all particles from the specified [ParticleSystem](https://docs.unity3d.com/Manual/class-ParticleSystem.html) or ParticleEmitter.
 
 ## Clone
 
-Creates a duplicate or clone of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Creates a duplicate or clone of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Clone Material
 
@@ -156,15 +156,15 @@ Copies the values of the specified Transform.
 
 ## Create Empty GameObject
 
-Creates a new empty [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) with the specified name.
+Creates a new empty [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html) with the specified name.
 
 ## Create Material
 
-Creates a new [Material](http://docs.unity3d.com/Manual/class-Material.html) with the specified [Shader](http://docs.unity3d.com/Manual/class-Shader.html) assigned.
+Creates a new [Material](https://docs.unity3d.com/Manual/class-Material.html) with the specified [Shader](https://docs.unity3d.com/Manual/class-Shader.html) assigned.
 
 ## Create Primitive
 
-Creates a new primitive-type [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) with the specified name.
+Creates a new primitive-type [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html) with the specified name.
 
 ## Create Web Request
 
@@ -172,7 +172,7 @@ Creates and returns a web request object.
 
 ## Deactivate GameObject
 
-Deactivates the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Deactivates the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Deactivate GameObjects In List
 
@@ -188,9 +188,9 @@ Decrements the numeric value of the specified [Variable](data.md#variable).
 
 ## Destroy
 
-Destroys the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) or component.
+Destroys the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html) or component.
 
-If the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) belonged to a [Pool](tools.md#pool) it will released instead of destroyed.
+If the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html) belonged to a [Pool](tools.md#pool) it will released instead of destroyed.
 
 ## Destroy GameObjects In List
 
@@ -266,7 +266,7 @@ Makes the object target not be destroyed automatically when loading a new scene.
 
 ## Draw Bounds
 
-Draws the bounding box of the specified [Transform](http://docs.unity3d.com/Manual/class-Transform.html).
+Draws the bounding box of the specified [Transform](https://docs.unity3d.com/Manual/class-Transform.html).
 
 ## Draw Bounds Frame
 
@@ -380,11 +380,11 @@ Quits the application.
 
 ## Fade In
 
-Makes the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) appear gradually.
+Makes the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html) appear gradually.
 
 ## Fade Out
 
-Makes the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) disappear gradually.
+Makes the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html) disappear gradually.
 
 ## Find GameObject
 
@@ -434,7 +434,7 @@ Executes the contained actions for each item of the specified [List](data.md#lis
 
 ## Freeze
 
-Freezes the specified [Transform](http://docs.unity3d.com/Manual/class-Transform.html) component during the specified time.
+Freezes the specified [Transform](https://docs.unity3d.com/Manual/class-Transform.html) component during the specified time.
 
 ## Game Over
 
@@ -446,19 +446,19 @@ Gets the angle between two objects.
 
 ## Get Animation Property
 
-Gets a property of the specified [Animation](http://docs.unity3d.com/Manual/class-Animation.html) component.
+Gets a property of the specified [Animation](https://docs.unity3d.com/Manual/class-Animation.html) component.
 
 `1.0`
 
 ## Get Animator Parameter
 
-Gets the value of the specified [Animator](http://docs.unity3d.com/Manual/class-Animator.html) parameter.
+Gets the value of the specified [Animator](https://docs.unity3d.com/Manual/class-Animator.html) parameter.
 
 `1.0`
 
 ## Get Animator Property
 
-Gets a property of the specified [Animator](http://docs.unity3d.com/Manual/class-Animator.html) component.
+Gets a property of the specified [Animator](https://docs.unity3d.com/Manual/class-Animator.html) component.
 
 `1.0`
 
@@ -468,27 +468,27 @@ Gets the value of a property of the application.
 
 ## Get Area Effector 2DProperty
 
-Gets a property of the specified [AreaEffector2D](http://docs.unity3d.com/Manual/class-AreaEffector2D.html) component.
+Gets a property of the specified [AreaEffector2D](https://docs.unity3d.com/Manual/class-AreaEffector2D.html) component.
 
 ## Get Audio Chorus Filter Property
 
-Gets a property of the specified [AudioChorusFilter](http://docs.unity3d.com/Manual/class-AudioChorusFilter.html) component.
+Gets a property of the specified [AudioChorusFilter](https://docs.unity3d.com/Manual/class-AudioChorusFilter.html) component.
 
 ## Get Audio Distortion Filter Property
 
-Gets a property of the specified [AudioDistortionFilter](http://docs.unity3d.com/Manual/class-AudioDistortionFilter.html) component.
+Gets a property of the specified [AudioDistortionFilter](https://docs.unity3d.com/Manual/class-AudioDistortionFilter.html) component.
 
 ## Get Audio Echo Filter Property
 
-Gets a property of the specified [AudioEchoFilter](http://docs.unity3d.com/Manual/class-AudioEchoFilter.html) component.
+Gets a property of the specified [AudioEchoFilter](https://docs.unity3d.com/Manual/class-AudioEchoFilter.html) component.
 
 ## Get Audio High Pass Filter Property
 
-Gets a property of the specified [AudioHighPassFilter](http://docs.unity3d.com/Manual/class-AudioHighPassFilter.html) component.
+Gets a property of the specified [AudioHighPassFilter](https://docs.unity3d.com/Manual/class-AudioHighPassFilter.html) component.
 
 ## Get Audio Low Pass Filter Property
 
-Gets a property of the specified [AudioLowPassFilter](http://docs.unity3d.com/Manual/class-AudioLowPassFilter.html) component.
+Gets a property of the specified [AudioLowPassFilter](https://docs.unity3d.com/Manual/class-AudioLowPassFilter.html) component.
 
 ## Get Audio Property
 
@@ -496,15 +496,15 @@ Gets a general property of the audio system.
 
 ## Get Audio Reverb Filter Property
 
-Gets a property of the specified [AudioReverbFilter](http://docs.unity3d.com/Manual/class-AudioReverbFilter.html) component.
+Gets a property of the specified [AudioReverbFilter](https://docs.unity3d.com/Manual/class-AudioReverbFilter.html) component.
 
 ## Get Audio Reverb Zone Property
 
-Gets a property of the specified [AudioReverbZone](http://docs.unity3d.com/Manual/class-AudioReverbZone.html) component.
+Gets a property of the specified [AudioReverbZone](https://docs.unity3d.com/Manual/class-AudioReverbZone.html) component.
 
 ## Get Audio Source Property
 
-Gets a property of the specified [AudioSource](http://docs.unity3d.com/Manual/class-AudioSource.html) component.
+Gets a property of the specified [AudioSource](https://docs.unity3d.com/Manual/class-AudioSource.html) component.
 
 ## Get Bounds Property
 
@@ -514,19 +514,19 @@ Gets the value of a property of the specified Bounds.
 
 ## Get Button Property
 
-Gets a property of the specified [Button](http://docs.unity3d.com/Manual/script-Button.html) component.
+Gets a property of the specified [Button](https://docs.unity3d.com/Manual/script-Button.html) component.
 
 ## Get Camera Property
 
-Gets a property of the specified [Camera](http://docs.unity3d.com/Manual/class-Camera.html) component.
+Gets a property of the specified [Camera](https://docs.unity3d.com/Manual/class-Camera.html) component.
 
 ## Get Canvas Group Property
 
-Gets a property of the specified [CanvasGroup](http://docs.unity3d.com/Manual/class-CanvasGroup.html) component.
+Gets a property of the specified [CanvasGroup](https://docs.unity3d.com/Manual/class-CanvasGroup.html) component.
 
 ## Get Canvas Property
 
-Gets a property of the specified [Canvas](http://docs.unity3d.com/Manual/UICanvas.html) component.
+Gets a property of the specified [Canvas](https://docs.unity3d.com/Manual/UICanvas.html) component.
 
 ## Get Canvas Scaler Property
 
@@ -534,11 +534,11 @@ Gets a property of the specified Canvas Scaler component.
 
 ## Get Character Controller Property
 
-Gets a property of the specified [CharacterController](http://docs.unity3d.com/Manual/class-CharacterController.html) component.
+Gets a property of the specified [CharacterController](https://docs.unity3d.com/Manual/class-CharacterController.html) component.
 
 ## Get Child
 
-Gets a child of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Gets a child of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Get Closest Point
 
@@ -564,7 +564,7 @@ Gets a specified component of the given color.
 
 ## Get Component
 
-Gets a component of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Gets a component of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Get Component In Children
 
@@ -584,15 +584,15 @@ Gets a list of Components in the specified GameObject or any of its parents.
 
 ## Get Constant Force 2DProperty
 
-Gets a property of the specified [ConstantForce2D](http://docs.unity3d.com/Manual/class-ConstantForce2D.html) component.
+Gets a property of the specified [ConstantForce2D](https://docs.unity3d.com/Manual/class-ConstantForce2D.html) component.
 
 ## Get Constant Force Property
 
-Gets a property of the specified [ConstantForce](http://docs.unity3d.com/Manual/class-ConstantForce.html) component.
+Gets a property of the specified [ConstantForce](https://docs.unity3d.com/Manual/class-ConstantForce.html) component.
 
 ## Get Current State
 
-Gets the current state of the specified [StateMachine](https://github.com/evasiongames/gameflow/tree/6faebaf2aabb6bd64785a4c90fd988e2e11be354/docs/reference/.md/README.md#state-machine).
+Gets the current state of the specified [StateMachine](../reference/blocks.md#state-machine).
 
 ## Get Direction
 
@@ -604,7 +604,7 @@ Gets the distance between two points / objects.
 
 ## Get Dropdown Property
 
-Gets a property of the specified [Dropdown](http://docs.unity3d.com/Manual/script-Dropdown.html) component.
+Gets a property of the specified [Dropdown](https://docs.unity3d.com/Manual/script-Dropdown.html) component.
 
 ## Get Farthest
 
@@ -614,7 +614,7 @@ Gets the farthest item in the specified [List](data.md#list) to an indicated ref
 
 ## Get First Child
 
-Gets the first child of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Gets the first child of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Get First Item From List
 
@@ -654,11 +654,11 @@ Gets the GameObject that contains the specified Component.
 
 ## Get GameObject Property
 
-Gets a property of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Gets a property of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Get Image Property
 
-Gets a property of the specified [Image](http://docs.unity3d.com/Manual/script-Image.html) component.
+Gets a property of the specified [Image](https://docs.unity3d.com/Manual/script-Image.html) component.
 
 ## Get Impact Point
 
@@ -680,7 +680,7 @@ Gets a boolean value indicating whether the specified input button is held down.
 
 ## Get Input Field Property
 
-Gets a property of the specified [Input Field](http://docs.unity3d.com/Manual/script-InputField.html) component.
+Gets a property of the specified [Input Field](https://docs.unity3d.com/Manual/script-InputField.html) component.
 
 ## Get Instance Id
 
@@ -710,7 +710,7 @@ Gets a property of the specified Joint component.
 
 ## Get Last Child
 
-Gets the last child of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Gets the last child of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Get Last Item From List
 
@@ -718,19 +718,19 @@ Gets the last item of the specified [List](data.md#list).
 
 ## Get Layer
 
-Gets the layer of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Gets the layer of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Get Lens Flare Property
 
-Gets a property of the specified [LensFlare](http://docs.unity3d.com/Manual/class-LensFlare.html) component.
+Gets a property of the specified [LensFlare](https://docs.unity3d.com/Manual/class-LensFlare.html) component.
 
 ## Get Light Property
 
-Gets a property of the specified [Light](http://docs.unity3d.com/Manual/class-Light.html) component.
+Gets a property of the specified [Light](https://docs.unity3d.com/Manual/class-Light.html) component.
 
 ## Get Line Renderer Property
 
-Gets a property of the specified [LineRenderer](http://docs.unity3d.com/Manual/class-LineRenderer.html) component.
+Gets a property of the specified [LineRenderer](https://docs.unity3d.com/Manual/class-LineRenderer.html) component.
 
 ## Get List Count
 
@@ -750,19 +750,19 @@ Gets a property of the specified Material.
 
 ## Get Mesh Filter Property
 
-Gets a property of the specified [MeshFilter](http://docs.unity3d.com/Manual/class-MeshFilter.html) component.
+Gets a property of the specified [MeshFilter](https://docs.unity3d.com/Manual/class-MeshFilter.html) component.
 
 ## Get Mesh Renderer Property
 
-Gets a property of the specified [MeshRenderer](http://docs.unity3d.com/Manual/class-MeshRenderer.html) component.
+Gets a property of the specified [MeshRenderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html) component.
 
 ## Get Nav Mesh Agent Property
 
-Gets a property of the specified [NavMesh](http://docs.unity3d.com/Manual/class-NavMesh.html) component.
+Gets a property of the specified [NavMesh](https://docs.unity3d.com/Manual/class-NavMesh.html) component.
 
 ## Get Nav Mesh Obstacle Property
 
-Gets a property of the specified [NavMeshObstacle](http://docs.unity3d.com/Manual/class-NavMeshObstacle.html) component.
+Gets a property of the specified [NavMeshObstacle](https://docs.unity3d.com/Manual/class-NavMeshObstacle.html) component.
 
 ## Get Nearest
 
@@ -776,7 +776,7 @@ Requests a free object to the specified [Pool](tools.md#pool).
 
 ## Get Off Mesh Link Property
 
-Gets a property of the specified [OffMeshLink](http://docs.unity3d.com/Manual/class-OffMeshLink.html) component.
+Gets a property of the specified [OffMeshLink](https://docs.unity3d.com/Manual/class-OffMeshLink.html) component.
 
 ## Get Offset
 
@@ -784,15 +784,15 @@ Gets an offset of the specified object.
 
 ## Get Outline Property
 
-Gets a property of the specified [Outline](http://docs.unity3d.com/Manual/script-Outline.html) component.
+Gets a property of the specified [Outline](https://docs.unity3d.com/Manual/script-Outline.html) component.
 
 ## Get Parent
 
-Gets the parent of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Gets the parent of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Get Particle System Property
 
-Gets a property of the specified [ParticleSystem](http://docs.unity3d.com/Manual/class-ParticleSystem.html) component.
+Gets a property of the specified [ParticleSystem](https://docs.unity3d.com/Manual/class-ParticleSystem.html) component.
 
 ## Get Path Property
 
@@ -804,11 +804,11 @@ Gets a property of the global Physics Settings.
 
 ## Get Platform Effector 2DProperty
 
-Gets a property of the specified [PlatformEffector2D](http://docs.unity3d.com/Manual/class-PlatformEffector2D.html) component.
+Gets a property of the specified [PlatformEffector2D](https://docs.unity3d.com/Manual/class-PlatformEffector2D.html) component.
 
 ## Get Point Effector 2DProperty
 
-Gets a property of the specified [PointEffector2D](http://docs.unity3d.com/Manual/class-PointEffector2D.html) component.
+Gets a property of the specified [PointEffector2D](https://docs.unity3d.com/Manual/class-PointEffector2D.html) component.
 
 ## Get Pool Capacity
 
@@ -832,7 +832,7 @@ Gets a property of the specified Program.
 
 ## Get Projector Property
 
-Gets a property of the specified [Projector](http://docs.unity3d.com/Manual/class-Projector.html) component.
+Gets a property of the specified [Projector](https://docs.unity3d.com/Manual/class-Projector.html) component.
 
 ## Get Quaternion Component
 
@@ -844,7 +844,7 @@ Gets an offset in a circle centered on the specified object.
 
 ## Get Random Color
 
-Gets a random [Color](http://docs.unity3d.com/ScriptReference/Color.html) between the specified colors.
+Gets a random [Color](https://docs.unity3d.com/ScriptReference/Color.html) between the specified colors.
 
 ## Get Random Item From List
 
@@ -878,11 +878,11 @@ Gets a random 2D position in the specified space.
 
 ## Get Random Rotation
 
-Gets a random [Vector3](http://docs.unity3d.com/ScriptReference/Vector3.html) representing a rotation.
+Gets a random [Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html) representing a rotation.
 
 ## Get Random Vector
 
-Gets a random [Vector2](http://docs.unity3d.com/ScriptReference/Vector2.html) or [Vector3](http://docs.unity3d.com/ScriptReference/Vector3.html) value.
+Gets a random [Vector2](https://docs.unity3d.com/ScriptReference/Vector2.html) or [Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html) value.
 
 ## Get Raw Image Property
 
@@ -920,7 +920,7 @@ Gets the value of a property of the specified Rect.
 
 ## Get Rect Transform
 
-Gets the [RectTransform](http://docs.unity3d.com/Manual/class-RectTransform.html) component of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Gets the [RectTransform](https://docs.unity3d.com/Manual/class-RectTransform.html) component of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Get Rect Transform Property
 
@@ -932,11 +932,11 @@ Gets a property of the global Render Settings.
 
 ## Get Rigidbody 2DProperty
 
-Gets a property of the specified [Rigidbody2D](http://docs.unity3d.com/Manual/class-Rigidbody2D.html) component.
+Gets a property of the specified [Rigidbody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html) component.
 
 ## Get Rigidbody Property
 
-Gets a property of the specified [Rigidbody](http://docs.unity3d.com/Manual/class-Rigidbody.html) component.
+Gets a property of the specified [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html) component.
 
 ## Get Rotation
 
@@ -980,11 +980,11 @@ Gets the value of the specified script variable using Reflection.
 
 ## Get Scrollbar Property
 
-Get a property of the specified [Scrollbar](http://docs.unity3d.com/Manual/script-Scrollbar.html) component.
+Get a property of the specified [Scrollbar](https://docs.unity3d.com/Manual/script-Scrollbar.html) component.
 
 ## Get Selectable Property
 
-Gets a property of the specified [Selectable](http://docs.unity3d.com/Manual/class-Selectable.html) component.
+Gets a property of the specified [Selectable](https://docs.unity3d.com/Manual/class-Selectable.html) component.
 
 ## Get Selected GameObject
 
@@ -1000,27 +1000,27 @@ Completes the specified output [List](data.md#list) with the currently selected 
 
 ## Get Shadow Property
 
-Gets a property of the specified [Shadow](http://docs.unity3d.com/Manual/script-Shadow.html) component.
+Gets a property of the specified [Shadow](https://docs.unity3d.com/Manual/script-Shadow.html) component.
 
 ## Get Skinned Mesh Renderer Property
 
-Gets a property of the specified [SkinnedMeshRenderer](http://docs.unity3d.com/Manual/class-SkinnedMeshRenderer.html) component.
+Gets a property of the specified [SkinnedMeshRenderer](https://docs.unity3d.com/Manual/class-SkinnedMeshRenderer.html) component.
 
 ## Get Skybox Property
 
-Gets a property of the specified [Skybox](http://docs.unity3d.com/Manual/class-Skybox.html) component.
+Gets a property of the specified [Skybox](https://docs.unity3d.com/Manual/class-Skybox.html) component.
 
 ## Get Slider Property
 
-Gets a property of the specified [Slider](http://docs.unity3d.com/Manual/script-Slider.html) component.
+Gets a property of the specified [Slider](https://docs.unity3d.com/Manual/script-Slider.html) component.
 
 ## Get Sprite Property
 
-Gets a property of the specified [Sprite](http://docs.unity3d.com/Manual/class-Sprite.html).
+Gets a property of the specified [Sprite](https://docs.unity3d.com/Manual/class-Sprite.html).
 
 ## Get Sprite Renderer Property
 
-Gets a property of the specified [SpriteRenderer](http://docs.unity3d.com/Manual/class-SpriteRenderer.html) component.
+Gets a property of the specified [SpriteRenderer](https://docs.unity3d.com/Manual/class-SpriteRenderer.html) component.
 
 ## Get String Length
 
@@ -1032,11 +1032,11 @@ Gets a part of the string stored in the specified [Variable](data.md#variable).
 
 ## Get Surface Effector 2DProperty
 
-Gets a property of the specified [SurfaceEffector2D](http://docs.unity3d.com/Manual/class-SurfaceEffector2D.html) component.
+Gets a property of the specified [SurfaceEffector2D](https://docs.unity3d.com/Manual/class-SurfaceEffector2D.html) component.
 
 ## Get Tag
 
-Gets the tag of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Gets the tag of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Get Terrain Property
 
@@ -1046,11 +1046,11 @@ Gets a property of the specified Terrain component.
 
 ## Get Text Mesh Property
 
-Gets a property of the specified [TextMesh](http://docs.unity3d.com/Manual/class-TextMesh.html) component.
+Gets a property of the specified [TextMesh](https://docs.unity3d.com/Manual/class-TextMesh.html) component.
 
 ## Get Text Property
 
-Gets a property of the specified [Text](http://docs.unity3d.com/Manual/script-Text.html) component.
+Gets a property of the specified [Text](https://docs.unity3d.com/Manual/script-Text.html) component.
 
 ## Get Texture Property
 
@@ -1066,27 +1066,27 @@ Gets a property of the specified [Timer](tools.md#timer).
 
 ## Get Toggle Property
 
-Gets a property of the specified [Toggle](http://docs.unity3d.com/Manual/script-Toggle.html) component.
+Gets a property of the specified [Toggle](https://docs.unity3d.com/Manual/script-Toggle.html) component.
 
 ## Get Trail Renderer Property
 
-Gets a property of the specified [TrailRenderer](http://docs.unity3d.com/Manual/class-TrailRenderer.html) component.
+Gets a property of the specified [TrailRenderer](https://docs.unity3d.com/Manual/class-TrailRenderer.html) component.
 
 ## Get Transform
 
-Gets the [Transform](http://docs.unity3d.com/Manual/class-Transform.html) component of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Gets the [Transform](https://docs.unity3d.com/Manual/class-Transform.html) component of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Get Transform Direction
 
-Transforms the specified direction from local space of the given [Transform](http://docs.unity3d.com/Manual/class-Transform.html) to world space.
+Transforms the specified direction from local space of the given [Transform](https://docs.unity3d.com/Manual/class-Transform.html) to world space.
 
 ## Get Transform Point
 
-Transforms the specified point from local space of the given [Transform](http://docs.unity3d.com/Manual/class-Transform.html) to world space.
+Transforms the specified point from local space of the given [Transform](https://docs.unity3d.com/Manual/class-Transform.html) to world space.
 
 ## Get Transform Property
 
-Gets a property of the specified [Transform](http://docs.unity3d.com/Manual/class-Transform.html) component.
+Gets a property of the specified [Transform](https://docs.unity3d.com/Manual/class-Transform.html) component.
 
 ## Get Variable
 
@@ -1098,11 +1098,11 @@ Gets a component of the specified vector.
 
 ## Get Velocity
 
-Gets the velocity of the object containing the specified [Rigidbody](http://docs.unity3d.com/Manual/class-Rigidbody.html) component.
+Gets the velocity of the object containing the specified [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html) component.
 
 ## Get Velocity 2D
 
-Gets the velocity of the object containing the specified [Rigidbody2D](http://docs.unity3d.com/Manual/class-Rigidbody2D.html) component.
+Gets the velocity of the object containing the specified [Rigidbody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html) component.
 
 ## Get Velocity Component
 
@@ -1132,7 +1132,7 @@ Gets the response to the specified web request.
 
 ## Get Wind Zone Property
 
-Gets a property of the specified [WindZone](http://docs.unity3d.com/Manual/class-WindZone.html) component.
+Gets a property of the specified [WindZone](https://docs.unity3d.com/Manual/class-WindZone.html) component.
 
 ## Get World Point From Screen Point
 
@@ -1182,7 +1182,7 @@ You can toggle the visibility of the Else sequence by clicking on the **=** icon
 
 The If action works like this: If the result of the evaluation of the conditions is true, the "Then" sequence will be started, otherwise the Else will be executed.
 
-The effect of the [Break](https://github.com/evasiongames/gameflow/tree/6faebaf2aabb6bd64785a4c90fd988e2e11be354/docs/reference/.md/README.md#Break) action when it is contained in an If action is not only breaking the current sequence, but also breaking the loop or program where the If is contained.
+The effect of the [Break](../reference/actions.md#Break) action when it is contained in an If action is not only breaking the current sequence, but also breaking the loop or program where the If is contained.
 
 ## Ignore Collision
 
@@ -1218,11 +1218,11 @@ Creates an instance of the specified Prefab.
 
 ## Interpolate
 
-Interpolates the specified [Transform](http://docs.unity3d.com/Manual/class-Transform.html) component to match another.
+Interpolates the specified [Transform](https://docs.unity3d.com/Manual/class-Transform.html) component to match another.
 
 ## Interpolate Color
 
-Interpolates the color of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) to match another.
+Interpolates the color of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html) to match another.
 
 ## Interpolate Value
 
@@ -1318,7 +1318,7 @@ Opens the specified Url in the default browser.
 
 ## Orbit
 
-Rotates the target [Transform](http://docs.unity3d.com/Manual/class-Transform.html) around the specified pivot.
+Rotates the target [Transform](https://docs.unity3d.com/Manual/class-Transform.html) around the specified pivot.
 
 ## Pause Editor
 
@@ -1330,7 +1330,7 @@ Pauses the game.
 
 ## Play Animation
 
-Starts the playback of the specified animation \([Animation](http://docs.unity3d.com/Manual/class-Animation.html) or [Animator](http://docs.unity3d.com/Manual/class-Animator.html)\).
+Starts the playback of the specified animation \([Animation](https://docs.unity3d.com/Manual/class-Animation.html) or [Animator](https://docs.unity3d.com/Manual/class-Animator.html)\).
 
 ## Play Music
 
@@ -1342,7 +1342,7 @@ Plays the specified sound as it was in front of the camera.
 
 ## Play Sound At Source
 
-Plays the sound at the specified [AudioSource](http://docs.unity3d.com/Manual/class-AudioSource.html).
+Plays the sound at the specified [AudioSource](https://docs.unity3d.com/Manual/class-AudioSource.html).
 
 ## Random Wait
 
@@ -1472,25 +1472,25 @@ Sends the specified web request and optionally waits for a response.
 
 ## Set Animation Property
 
-Sets a property of the specified [Animation](http://docs.unity3d.com/Manual/class-Animation.html) component.
+Sets a property of the specified [Animation](https://docs.unity3d.com/Manual/class-Animation.html) component.
 
 `1.0`
 
 ## Set Animator Parameter
 
-Sets the value of the specified [Animator](http://docs.unity3d.com/Manual/class-Animator.html) parameter.
+Sets the value of the specified [Animator](https://docs.unity3d.com/Manual/class-Animator.html) parameter.
 
 `1.0`
 
 ## Set Animator Property
 
-Sets a property of the specified [Animator](http://docs.unity3d.com/Manual/class-Animator.html) component.
+Sets a property of the specified [Animator](https://docs.unity3d.com/Manual/class-Animator.html) component.
 
 `1.0`
 
 ## Set Animator State
 
-Changes the state of the specified [Animator](http://docs.unity3d.com/Manual/class-Animator.html).
+Changes the state of the specified [Animator](https://docs.unity3d.com/Manual/class-Animator.html).
 
 ## Set Application Property
 
@@ -1498,27 +1498,27 @@ Sets a general property of the application.
 
 ## Set Area Effector 2DProperty
 
-Sets a property of the specified [AreaEffector2D](http://docs.unity3d.com/Manual/class-AreaEffector2D.html) component.
+Sets a property of the specified [AreaEffector2D](https://docs.unity3d.com/Manual/class-AreaEffector2D.html) component.
 
 ## Set Audio Chorus Filter Property
 
-Sets a property of the specified [AudioChorusFilter](http://docs.unity3d.com/Manual/class-AudioChorusFilter.html) component.
+Sets a property of the specified [AudioChorusFilter](https://docs.unity3d.com/Manual/class-AudioChorusFilter.html) component.
 
 ## Set Audio Distortion Filter Property
 
-Sets a property of the specified [AudioDistortionFilter](http://docs.unity3d.com/Manual/class-AudioDistortionFilter.html) component.
+Sets a property of the specified [AudioDistortionFilter](https://docs.unity3d.com/Manual/class-AudioDistortionFilter.html) component.
 
 ## Set Audio Echo Filter Property
 
-Sets a property of the specified [AudioEchoFilter](http://docs.unity3d.com/Manual/class-AudioEchoFilter.html) component.
+Sets a property of the specified [AudioEchoFilter](https://docs.unity3d.com/Manual/class-AudioEchoFilter.html) component.
 
 ## Set Audio High Pass Filter Property
 
-Sets a property of the specified [AudioHighPassFilter](http://docs.unity3d.com/Manual/class-AudioHighPassFilter.html) component.
+Sets a property of the specified [AudioHighPassFilter](https://docs.unity3d.com/Manual/class-AudioHighPassFilter.html) component.
 
 ## Set Audio Low Pass Filter Property
 
-Sets a property of the specified [AudioLowPassFilter](http://docs.unity3d.com/Manual/class-AudioLowPassFilter.html) component.
+Sets a property of the specified [AudioLowPassFilter](https://docs.unity3d.com/Manual/class-AudioLowPassFilter.html) component.
 
 ## Set Audio Property
 
@@ -1526,15 +1526,15 @@ Sets a general property of the audio system.
 
 ## Set Audio Reverb Filter Property
 
-Sets a property of the specified [AudioReverbFilter](http://docs.unity3d.com/Manual/class-AudioReverbFilter.html) component.
+Sets a property of the specified [AudioReverbFilter](https://docs.unity3d.com/Manual/class-AudioReverbFilter.html) component.
 
 ## Set Audio Reverb Zone Property
 
-Sets a property of the specified [AudioReverbZone](http://docs.unity3d.com/Manual/class-AudioReverbZone.html) component.
+Sets a property of the specified [AudioReverbZone](https://docs.unity3d.com/Manual/class-AudioReverbZone.html) component.
 
 ## Set Audio Source Property
 
-Sets a property of the specified [AudioSource](http://docs.unity3d.com/Manual/class-AudioSource.html) component.
+Sets a property of the specified [AudioSource](https://docs.unity3d.com/Manual/class-AudioSource.html) component.
 
 ## Set Bounds Property
 
@@ -1544,19 +1544,19 @@ Sets the value of a property of the specified Bounds.
 
 ## Set Button Property
 
-Modifies the value of a property of the specified [Button](http://docs.unity3d.com/Manual/script-Button.html) component.
+Modifies the value of a property of the specified [Button](https://docs.unity3d.com/Manual/script-Button.html) component.
 
 ## Set Camera Property
 
-Sets a property of the specified [Camera](http://docs.unity3d.com/Manual/class-Camera.html).
+Sets a property of the specified [Camera](https://docs.unity3d.com/Manual/class-Camera.html).
 
 ## Set Canvas Group Property
 
-Modifies the value of a property of the specified [CanvasGroup](http://docs.unity3d.com/Manual/class-CanvasGroup.html) component.
+Modifies the value of a property of the specified [CanvasGroup](https://docs.unity3d.com/Manual/class-CanvasGroup.html) component.
 
 ## Set Canvas Property
 
-Modifies the value of a property of the specified [Canvas](http://docs.unity3d.com/Manual/UICanvas.html) component.
+Modifies the value of a property of the specified [Canvas](https://docs.unity3d.com/Manual/UICanvas.html) component.
 
 ## Set Canvas Scaler Property
 
@@ -1564,7 +1564,7 @@ Modifies the value of a property of the specified Canvas Scaler component.
 
 ## Set Character Controller Property
 
-Sets a property of the specified [CharacterController](http://docs.unity3d.com/Manual/class-CharacterController.html).
+Sets a property of the specified [CharacterController](https://docs.unity3d.com/Manual/class-CharacterController.html).
 
 ## Set Collider 2DProperty
 
@@ -1588,15 +1588,15 @@ Sets the value of a property of the specified Component.
 
 ## Set Constant Force 2DProperty
 
-Sets a property of the specified [ConstantForce2D](http://docs.unity3d.com/Manual/class-ConstantForce2D.html).
+Sets a property of the specified [ConstantForce2D](https://docs.unity3d.com/Manual/class-ConstantForce2D.html).
 
 ## Set Constant Force Property
 
-Sets a property of the specified [ConstantForce](http://docs.unity3d.com/Manual/class-ConstantForce.html).
+Sets a property of the specified [ConstantForce](https://docs.unity3d.com/Manual/class-ConstantForce.html).
 
 ## Set Current State
 
-Sets the specified [State](programs.md#state) as the current one in its [StateMachine](https://github.com/evasiongames/gameflow/tree/6faebaf2aabb6bd64785a4c90fd988e2e11be354/docs/reference/.md/README.md#state-machine).
+Sets the specified [State](programs.md#state) as the current one in its [StateMachine](blocks.md#state-machine).
 
 ## Set Distance
 
@@ -1604,7 +1604,7 @@ Moves a object so the distance to another object is the distance given.
 
 ## Set Dropdown Property
 
-Modifies the value of a property of the specified [Dropdown](http://docs.unity3d.com/Manual/script-Dropdown.html) component.
+Modifies the value of a property of the specified [Dropdown](https://docs.unity3d.com/Manual/script-Dropdown.html) component.
 
 ## Set Force Property
 
@@ -1620,15 +1620,15 @@ Modifies the value of a property of the specified GUITexture component.
 
 ## Set GameObject Property
 
-Modifies the values of a property of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Modifies the values of a property of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Set Image Property
 
-Modifies the value of a property of the specified [Image](http://docs.unity3d.com/Manual/script-Image.html) component.
+Modifies the value of a property of the specified [Image](https://docs.unity3d.com/Manual/script-Image.html) component.
 
 ## Set Input Field Property
 
-Modifies the value of a property of the specified [Input Field](http://docs.unity3d.com/Manual/script-InputField.html) component.
+Modifies the value of a property of the specified [Input Field](https://docs.unity3d.com/Manual/script-InputField.html) component.
 
 ## Set Item In List
 
@@ -1652,15 +1652,15 @@ Sets the current language for localization purposes.
 
 ## Set Lens Flare Property
 
-Sets a property of the specified [LensFlare](http://docs.unity3d.com/Manual/class-LensFlare.html).
+Sets a property of the specified [LensFlare](https://docs.unity3d.com/Manual/class-LensFlare.html).
 
 ## Set Light Property
 
-Sets a property of the specified [Light](http://docs.unity3d.com/Manual/class-Light.html).
+Sets a property of the specified [Light](https://docs.unity3d.com/Manual/class-Light.html).
 
 ## Set Line Renderer Property
 
-Sets a property of the specified [LineRenderer](http://docs.unity3d.com/Manual/class-LineRenderer.html).
+Sets a property of the specified [LineRenderer](https://docs.unity3d.com/Manual/class-LineRenderer.html).
 
 ## Set Local Position
 
@@ -1700,11 +1700,11 @@ Sets a property of the specified Material.
 
 ## Set Mesh Filter Property
 
-Sets a property of the specified [MeshFilter](http://docs.unity3d.com/Manual/class-MeshFilter.html).
+Sets a property of the specified [MeshFilter](https://docs.unity3d.com/Manual/class-MeshFilter.html).
 
 ## Set Mesh Renderer Property
 
-Sets a property of the specified [MeshRenderer](http://docs.unity3d.com/Manual/class-MeshRenderer.html).
+Sets a property of the specified [MeshRenderer](https://docs.unity3d.com/Manual/class-MeshRenderer.html).
 
 ## Set Mouse Cursor
 
@@ -1718,15 +1718,15 @@ Changes the mouse cursor lock mode.
 
 ## Set Nav Mesh Agent Destination
 
-Sets the destination of the specified [NavMeshAgent](http://docs.unity3d.com/Manual/class-NavMeshAgent.html) component.
+Sets the destination of the specified [NavMeshAgent](https://docs.unity3d.com/Manual/class-NavMeshAgent.html) component.
 
 ## Set Nav Mesh Agent Property
 
-Sets a property of the specified [NavMeshAgent](http://docs.unity3d.com/Manual/class-NavMeshAgent.html).
+Sets a property of the specified [NavMeshAgent](https://docs.unity3d.com/Manual/class-NavMeshAgent.html).
 
 ## Set Nav Mesh Obstacle Property
 
-Sets a property of the specified [NavMeshObstacle](http://docs.unity3d.com/Manual/class-NavMeshObstacle.html).
+Sets a property of the specified [NavMeshObstacle](https://docs.unity3d.com/Manual/class-NavMeshObstacle.html).
 
 ## Set Next State
 
@@ -1734,15 +1734,15 @@ Sets the next [State](programs.md#state) to jump after the current one finishes.
 
 ## Set Off Mesh Link Property
 
-Sets a property of the specified [OffMeshLink](http://docs.unity3d.com/Manual/class-OffMeshLink.html).
+Sets a property of the specified [OffMeshLink](https://docs.unity3d.com/Manual/class-OffMeshLink.html).
 
 ## Set Orbit Rotation
 
-Sets a relative rotation of the target [Transform](http://docs.unity3d.com/Manual/class-Transform.html) around the specified pivot.
+Sets a relative rotation of the target [Transform](https://docs.unity3d.com/Manual/class-Transform.html) around the specified pivot.
 
 ## Set Outline Property
 
-Sets a property of the specified [Outline](http://docs.unity3d.com/Manual/class-Outline.html).
+Sets a property of the specified [Outline](https://docs.unity3d.com/Manual/class-Outline.html).
 
 ## Set Parameter Indirection
 
@@ -1760,7 +1760,7 @@ Assigns a new parent to the specified object.
 
 ## Set Particle System Property
 
-Sets a property of the specified [ParticleSystem](http://docs.unity3d.com/Manual/class-ParticleSystem.html).
+Sets a property of the specified [ParticleSystem](https://docs.unity3d.com/Manual/class-ParticleSystem.html).
 
 ## Set Path Property
 
@@ -1774,21 +1774,21 @@ Sets a property of the global Physics Settings.
 
 Sets the runtime platform.
 
-Sets the runtime platform that [Platform Condition](https://github.com/evasiongames/gameflow/tree/6faebaf2aabb6bd64785a4c90fd988e2e11be354/docs/reference/.md/README.md#platform-condition) will evaluate. Useful for testing purposes.
+Sets the runtime platform that [Platform Condition](conditions.md#platform-condition) will evaluate. Useful for testing purposes.
 
 ## Set Platform Effector 2DProperty
 
-Sets a property of the specified [Platform](http://docs.unity3d.com/Manual/class-Platform.html).
+Sets a property of the specified [Platform](https://docs.unity3d.com/Manual/class-Platform.html).
 
 ## Set Platform Type
 
 Sets the runtime platform type.
 
-Sets the runtime platform type that [Platform Type Condition](https://github.com/evasiongames/gameflow/tree/6faebaf2aabb6bd64785a4c90fd988e2e11be354/docs/reference/.md/README.md#platform-type-condition.html) will evaluate. Useful for testing purposes.
+Sets the runtime platform type that [Platform Type Condition](conditions.md#platform-type-condition.html) will evaluate. Useful for testing purposes.
 
 ## Set Point Effector 2DProperty
 
-Sets a property of the specified [PointEffector2D](http://docs.unity3d.com/Manual/class-PointEffector2D.html).
+Sets a property of the specified [PointEffector2D](https://docs.unity3d.com/Manual/class-PointEffector2D.html).
 
 ## Set Position
 
@@ -1812,7 +1812,7 @@ Sets a property of the specified Program.
 
 ## Set Projector Property
 
-Sets a property of the specified [Projector](http://docs.unity3d.com/Manual/class-Projector.html).
+Sets a property of the specified [Projector](https://docs.unity3d.com/Manual/class-Projector.html).
 
 ## Set Quaternion Component
 
@@ -1820,27 +1820,27 @@ Sets the value of a component of the quaternion stored in the specified Variable
 
 ## Set Random Local Position
 
-Sets the local position of the specified target to a random [Vector3](http://docs.unity3d.com/ScriptReference/Vector3.html) value.
+Sets the local position of the specified target to a random [Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html) value.
 
 `1.0`
 
 ## Set Random Local Rotation
 
-Sets the local rotation of the specified target to a random [Vector3](http://docs.unity3d.com/ScriptReference/Vector3.html) value.
+Sets the local rotation of the specified target to a random [Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html) value.
 
 `1.0`
 
 ## Set Random Position
 
-Sets the position of the specified target to a random [Vector3](http://docs.unity3d.com/ScriptReference/Vector3.html) value.
+Sets the position of the specified target to a random [Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html) value.
 
 ## Set Random Rotation
 
-Sets the rotation of the specified target to a random [Vector3](http://docs.unity3d.com/ScriptReference/Vector3.html) value.
+Sets the rotation of the specified target to a random [Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html) value.
 
 ## Set Random Scale
 
-Sets the scale of the specified target to a random [Vector3](http://docs.unity3d.com/ScriptReference/Vector3.html) value.
+Sets the scale of the specified target to a random [Vector3](https://docs.unity3d.com/ScriptReference/Vector3.html) value.
 
 ## Set Random Seed
 
@@ -1868,11 +1868,11 @@ Sets a property of the global Render Settings.
 
 ## Set Rigidbody 2DProperty
 
-Sets a property of the specified [Rigidbody2D](http://docs.unity3d.com/Manual/class-Rigidbody2D.html) component.
+Sets a property of the specified [Rigidbody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html) component.
 
 ## Set Rigidbody Property
 
-Sets a property of the specified [Rigidbody](http://docs.unity3d.com/Manual/class-Rigidbody.html) component.
+Sets a property of the specified [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html) component.
 
 ## Set Rotation
 
@@ -1910,31 +1910,31 @@ Sets the value of the specified script variable using Reflection.
 
 ## Set Scrollbar Property
 
-Modifies the value of a property of the specified [Scrollbar](http://docs.unity3d.com/Manual/script-Scrollbar.html) component.
+Modifies the value of a property of the specified [Scrollbar](https://docs.unity3d.com/Manual/script-Scrollbar.html) component.
 
 ## Set Selectable Property
 
-Sets a property of the specified [Selectable](http://docs.unity3d.com/Manual/class-Selectable.html) component.
+Sets a property of the specified [Selectable](https://docs.unity3d.com/Manual/class-Selectable.html) component.
 
 ## Set Shadow Property
 
-Sets a property of the specified [Shadow](http://docs.unity3d.com/Manual/script-Shadow.html).
+Sets a property of the specified [Shadow](https://docs.unity3d.com/Manual/script-Shadow.html).
 
 ## Set Skinned Mesh Renderer Property
 
-Sets a property of the specified [SkinnedMeshRenderer](http://docs.unity3d.com/Manual/class-SkinnedMeshRenderer.html).
+Sets a property of the specified [SkinnedMeshRenderer](https://docs.unity3d.com/Manual/class-SkinnedMeshRenderer.html).
 
 ## Set Skybox Property
 
-Sets a property of the specified [Skybox](http://docs.unity3d.com/Manual/class-Skybox.html).
+Sets a property of the specified [Skybox](https://docs.unity3d.com/Manual/class-Skybox.html).
 
 ## Set Slider Property
 
-Modifies the value of a property of the specified [Slider](http://docs.unity3d.com/Manual/script-Slider.html) component.
+Modifies the value of a property of the specified [Slider](https://docs.unity3d.com/Manual/script-Slider.html) component.
 
 ## Set Sprite Renderer Property
 
-Sets a property of the specified [SpriteRenderer](http://docs.unity3d.com/Manual/class-SpriteRenderer.html).
+Sets a property of the specified [SpriteRenderer](https://docs.unity3d.com/Manual/class-SpriteRenderer.html).
 
 ## Set Substring
 
@@ -1942,7 +1942,7 @@ Sets a part of the string stored in the specified [Variable](data.md#variable).
 
 ## Set Surface Effector 2DProperty
 
-Sets a property of the specified [SurfaceEffector2D](http://docs.unity3d.com/Manual/class-SurfaceEffector2D.html).
+Sets a property of the specified [SurfaceEffector2D](https://docs.unity3d.com/Manual/class-SurfaceEffector2D.html).
 
 ## Set Terrain Property
 
@@ -1952,11 +1952,11 @@ Sets a property of the specified Terrain component.
 
 ## Set Text Mesh Property
 
-Sets a property of the specified [TextMesh](http://docs.unity3d.com/Manual/class-TextMesh.html).
+Sets a property of the specified [TextMesh](https://docs.unity3d.com/Manual/class-TextMesh.html).
 
 ## Set Text Property
 
-Modifies the value of a property of the specified [Text](http://docs.unity3d.com/Manual/script-Text.html) component.
+Modifies the value of a property of the specified [Text](https://docs.unity3d.com/Manual/script-Text.html) component.
 
 ## Set Texture Property
 
@@ -1976,15 +1976,15 @@ Modifies the values of a property of the specified [Timer](tools.md#timer).
 
 ## Set Toggle Property
 
-Modifies the value of a property of the specified [Toggle](http://docs.unity3d.com/Manual/script-Toggle.html) component.
+Modifies the value of a property of the specified [Toggle](https://docs.unity3d.com/Manual/script-Toggle.html) component.
 
 ## Set Trail Renderer Property
 
-Sets a property of the specified [TrailRenderer](http://docs.unity3d.com/Manual/class-TrailRenderer.html).
+Sets a property of the specified [TrailRenderer](https://docs.unity3d.com/Manual/class-TrailRenderer.html).
 
 ## Set Transform Property
 
-Sets a property of the specified [Transform](http://docs.unity3d.com/Manual/class-Transform.html) component.
+Sets a property of the specified [Transform](https://docs.unity3d.com/Manual/class-Transform.html) component.
 
 ## Set Variable Indirection
 
@@ -2028,7 +2028,7 @@ Sets the W value of the data structure stored in the specified Variable.
 
 ## Set Wind Zone Property
 
-Sets a property of the specified [WindZone](http://docs.unity3d.com/Manual/class-WindZone.html).
+Sets a property of the specified [WindZone](https://docs.unity3d.com/Manual/class-WindZone.html).
 
 ## Set World Up
 
@@ -2098,7 +2098,7 @@ Restarts the specified Program.
 
 ## Stop Animation
 
-Stops the playback of the specified animation \([Animation](http://docs.unity3d.com/Manual/class-Animation.html) or [Animator](http://docs.unity3d.com/Manual/class-Animator.html)\).
+Stops the playback of the specified animation \([Animation](https://docs.unity3d.com/Manual/class-Animation.html) or [Animator](https://docs.unity3d.com/Manual/class-Animator.html)\).
 
 `1.0`
 
@@ -2108,7 +2108,7 @@ Stops the music with optional volume fading.
 
 ## Stop Sound At Source
 
-Stops the playback of the sound at the specified [AudioSource](http://docs.unity3d.com/Manual/class-AudioSource.html).
+Stops the playback of the sound at the specified [AudioSource](https://docs.unity3d.com/Manual/class-AudioSource.html).
 
 ## Stop Timer
 
@@ -2130,7 +2130,7 @@ Toggles the enablement state of the specified component.
 
 ## Toggle GameObject Activation
 
-Toggles the activation state of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Toggles the activation state of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Toggle Parameter Value
 
@@ -2148,7 +2148,7 @@ Toggles the boolean-value of the specified [Variable](data.md#variable).
 
 Triggers a custom event with specified kind and information.
 
-Related: [On Custom Event](https://github.com/evasiongames/gameflow/tree/6faebaf2aabb6bd64785a4c90fd988e2e11be354/docs/reference/.md/README.md#on-custom-event)
+Related: [On Custom Event](blocks.md#on-custom-event)
 
 `1.0`
 
@@ -2180,11 +2180,11 @@ Waits the specified [Timer](tools.md#timer) for expiration.
 
 ## Wake Up
 
-Wakes up the specified [Rigidbody](http://docs.unity3d.com/Manual/class-Rigidbody.html) component.
+Wakes up the specified [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html) component.
 
 ## Wake Up 2D
 
-Wakes up the specified [Rigidbody2D](http://docs.unity3d.com/Manual/class-Rigidbody2D.html) component.
+Wakes up the specified [Rigidbody2D](https://docs.unity3d.com/Manual/class-Rigidbody2D.html) component.
 
 ## Wake Up List
 

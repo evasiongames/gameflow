@@ -12,7 +12,7 @@
 [Flip](../reference/actions.md#flip)  
 [Freeze](../reference/actions.md#freeze)  
 [Get Angle](../reference/actions.md#get-angle)  
-[Get Bounds Property](https://github.com/evasiongames/gameflow/tree/7b7dc0bda559c6ce39586b3ed215ee70cba344f9/docs/guides/reference/Get-bounds-property/README.md)  
+[Get Bounds Property](../reference/actions.md#get-bounds-property.md)
 [Get Child](../reference/actions.md#get-child)  
 [Get Closest Point](../reference/actions.md#get-closest-point)  
 [Get First Child](../reference/actions.md#get-first-child)  

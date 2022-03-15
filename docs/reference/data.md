@@ -2,7 +2,7 @@
 
 ## Built-in Active GameObject
 
-A built-in [Variable](data.md#variable) that returns the active [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) \(the one shown in the inspector\).
+A built-in [Variable](data.md#variable) that returns the active [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html) \(the one shown in the inspector\).
 
 ## Built-in Current FPS
 

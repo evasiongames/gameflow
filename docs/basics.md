@@ -6,7 +6,7 @@ Within the GameFlow Component, you add Variables and Programs. Programs in turn 
 
 For example, a standard UI Button might contain an Event Program \(_On Click_\) and a Variable \(_TimesClicked_\).
 
-![](.gitbook/assets/basics-1.png)
+![](images/basics-1.png)
 
 Within the core GameFlow Component, you will find three basic block types.
 
@@ -29,7 +29,7 @@ Variable, parameter, and list data blocks are used throughout GameFlow. All of t
 
 GameFlow provides a number of built-in Variables as well.
 
-![](.gitbook/assets/basics-2.png)
+![](images/basics-2.png)
 
 ### Tool Blocks <a id="tool-blocks"></a>
 
@@ -68,5 +68,5 @@ Things start getting more complex \(and interesting\) when Actions include logic
 
 GameFlow Programs typically include implicit parameters. You can inspect these parameters using icons in the Inspector.
 
-![](.gitbook/assets/basics-3.png)
+![](images/basics-3.png)
 

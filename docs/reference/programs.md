@@ -6,7 +6,7 @@ Defines a sequence of actions that can be assigned a keyboard shortcut and can b
 
 ## On Activate
 
-Program to be executed when a [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) in the listening range gets activated.
+Program to be executed when a [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html) in the listening range gets activated.
 
 ## On Application Focus
 
@@ -26,7 +26,7 @@ Program to be executed only once, before the application quits.
 
 ## On Awake
 
-Program that will be executed once the [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) is initialized.
+Program that will be executed once the [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html) is initialized.
 
 ## On Click
 
@@ -64,7 +64,7 @@ Program to be executed when a custom event is fired in the listening range.
 
 ## On Deactivate
 
-Program to be executed when a [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) in the listening range gets deactivated.
+Program to be executed when a [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html) in the listening range gets deactivated.
 
 ## On Demand
 
@@ -76,7 +76,7 @@ Program to be executed when an UI component in the listening range is deselected
 
 ## On Destroy
 
-Program to be executed once the [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) is destroyed.
+Program to be executed once the [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html) is destroyed.
 
 ## On Draw Gizmos
 
@@ -182,7 +182,7 @@ Program to be executed when an UI component in the listening range is selected.
 
 ## On Start
 
-Program to be executed on application start \(or first time the [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html) becomes active\).
+Program to be executed on application start \(or first time the [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html) becomes active\).
 
 ## On Timer Expire
 

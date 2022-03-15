@@ -1,6 +1,6 @@
 # Hello, World!
 
-After [installing GameFlow](https://evasiongames.com/gameflow/docs/installation), let’s do a quick sanity check to make sure GameFlow is working properly. For that, we will build a simple [Hello, World!](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) project.
+After [installing GameFlow](installation.md), let’s do a quick sanity check to make sure GameFlow is working properly. For that, we will build a simple [Hello, World!](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program) project.
 
 Assuming GameFlow has been installed into your project, you should see a _Tools_ menu with _GameFlow_ as a sub-menu. Select _Tools &gt; GameFlow &gt; About_ and you should see the credits of the fine folk that worked to bring you GameFlow.
 

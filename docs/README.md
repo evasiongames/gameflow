@@ -8,7 +8,7 @@ GameFlow is perfectly integrated into the Unity3D editor, adding event-based vis
 
 Simply drop a tested, well-defined component on your GameObjects, configure them in the Inspector, and hit Play - no need to constantly bounce between Unity and your IDE just to add routine functionality.
 
-For experienced developers, GameFlow is designed for reuse and extension. The GameFlow [extensibility API](https://evasiongames.com/gameflow/docs/api/) allows advanced users to create their own GameFlow blocks. While GameFlow will work with your existing code, the API allows for a more seamless, visual integration.
+For experienced developers, GameFlow is designed for reuse and extension. The GameFlow [extensibility API](api/README.md) allows advanced users to create their own GameFlow blocks. While GameFlow will work with your existing code, the API allows for a more seamless, visual integration.
 
 ## Visual programming
 

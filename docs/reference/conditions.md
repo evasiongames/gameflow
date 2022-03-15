@@ -6,7 +6,7 @@ Evaluates the angle between two objects.
 
 ## Animator State
 
-Evaluates the state of the specified [Animator](http://docs.unity3d.com/Manual/class-Animator.html) component.
+Evaluates the state of the specified [Animator](https://docs.unity3d.com/Manual/class-Animator.html) component.
 
 ## Any Key
 
@@ -46,7 +46,7 @@ Evaluates the general game state \(paused, over, etc.\).
 
 ## GameObject
 
-Evaluates properties of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Evaluates properties of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Input Button
 
@@ -66,7 +66,7 @@ Evaluates whether the specified [Key](tools.md#key) is or has been pressed.
 
 ## Layer
 
-Evaluates the Layer of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Evaluates the Layer of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## List
 
@@ -120,7 +120,7 @@ Evaluates properties of the specified [State Machine](programs.md#state-machine)
 
 ## Tag
 
-Evaluates the Tag of the specified [GameObject](http://docs.unity3d.com/Manual/class-GameObject.html).
+Evaluates the Tag of the specified [GameObject](https://docs.unity3d.com/Manual/class-GameObject.html).
 
 ## Timer
 
@@ -132,7 +132,7 @@ Evaluates the value of the specified variable.
 
 ## Velocity
 
-Evaluates the velocity of a specified [Rigidbody](http://docs.unity3d.com/Manual/class-Rigidbody.html) component.
+Evaluates the velocity of a specified [Rigidbody](https://docs.unity3d.com/Manual/class-Rigidbody.html) component.
 
 `1.0`
 

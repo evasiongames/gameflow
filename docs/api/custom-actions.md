@@ -9,7 +9,7 @@ In order to create a custom action, two C\# scripts are required:
 
 In order to accelerate the creation of the base code for those C\# scripts, GameFlow provides a code generation wizard that you can find under the Assets &gt; Create &gt; GameFlow &gt; Action... menu option.
 
-![](../.gitbook/assets/api-createaction-1.png)
+![](../images/api-createaction-1.png)
 
 In this window we can decide the namespace, name and type of the action class, if we want the action to be executed also in Edit mode and the destination folders of the two scripts to be generated once we click on the Create button.
 
@@ -23,11 +23,11 @@ Regarding the type of action \(Action Type\), the available options are the foll
 
 Once the scripts are generated and the compilation is finished, our new action should appear already available in the action selection window:
 
-![](../.gitbook/assets/api-myaction1-1.png)
+![](../images/api-myaction1-1.png)
 
 And of course we can add it to our programs as if it were any other action available as standard:
 
-![](../.gitbook/assets/api-myaction2%20%282%29.png)
+![](../images/api-myaction2%20%282%29.png)
 
 ## Generated code
 

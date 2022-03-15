@@ -24,7 +24,7 @@ Defines a text note in the Inspector.
 
 Defines a path or trajectory from a list of points.
 
-Each point is defined by a [Transform](http://docs.unity3d.com/Manual/class-Transform.html) component
+Each point is defined by a [Transform](https://docs.unity3d.com/Manual/class-Transform.html) component
 
 ## Pool
 

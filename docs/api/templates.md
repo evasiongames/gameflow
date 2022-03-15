@@ -84,5 +84,5 @@ public class MyGF : GFBehaviour {
 
 The result of adding our MyGF script to a GameObject would be this:
 
-![](../.gitbook/assets/api-mygf%20%281%29.png)
+![](../images/api-mygf.png)
 
